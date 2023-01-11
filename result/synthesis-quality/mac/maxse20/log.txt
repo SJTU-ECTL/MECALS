@@ -1,0 +1,92 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.17 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/aig/mac       :[0m i/o =   12/    8  lat =    0  and =    145  lev = 20
+[1;37minput/miter/width_8_maxse_20  :[0m i/o =   16/    1  lat =    0  and =    425  lev = 42
+outpPath = ./result/mac/maxse20/
+seed = 1159398525
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.4
+Execute abc command: w ./result/mac/maxse20/0.blif
+---------- round 1---------- 
+#nodes = 145
+#internal nodes = 137
+#internal nodes using exact PBDs = 54.8
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =  27725  lev = 72
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =  11790  lev = 58
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =    260  lev = 32
+finish SAT sweeping the skeleton network
+n21_app(13), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =    107  lev = 19
+Execute abc command: w ./result/mac/maxse20/1.blif
+current runtime = 2.01254s
+---------- round 2---------- 
+#nodes = 107
+#internal nodes = 100
+#internal nodes using exact PBDs = 40
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  222  lat =    0  and =  20775  lev = 82
+[1;37m(null)                        :[0m i/o =   12/  222  lat =    0  and =  20748  lev = 82
+[1;37m(null)                        :[0m i/o =   12/  222  lat =    0  and =    802  lev = 46
+finish SAT sweeping the skeleton network
+n21_app(13), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =     93  lev = 17
+Execute abc command: w ./result/mac/maxse20/2.blif
+current runtime = 3.91548s
+---------- round 3---------- 
+#nodes = 93
+#internal nodes = 86
+#internal nodes using exact PBDs = 34.4
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  194  lat =    0  and =  18613  lev = 85
+[1;37m(null)                        :[0m i/o =   12/  194  lat =    0  and =  18585  lev = 85
+[1;37m(null)                        :[0m i/o =   12/  194  lat =    0  and =   1390  lev = 44
+finish SAT sweeping the skeleton network
+n21_app(13), const1 (simulation)
+n22_app(14), const1 (simulation)
+n23_app(15), const0 (simulation)
+n24_app(16), const1 (simulation)
+n25_app(17), const1 (simulation)
+n26_app(18), const1 (simulation)
+n27_app(19), const1 (simulation)
+n28_app(20), const0 (simulation)
+n32_app(24), const0 (simulation)
+n33_app(25), const1 (simulation)
+n34_app(26), const0 (simulation)
+n38_app(30), const0 (simulation)
+n39_app(31), const1 (simulation)
+[1;37m(null)                        :[0m i/o =   12/  207  lat =    0  and =   1403  lev = 44
+[1;37m(null)                        :[0m i/o =   12/  207  lat =    0  and =   1403  lev = 44
+[1;37m(null)                        :[0m i/o =   12/  207  lat =    0  and =   1395  lev = 44
+ver_dF_n21_app*const1(207):n0(0),0 1
+n21_app(13), replace it by constant 1
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =     89  lev = 17
+Execute abc command: w ./result/mac/maxse20/3.blif
+current runtime = 5.78243s
+---------- round 4---------- 
+#nodes = 89
+#internal nodes = 83
+#internal nodes using exact PBDs = 33.2
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  186  lat =    0  and =  17662  lev = 83
+[1;37m(null)                        :[0m i/o =   12/  186  lat =    0  and =  17635  lev = 83
+[1;37m(null)                        :[0m i/o =   12/  186  lat =    0  and =   1470  lev = 56
+finish SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  186  lat =    0  and =   1470  lev = 56
+[1;37m(null)                        :[0m i/o =   12/  186  lat =    0  and =   1470  lev = 56
+[1;37m(null)                        :[0m i/o =   12/  186  lat =    0  and =   1462  lev = 56
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 0
+[1;37m(null)                        :[0m i/o =   12/  186  lat =    0  and =   1462  lev = 56
+[1;37m(null)                        :[0m i/o =   12/  186  lat =    0  and =   1462  lev = 56
+[1;37m(null)                        :[0m i/o =   12/  186  lat =    0  and =   1462  lev = 56
+Execute abc command: w ./result/mac/maxse20/final.blif
+current runtime = 7.32099s
+WireLoad = "none"  [1;33mGates =     68[0m ( 19.1 %)   [1;32mCap =  3.1 ff[0m (  0.2 %)   [1;36mArea =       65.97[0m ( 98.5 %)   [1;35mDelay =   492.94 ps[0m  ( 32.4 %)               

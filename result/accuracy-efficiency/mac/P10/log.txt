@@ -1,0 +1,96 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.20 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/muscat/aig/mac:[0m i/o =   12/    8  lat =    0  and =    145  lev = 20
+[1;37minput/miter/width_8_wce_16    :[0m i/o =   16/    1  lat =    0  and =     88  lev = 16
+outpPath = ./result/mac/P10/
+seed = 2935353124
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.1
+Execute abc command: w ./result/mac/P10/0.blif
+---------- round 1---------- 
+[1;37m(null)                        :[0m i/o =   24/  146  lat =    0  and =    378  lev = 34
+#candidate LACs = 22030
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+#valid LACs detected by SAT = 11955
+-----------------------
+#nodes = 145
+#internal nodes = 137
+#internal nodes using exact PBDs = 13.7
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =   2593  lev = 62
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =    310  lev = 30
+finish SAT sweeping the skeleton network
+#candidate LACs = 22030
+start SAT sweeping the maximum error checking circuit
+[1;37m(null)                        :[0m i/o =   12/22328  lat =    0  and =  62640  lev = 31
+[1;37m(null)                        :[0m i/o =   12/22328  lat =    0  and =  22510  lev = 31
+finish SAT sweeping the maximum error checking circuit
+#valid LACs detected by PBD = 6106
+n22_app(14), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =    114  lev = 19
+Execute abc command: w ./result/mac/P10/1.blif
+current runtime = 106.929s
+---------- round 2---------- 
+[1;37m(null)                        :[0m i/o =   24/  115  lat =    0  and =    347  lev = 34
+#candidate LACs = 13656
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+#valid LACs detected by SAT = 6071
+-----------------------
+#nodes = 114
+#internal nodes = 106
+#internal nodes using exact PBDs = 10.6
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  236  lat =    0  and =   2324  lev = 79
+[1;37m(null)                        :[0m i/o =   12/  236  lat =    0  and =    514  lev = 45
+finish SAT sweeping the skeleton network
+#candidate LACs = 13656
+start SAT sweeping the maximum error checking circuit
+[1;37m(null)                        :[0m i/o =   12/13892  lat =    0  and =  46502  lev = 46
+[1;37m(null)                        :[0m i/o =   12/13892  lat =    0  and =  20297  lev = 46
+finish SAT sweeping the maximum error checking circuit
+#valid LACs detected by PBD = 2020
+n22_app(14), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =    113  lev = 19
+Execute abc command: w ./result/mac/P10/2.blif
+current runtime = 326.675s
+---------- round 3---------- 
+[1;37m(null)                        :[0m i/o =   24/  114  lat =    0  and =    343  lev = 34
+#candidate LACs = 13408
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+#valid LACs detected by SAT = 5889
+-----------------------
+#nodes = 113
+#internal nodes = 106
+#internal nodes using exact PBDs = 10.6
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  234  lat =    0  and =   2325  lev = 81
+[1;37m(null)                        :[0m i/o =   12/  234  lat =    0  and =    386  lev = 45
+finish SAT sweeping the skeleton network
+#candidate LACs = 13408
+start SAT sweeping the maximum error checking circuit
+[1;37m(null)                        :[0m i/o =   12/13642  lat =    0  and =  45717  lev = 46
+[1;37m(null)                        :[0m i/o =   12/13642  lat =    0  and =  19969  lev = 46
+finish SAT sweeping the maximum error checking circuit
+#valid LACs detected by PBD = 1774
+n26_app(18), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =    101  lev = 17
+Execute abc command: w ./result/mac/P10/3.blif
+current runtime = 535.761s
+Execute abc command: w ./result/mac/P10/final.blif
+current runtime = 535.762s
+maximum error checking time with PBD = 10.3625s
+maximum error checking time with SAT = 518.25s
+WireLoad = "none"  [1;33mGates =     76[0m ( 17.1 %)   [1;32mCap =  3.2 ff[0m (  0.0 %)   [1;36mArea =       72.62[0m ( 98.7 %)   [1;35mDelay =   508.99 ps[0m  ( 26.3 %)               

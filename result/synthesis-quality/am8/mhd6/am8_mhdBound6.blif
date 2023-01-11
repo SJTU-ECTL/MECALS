@@ -1,0 +1,343 @@
+# Benchmark "(null)" written by ABC on Sun Sep  4 23:31:12 2022
+.model (null)
+.inputs input_A[0] input_A[1] input_A[2] input_A[3] input_A[4] input_A[5] \
+ input_A[6] input_A[7] input_B[0] input_B[1] input_B[2] input_B[3] \
+ input_B[4] input_B[5] input_B[6] input_B[7]
+.outputs product[0] product[1] product[2] product[3] product[4] product[5] \
+ product[6] product[7] product[8] product[9] product[10] product[11] \
+ product[12] product[13] product[14] product[15]
+.gate INV_X1    A=input_A[0] ZN=new_n33_
+.gate INV_X1    A=input_A[1] ZN=new_n34_
+.gate INV_X1    A=input_A[2] ZN=new_n35_
+.gate INV_X1    A=input_A[3] ZN=new_n36_
+.gate INV_X1    A=input_A[4] ZN=new_n37_
+.gate INV_X1    A=input_A[5] ZN=new_n38_
+.gate INV_X1    A=input_A[6] ZN=new_n39_
+.gate INV_X1    A=input_A[7] ZN=new_n40_
+.gate INV_X1    A=input_B[0] ZN=new_n41_
+.gate INV_X1    A=input_B[2] ZN=new_n42_
+.gate INV_X1    A=input_B[3] ZN=new_n43_
+.gate INV_X1    A=input_B[4] ZN=new_n44_
+.gate INV_X1    A=input_B[5] ZN=new_n45_
+.gate INV_X1    A=input_B[6] ZN=new_n46_
+.gate INV_X1    A=input_B[7] ZN=new_n47_
+.gate NAND4_X1  A1=input_A[1] A2=input_B[1] A3=input_A[0] A4=input_B[0] ZN=product[1]
+.gate NOR2_X1   A1=new_n33_ A2=new_n42_ ZN=new_n49_
+.gate NAND3_X1  A1=input_A[1] A2=input_B[1] A3=new_n49_ ZN=new_n50_
+.gate INV_X1    A=new_n50_ ZN=new_n51_
+.gate AOI21_X1  A=new_n49_ B1=input_A[1] B2=input_B[1] ZN=new_n52_
+.gate NOR4_X1   A1=new_n35_ A2=new_n41_ A3=new_n52_ A4=new_n51_ ZN=new_n53_
+.gate AOI211_X1 A=product[1] B=new_n53_ C1=new_n35_ C2=new_n49_ ZN=new_n54_
+.gate INV_X1    A=new_n54_ ZN=product[2]
+.gate NAND2_X1  A1=input_A[2] A2=input_B[1] ZN=new_n56_
+.gate NOR2_X1   A1=new_n34_ A2=new_n42_ ZN=new_n57_
+.gate NOR2_X1   A1=new_n33_ A2=new_n43_ ZN=new_n58_
+.gate NOR2_X1   A1=new_n34_ A2=new_n43_ ZN=new_n59_
+.gate NAND2_X1  A1=new_n49_ A2=new_n59_ ZN=new_n60_
+.gate OAI21_X1  A=new_n60_ B1=new_n57_ B2=new_n58_ ZN=new_n61_
+.gate NOR2_X1   A1=new_n56_ A2=new_n61_ ZN=new_n62_
+.gate AOI21_X1  A=new_n62_ B1=new_n56_ B2=new_n61_ ZN=new_n63_
+.gate INV_X1    A=new_n63_ ZN=new_n64_
+.gate NOR2_X1   A1=new_n50_ A2=new_n64_ ZN=new_n65_
+.gate AOI21_X1  A=new_n65_ B1=new_n50_ B2=new_n64_ ZN=new_n66_
+.gate NOR2_X1   A1=new_n36_ A2=new_n41_ ZN=new_n67_
+.gate NAND2_X1  A1=new_n66_ A2=new_n67_ ZN=new_n68_
+.gate OAI221_X1 A=new_n68_ B1=new_n66_ B2=new_n67_ C1=new_n53_ C2=new_n54_ ZN=product[3]
+.gate OR2_X1    A1=new_n62_ A2=new_n65_ ZN=new_n70_
+.gate NAND2_X1  A1=input_A[3] A2=input_B[1] ZN=new_n71_
+.gate NAND2_X1  A1=input_A[2] A2=input_B[2] ZN=new_n72_
+.gate NOR2_X1   A1=new_n33_ A2=new_n44_ ZN=new_n73_
+.gate NOR2_X1   A1=new_n34_ A2=new_n44_ ZN=new_n74_
+.gate NAND2_X1  A1=new_n59_ A2=new_n73_ ZN=new_n75_
+.gate INV_X1    A=new_n75_ ZN=new_n76_
+.gate OAI21_X1  A=new_n75_ B1=new_n59_ B2=new_n73_ ZN=new_n77_
+.gate NOR2_X1   A1=new_n72_ A2=new_n77_ ZN=new_n78_
+.gate AOI21_X1  A=new_n78_ B1=new_n72_ B2=new_n77_ ZN=new_n79_
+.gate INV_X1    A=new_n79_ ZN=new_n80_
+.gate NOR2_X1   A1=new_n60_ A2=new_n80_ ZN=new_n81_
+.gate AOI21_X1  A=new_n81_ B1=new_n60_ B2=new_n80_ ZN=new_n82_
+.gate INV_X1    A=new_n82_ ZN=new_n83_
+.gate NOR2_X1   A1=new_n71_ A2=new_n83_ ZN=new_n84_
+.gate AOI21_X1  A=new_n84_ B1=new_n71_ B2=new_n83_ ZN=new_n85_
+.gate XNOR2_X1  A=new_n70_ B=new_n85_ ZN=new_n86_
+.gate NAND2_X1  A1=input_A[4] A2=input_B[0] ZN=new_n87_
+.gate NOR2_X1   A1=new_n86_ A2=new_n87_ ZN=new_n88_
+.gate AOI221_X1 A=new_n88_ B1=new_n86_ B2=new_n87_ C1=new_n68_ C2=product[3] ZN=new_n89_
+.gate INV_X1    A=new_n89_ ZN=product[4]
+.gate AOI21_X1  A=new_n84_ B1=new_n70_ B2=new_n85_ ZN=new_n91_
+.gate NAND2_X1  A1=input_A[4] A2=input_B[1] ZN=new_n92_
+.gate OR2_X1    A1=new_n78_ A2=new_n81_ ZN=new_n93_
+.gate NAND2_X1  A1=input_A[3] A2=input_B[2] ZN=new_n94_
+.gate NAND2_X1  A1=input_A[2] A2=input_B[3] ZN=new_n95_
+.gate NOR2_X1   A1=new_n33_ A2=new_n45_ ZN=new_n96_
+.gate NOR2_X1   A1=new_n34_ A2=new_n45_ ZN=new_n97_
+.gate NAND2_X1  A1=new_n74_ A2=new_n96_ ZN=new_n98_
+.gate OAI21_X1  A=new_n98_ B1=new_n74_ B2=new_n96_ ZN=new_n99_
+.gate XOR2_X1   A=new_n95_ B=new_n99_ Z=new_n100_
+.gate NAND2_X1  A1=new_n76_ A2=new_n100_ ZN=new_n101_
+.gate OAI21_X1  A=new_n101_ B1=new_n76_ B2=new_n100_ ZN=new_n102_
+.gate XOR2_X1   A=new_n94_ B=new_n102_ Z=new_n103_
+.gate NAND2_X1  A1=new_n93_ A2=new_n103_ ZN=new_n104_
+.gate OAI21_X1  A=new_n104_ B1=new_n93_ B2=new_n103_ ZN=new_n105_
+.gate NOR2_X1   A1=new_n92_ A2=new_n105_ ZN=new_n106_
+.gate AOI21_X1  A=new_n106_ B1=new_n92_ B2=new_n105_ ZN=new_n107_
+.gate INV_X1    A=new_n107_ ZN=new_n108_
+.gate NOR2_X1   A1=new_n91_ A2=new_n108_ ZN=new_n109_
+.gate AOI21_X1  A=new_n109_ B1=new_n91_ B2=new_n108_ ZN=new_n110_
+.gate NOR2_X1   A1=new_n38_ A2=new_n41_ ZN=new_n111_
+.gate NAND2_X1  A1=new_n110_ A2=new_n111_ ZN=new_n112_
+.gate OAI221_X1 A=new_n112_ B1=new_n110_ B2=new_n111_ C1=new_n88_ C2=new_n89_ ZN=product[5]
+.gate NAND2_X1  A1=input_A[5] A2=input_B[1] ZN=new_n114_
+.gate NAND2_X1  A1=input_A[4] A2=input_B[2] ZN=new_n115_
+.gate OAI21_X1  A=new_n101_ B1=new_n95_ B2=new_n99_ ZN=new_n116_
+.gate NAND2_X1  A1=input_A[3] A2=input_B[3] ZN=new_n117_
+.gate NOR2_X1   A1=new_n35_ A2=new_n44_ ZN=new_n118_
+.gate NOR2_X1   A1=new_n33_ A2=new_n46_ ZN=new_n119_
+.gate NOR2_X1   A1=new_n34_ A2=new_n46_ ZN=new_n120_
+.gate NAND2_X1  A1=new_n96_ A2=new_n120_ ZN=new_n121_
+.gate INV_X1    A=new_n121_ ZN=new_n122_
+.gate OAI21_X1  A=new_n121_ B1=new_n97_ B2=new_n119_ ZN=new_n123_
+.gate INV_X1    A=new_n123_ ZN=new_n124_
+.gate XNOR2_X1  A=new_n118_ B=new_n124_ ZN=new_n125_
+.gate NOR2_X1   A1=new_n98_ A2=new_n125_ ZN=new_n126_
+.gate AOI21_X1  A=new_n126_ B1=new_n98_ B2=new_n125_ ZN=new_n127_
+.gate INV_X1    A=new_n127_ ZN=new_n128_
+.gate XOR2_X1   A=new_n117_ B=new_n128_ Z=new_n129_
+.gate NAND2_X1  A1=new_n116_ A2=new_n129_ ZN=new_n130_
+.gate OAI21_X1  A=new_n130_ B1=new_n116_ B2=new_n129_ ZN=new_n131_
+.gate XOR2_X1   A=new_n115_ B=new_n131_ Z=new_n132_
+.gate OAI21_X1  A=new_n104_ B1=new_n94_ B2=new_n102_ ZN=new_n133_
+.gate NAND2_X1  A1=new_n132_ A2=new_n133_ ZN=new_n134_
+.gate OAI21_X1  A=new_n134_ B1=new_n132_ B2=new_n133_ ZN=new_n135_
+.gate XOR2_X1   A=new_n114_ B=new_n135_ Z=new_n136_
+.gate OR2_X1    A1=new_n106_ A2=new_n109_ ZN=new_n137_
+.gate NAND2_X1  A1=new_n136_ A2=new_n137_ ZN=new_n138_
+.gate OAI21_X1  A=new_n138_ B1=new_n136_ B2=new_n137_ ZN=new_n139_
+.gate INV_X1    A=new_n139_ ZN=new_n140_
+.gate NOR2_X1   A1=new_n39_ A2=new_n41_ ZN=new_n141_
+.gate XNOR2_X1  A=new_n140_ B=new_n141_ ZN=new_n142_
+.gate AND2_X1   A1=new_n112_ A2=product[5] ZN=new_n143_
+.gate NOR2_X1   A1=new_n142_ A2=new_n143_ ZN=new_n144_
+.gate AOI21_X1  A=new_n144_ B1=new_n142_ B2=new_n143_ ZN=product[6]
+.gate AOI21_X1  A=new_n144_ B1=new_n140_ B2=new_n141_ ZN=new_n146_
+.gate OAI21_X1  A=new_n138_ B1=new_n114_ B2=new_n135_ ZN=new_n147_
+.gate NAND2_X1  A1=input_A[6] A2=input_B[1] ZN=new_n148_
+.gate OAI21_X1  A=new_n134_ B1=new_n115_ B2=new_n131_ ZN=new_n149_
+.gate NAND2_X1  A1=input_A[5] A2=input_B[2] ZN=new_n150_
+.gate OAI21_X1  A=new_n130_ B1=new_n117_ B2=new_n128_ ZN=new_n151_
+.gate NAND2_X1  A1=input_A[4] A2=input_B[3] ZN=new_n152_
+.gate AOI21_X1  A=new_n126_ B1=new_n118_ B2=new_n124_ ZN=new_n153_
+.gate INV_X1    A=new_n153_ ZN=new_n154_
+.gate NAND2_X1  A1=input_A[3] A2=input_B[4] ZN=new_n155_
+.gate NAND2_X1  A1=input_A[2] A2=input_B[5] ZN=new_n156_
+.gate NOR2_X1   A1=new_n33_ A2=new_n47_ ZN=new_n157_
+.gate NAND2_X1  A1=new_n120_ A2=new_n157_ ZN=new_n158_
+.gate OAI21_X1  A=new_n158_ B1=new_n120_ B2=new_n157_ ZN=new_n159_
+.gate XOR2_X1   A=new_n156_ B=new_n159_ Z=new_n160_
+.gate NAND2_X1  A1=new_n122_ A2=new_n160_ ZN=new_n161_
+.gate OAI21_X1  A=new_n161_ B1=new_n122_ B2=new_n160_ ZN=new_n162_
+.gate XOR2_X1   A=new_n155_ B=new_n162_ Z=new_n163_
+.gate NAND2_X1  A1=new_n154_ A2=new_n163_ ZN=new_n164_
+.gate OAI21_X1  A=new_n164_ B1=new_n154_ B2=new_n163_ ZN=new_n165_
+.gate XOR2_X1   A=new_n152_ B=new_n165_ Z=new_n166_
+.gate NAND2_X1  A1=new_n151_ A2=new_n166_ ZN=new_n167_
+.gate OAI21_X1  A=new_n167_ B1=new_n151_ B2=new_n166_ ZN=new_n168_
+.gate XOR2_X1   A=new_n150_ B=new_n168_ Z=new_n169_
+.gate NAND2_X1  A1=new_n149_ A2=new_n169_ ZN=new_n170_
+.gate OAI21_X1  A=new_n170_ B1=new_n149_ B2=new_n169_ ZN=new_n171_
+.gate XOR2_X1   A=new_n148_ B=new_n171_ Z=new_n172_
+.gate NAND2_X1  A1=new_n147_ A2=new_n172_ ZN=new_n173_
+.gate OAI21_X1  A=new_n173_ B1=new_n147_ B2=new_n172_ ZN=new_n174_
+.gate INV_X1    A=new_n174_ ZN=new_n175_
+.gate NOR2_X1   A1=new_n40_ A2=new_n41_ ZN=new_n176_
+.gate XNOR2_X1  A=new_n175_ B=new_n176_ ZN=new_n177_
+.gate NOR2_X1   A1=new_n146_ A2=new_n177_ ZN=new_n178_
+.gate AOI21_X1  A=new_n178_ B1=new_n146_ B2=new_n177_ ZN=product[7]
+.gate NAND2_X1  A1=input_A[7] A2=input_B[1] ZN=new_n180_
+.gate NAND2_X1  A1=input_A[6] A2=input_B[2] ZN=new_n181_
+.gate OAI21_X1  A=new_n167_ B1=new_n152_ B2=new_n165_ ZN=new_n182_
+.gate NAND2_X1  A1=input_A[5] A2=input_B[3] ZN=new_n183_
+.gate OAI21_X1  A=new_n164_ B1=new_n155_ B2=new_n162_ ZN=new_n184_
+.gate NAND2_X1  A1=input_A[4] A2=input_B[4] ZN=new_n185_
+.gate OAI21_X1  A=new_n161_ B1=new_n156_ B2=new_n159_ ZN=new_n186_
+.gate NAND2_X1  A1=input_A[3] A2=input_B[5] ZN=new_n187_
+.gate NAND3_X1  A1=input_A[2] A2=input_B[7] A3=new_n120_ ZN=new_n188_
+.gate AOI22_X1  A1=input_A[1] A2=input_B[7] B1=input_A[2] B2=input_B[6] ZN=new_n189_
+.gate NAND2_X1  A1=new_n158_ A2=new_n188_ ZN=new_n190_
+.gate OAI22_X1  A1=new_n158_ A2=new_n188_ B1=new_n189_ B2=new_n190_ ZN=new_n191_
+.gate INV_X1    A=new_n191_ ZN=new_n192_
+.gate XOR2_X1   A=new_n187_ B=new_n192_ Z=new_n193_
+.gate NAND2_X1  A1=new_n186_ A2=new_n193_ ZN=new_n194_
+.gate OAI21_X1  A=new_n194_ B1=new_n186_ B2=new_n193_ ZN=new_n195_
+.gate XOR2_X1   A=new_n185_ B=new_n195_ Z=new_n196_
+.gate NAND2_X1  A1=new_n184_ A2=new_n196_ ZN=new_n197_
+.gate OAI21_X1  A=new_n197_ B1=new_n184_ B2=new_n196_ ZN=new_n198_
+.gate XOR2_X1   A=new_n183_ B=new_n198_ Z=new_n199_
+.gate NAND2_X1  A1=new_n182_ A2=new_n199_ ZN=new_n200_
+.gate OAI21_X1  A=new_n200_ B1=new_n182_ B2=new_n199_ ZN=new_n201_
+.gate NOR2_X1   A1=new_n181_ A2=new_n201_ ZN=new_n202_
+.gate AOI21_X1  A=new_n202_ B1=new_n181_ B2=new_n201_ ZN=new_n203_
+.gate OAI21_X1  A=new_n170_ B1=new_n150_ B2=new_n168_ ZN=new_n204_
+.gate XNOR2_X1  A=new_n203_ B=new_n204_ ZN=new_n205_
+.gate NOR2_X1   A1=new_n180_ A2=new_n205_ ZN=new_n206_
+.gate AOI21_X1  A=new_n206_ B1=new_n180_ B2=new_n205_ ZN=new_n207_
+.gate OAI21_X1  A=new_n173_ B1=new_n148_ B2=new_n171_ ZN=new_n208_
+.gate NAND2_X1  A1=new_n207_ A2=new_n208_ ZN=new_n209_
+.gate INV_X1    A=new_n209_ ZN=new_n210_
+.gate OAI21_X1  A=new_n209_ B1=new_n207_ B2=new_n208_ ZN=new_n211_
+.gate INV_X1    A=new_n211_ ZN=new_n212_
+.gate AOI21_X1  A=new_n178_ B1=new_n175_ B2=new_n176_ ZN=new_n213_
+.gate INV_X1    A=new_n213_ ZN=new_n214_
+.gate AOI22_X1  A1=new_n212_ A2=new_n214_ B1=new_n211_ B2=new_n213_ ZN=product[8]
+.gate NAND2_X1  A1=input_A[7] A2=input_B[2] ZN=new_n216_
+.gate OAI21_X1  A=new_n200_ B1=new_n183_ B2=new_n198_ ZN=new_n217_
+.gate NAND2_X1  A1=input_A[6] A2=input_B[3] ZN=new_n218_
+.gate OAI21_X1  A=new_n197_ B1=new_n185_ B2=new_n195_ ZN=new_n219_
+.gate NAND2_X1  A1=input_A[5] A2=input_B[4] ZN=new_n220_
+.gate OAI21_X1  A=new_n194_ B1=new_n187_ B2=new_n192_ ZN=new_n221_
+.gate NAND2_X1  A1=input_A[4] A2=input_B[5] ZN=new_n222_
+.gate OAI22_X1  A1=new_n35_ A2=new_n47_ B1=new_n36_ B2=new_n46_ ZN=new_n223_
+.gate INV_X1    A=new_n223_ ZN=new_n224_
+.gate NOR2_X1   A1=new_n36_ A2=new_n47_ ZN=new_n225_
+.gate NOR4_X1   A1=new_n35_ A2=new_n47_ A3=new_n36_ A4=new_n46_ ZN=new_n226_
+.gate NOR2_X1   A1=new_n224_ A2=new_n226_ ZN=new_n227_
+.gate XNOR2_X1  A=new_n190_ B=new_n227_ ZN=new_n228_
+.gate XOR2_X1   A=new_n222_ B=new_n228_ Z=new_n229_
+.gate NAND2_X1  A1=new_n221_ A2=new_n229_ ZN=new_n230_
+.gate OAI21_X1  A=new_n230_ B1=new_n221_ B2=new_n229_ ZN=new_n231_
+.gate XOR2_X1   A=new_n220_ B=new_n231_ Z=new_n232_
+.gate NAND2_X1  A1=new_n219_ A2=new_n232_ ZN=new_n233_
+.gate OAI21_X1  A=new_n233_ B1=new_n219_ B2=new_n232_ ZN=new_n234_
+.gate NOR2_X1   A1=new_n218_ A2=new_n234_ ZN=new_n235_
+.gate AOI21_X1  A=new_n235_ B1=new_n218_ B2=new_n234_ ZN=new_n236_
+.gate XNOR2_X1  A=new_n217_ B=new_n236_ ZN=new_n237_
+.gate AOI21_X1  A=new_n202_ B1=new_n203_ B2=new_n204_ ZN=new_n238_
+.gate XNOR2_X1  A=new_n216_ B=new_n237_ ZN=new_n239_
+.gate OAI22_X1  A1=new_n216_ A2=new_n237_ B1=new_n238_ B2=new_n239_ ZN=new_n240_
+.gate AOI21_X1  A=new_n235_ B1=new_n217_ B2=new_n236_ ZN=new_n241_
+.gate NAND2_X1  A1=input_A[7] A2=input_B[3] ZN=new_n242_
+.gate NAND2_X1  A1=input_A[6] A2=input_B[4] ZN=new_n243_
+.gate NAND2_X1  A1=input_A[5] A2=input_B[5] ZN=new_n244_
+.gate NOR2_X1   A1=new_n37_ A2=new_n46_ ZN=new_n245_
+.gate NOR2_X1   A1=new_n37_ A2=new_n47_ ZN=new_n246_
+.gate NAND2_X1  A1=new_n225_ A2=new_n245_ ZN=new_n247_
+.gate OAI21_X1  A=new_n247_ B1=new_n225_ B2=new_n245_ ZN=new_n248_
+.gate AOI21_X1  A=new_n226_ B1=new_n190_ B2=new_n223_ ZN=new_n249_
+.gate NOR2_X1   A1=new_n248_ A2=new_n249_ ZN=new_n250_
+.gate AOI21_X1  A=new_n250_ B1=new_n248_ B2=new_n249_ ZN=new_n251_
+.gate INV_X1    A=new_n251_ ZN=new_n252_
+.gate NOR2_X1   A1=new_n244_ A2=new_n252_ ZN=new_n253_
+.gate AOI21_X1  A=new_n253_ B1=new_n244_ B2=new_n252_ ZN=new_n254_
+.gate OAI21_X1  A=new_n230_ B1=new_n222_ B2=new_n228_ ZN=new_n255_
+.gate XNOR2_X1  A=new_n254_ B=new_n255_ ZN=new_n256_
+.gate XOR2_X1   A=new_n243_ B=new_n256_ Z=new_n257_
+.gate OAI21_X1  A=new_n233_ B1=new_n220_ B2=new_n231_ ZN=new_n258_
+.gate NAND2_X1  A1=new_n257_ A2=new_n258_ ZN=new_n259_
+.gate OAI21_X1  A=new_n259_ B1=new_n257_ B2=new_n258_ ZN=new_n260_
+.gate NOR2_X1   A1=new_n242_ A2=new_n260_ ZN=new_n261_
+.gate AOI21_X1  A=new_n261_ B1=new_n242_ B2=new_n260_ ZN=new_n262_
+.gate INV_X1    A=new_n262_ ZN=new_n263_
+.gate NOR2_X1   A1=new_n241_ A2=new_n263_ ZN=new_n264_
+.gate AOI21_X1  A=new_n264_ B1=new_n241_ B2=new_n263_ ZN=new_n265_
+.gate NAND2_X1  A1=new_n240_ A2=new_n265_ ZN=new_n266_
+.gate OAI21_X1  A=new_n266_ B1=new_n240_ B2=new_n265_ ZN=new_n267_
+.gate INV_X1    A=new_n267_ ZN=product[10]
+.gate XOR2_X1   A=new_n238_ B=new_n239_ Z=new_n269_
+.gate NOR3_X1   A1=new_n206_ A2=new_n210_ A3=new_n269_ ZN=new_n270_
+.gate OAI21_X1  A=new_n269_ B1=new_n206_ B2=new_n210_ ZN=new_n271_
+.gate NAND3_X1  A1=new_n212_ A2=new_n214_ A3=new_n271_ ZN=new_n272_
+.gate NOR3_X1   A1=new_n267_ A2=new_n270_ A3=new_n272_ ZN=new_n273_
+.gate NOR2_X1   A1=new_n261_ A2=new_n264_ ZN=new_n274_
+.gate OAI21_X1  A=new_n259_ B1=new_n243_ B2=new_n256_ ZN=new_n275_
+.gate NAND2_X1  A1=input_A[7] A2=input_B[4] ZN=new_n276_
+.gate AOI21_X1  A=new_n253_ B1=new_n254_ B2=new_n255_ ZN=new_n277_
+.gate NAND2_X1  A1=input_A[6] A2=input_B[5] ZN=new_n278_
+.gate AOI21_X1  A=new_n250_ B1=new_n225_ B2=new_n245_ ZN=new_n279_
+.gate NOR2_X1   A1=new_n38_ A2=new_n46_ ZN=new_n280_
+.gate NOR2_X1   A1=new_n38_ A2=new_n47_ ZN=new_n281_
+.gate NAND2_X1  A1=new_n245_ A2=new_n281_ ZN=new_n282_
+.gate OAI21_X1  A=new_n282_ B1=new_n246_ B2=new_n280_ ZN=new_n283_
+.gate NOR2_X1   A1=new_n279_ A2=new_n283_ ZN=new_n284_
+.gate AOI21_X1  A=new_n284_ B1=new_n279_ B2=new_n283_ ZN=new_n285_
+.gate INV_X1    A=new_n285_ ZN=new_n286_
+.gate NOR2_X1   A1=new_n278_ A2=new_n286_ ZN=new_n287_
+.gate AOI21_X1  A=new_n287_ B1=new_n278_ B2=new_n286_ ZN=new_n288_
+.gate INV_X1    A=new_n288_ ZN=new_n289_
+.gate NOR2_X1   A1=new_n277_ A2=new_n289_ ZN=new_n290_
+.gate AOI21_X1  A=new_n290_ B1=new_n277_ B2=new_n289_ ZN=new_n291_
+.gate INV_X1    A=new_n291_ ZN=new_n292_
+.gate NOR2_X1   A1=new_n276_ A2=new_n292_ ZN=new_n293_
+.gate AOI21_X1  A=new_n293_ B1=new_n276_ B2=new_n292_ ZN=new_n294_
+.gate XNOR2_X1  A=new_n275_ B=new_n294_ ZN=new_n295_
+.gate NOR2_X1   A1=new_n274_ A2=new_n295_ ZN=new_n296_
+.gate INV_X1    A=new_n296_ ZN=new_n297_
+.gate AOI21_X1  A=new_n296_ B1=new_n274_ B2=new_n295_ ZN=new_n298_
+.gate INV_X1    A=new_n298_ ZN=new_n299_
+.gate NOR3_X1   A1=new_n267_ A2=new_n271_ A3=new_n299_ ZN=new_n300_
+.gate OAI21_X1  A=new_n266_ B1=new_n267_ B2=new_n271_ ZN=new_n301_
+.gate OR2_X1    A1=new_n266_ A2=new_n299_ ZN=new_n302_
+.gate XOR2_X1   A=new_n298_ B=new_n301_ Z=new_n303_
+.gate NAND2_X1  A1=new_n273_ A2=new_n303_ ZN=new_n304_
+.gate OAI21_X1  A=new_n304_ B1=new_n273_ B2=new_n303_ ZN=new_n305_
+.gate INV_X1    A=new_n305_ ZN=product[11]
+.gate NAND2_X1  A1=input_A[7] A2=input_B[5] ZN=new_n307_
+.gate NOR2_X1   A1=new_n39_ A2=new_n46_ ZN=new_n308_
+.gate NOR2_X1   A1=new_n39_ A2=new_n47_ ZN=new_n309_
+.gate NAND2_X1  A1=new_n281_ A2=new_n308_ ZN=new_n310_
+.gate OAI21_X1  A=new_n310_ B1=new_n281_ B2=new_n308_ ZN=new_n311_
+.gate AOI21_X1  A=new_n284_ B1=new_n245_ B2=new_n281_ ZN=new_n312_
+.gate XNOR2_X1  A=new_n311_ B=new_n312_ ZN=new_n313_
+.gate NOR2_X1   A1=new_n307_ A2=new_n313_ ZN=new_n314_
+.gate AOI21_X1  A=new_n314_ B1=new_n307_ B2=new_n313_ ZN=new_n315_
+.gate OR2_X1    A1=new_n287_ A2=new_n290_ ZN=new_n316_
+.gate XNOR2_X1  A=new_n315_ B=new_n316_ ZN=new_n317_
+.gate AOI21_X1  A=new_n293_ B1=new_n275_ B2=new_n294_ ZN=new_n318_
+.gate NOR2_X1   A1=new_n317_ A2=new_n318_ ZN=new_n319_
+.gate INV_X1    A=new_n319_ ZN=new_n320_
+.gate AOI21_X1  A=new_n319_ B1=new_n317_ B2=new_n318_ ZN=new_n321_
+.gate INV_X1    A=new_n321_ ZN=new_n322_
+.gate NAND2_X1  A1=new_n297_ A2=new_n302_ ZN=new_n323_
+.gate XOR2_X1   A=new_n321_ B=new_n323_ Z=new_n324_
+.gate NAND2_X1  A1=new_n300_ A2=new_n324_ ZN=new_n325_
+.gate INV_X1    A=new_n325_ ZN=new_n326_
+.gate OAI21_X1  A=new_n325_ B1=new_n300_ B2=new_n324_ ZN=new_n327_
+.gate NOR2_X1   A1=new_n304_ A2=new_n327_ ZN=new_n328_
+.gate AOI21_X1  A=new_n328_ B1=new_n304_ B2=new_n327_ ZN=product[12]
+.gate NOR2_X1   A1=new_n302_ A2=new_n322_ ZN=new_n330_
+.gate AOI21_X1  A=new_n314_ B1=new_n315_ B2=new_n316_ ZN=new_n331_
+.gate OAI21_X1  A=new_n310_ B1=new_n311_ B2=new_n312_ ZN=new_n332_
+.gate NOR2_X1   A1=new_n40_ A2=new_n46_ ZN=new_n333_
+.gate XOR2_X1   A=new_n309_ B=new_n333_ Z=new_n334_
+.gate NAND2_X1  A1=new_n332_ A2=new_n334_ ZN=new_n335_
+.gate INV_X1    A=new_n335_ ZN=new_n336_
+.gate OAI21_X1  A=new_n335_ B1=new_n332_ B2=new_n334_ ZN=new_n337_
+.gate AND2_X1   A1=new_n331_ A2=new_n337_ ZN=new_n338_
+.gate XOR2_X1   A=new_n331_ B=new_n337_ Z=new_n339_
+.gate OAI21_X1  A=new_n320_ B1=new_n297_ B2=new_n322_ ZN=new_n340_
+.gate XOR2_X1   A=new_n339_ B=new_n340_ Z=new_n341_
+.gate NAND2_X1  A1=new_n330_ A2=new_n341_ ZN=new_n342_
+.gate INV_X1    A=new_n342_ ZN=new_n343_
+.gate OAI21_X1  A=new_n342_ B1=new_n330_ B2=new_n341_ ZN=new_n344_
+.gate NOR2_X1   A1=new_n326_ A2=new_n328_ ZN=new_n345_
+.gate XOR2_X1   A=new_n344_ B=new_n345_ Z=product[13]
+.gate OAI211_X1 A=new_n342_ B=new_n328_ C1=new_n330_ C2=new_n341_ ZN=new_n347_
+.gate NAND3_X1  A1=new_n296_ A2=new_n321_ A3=new_n339_ ZN=new_n348_
+.gate AOI21_X1  A=new_n336_ B1=input_A[7] B2=input_B[7] ZN=new_n349_
+.gate OAI211_X1 A=input_A[7] B=input_B[7] C1=new_n308_ C2=new_n336_ ZN=new_n350_
+.gate INV_X1    A=new_n350_ ZN=new_n351_
+.gate NOR2_X1   A1=new_n349_ A2=new_n351_ ZN=new_n352_
+.gate OAI22_X1  A1=new_n331_ A2=new_n337_ B1=new_n320_ B2=new_n338_ ZN=new_n353_
+.gate INV_X1    A=new_n353_ ZN=new_n354_
+.gate XNOR2_X1  A=new_n352_ B=new_n353_ ZN=new_n355_
+.gate XNOR2_X1  A=new_n348_ B=new_n355_ ZN=new_n356_
+.gate OAI22_X1  A1=new_n330_ A2=new_n341_ B1=new_n326_ B2=new_n343_ ZN=new_n357_
+.gate NOR2_X1   A1=new_n356_ A2=new_n357_ ZN=new_n358_
+.gate AOI21_X1  A=new_n358_ B1=new_n356_ B2=new_n357_ ZN=new_n359_
+.gate INV_X1    A=new_n359_ ZN=new_n360_
+.gate NOR2_X1   A1=new_n347_ A2=new_n360_ ZN=new_n361_
+.gate AOI21_X1  A=new_n361_ B1=new_n347_ B2=new_n360_ ZN=product[14]
+.gate OAI221_X1 A=new_n350_ B1=new_n349_ B2=new_n354_ C1=new_n348_ C2=new_n355_ ZN=new_n363_
+.gate OR3_X1    A1=new_n358_ A2=new_n363_ A3=new_n361_ ZN=product[15]
+.gate _const0_  z=product[0]
+.gate _const0_  z=product[9]
+.end

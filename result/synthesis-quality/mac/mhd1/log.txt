@@ -1,0 +1,87 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.16 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/aig/mac       :[0m i/o =   12/    8  lat =    0  and =    145  lev = 20
+[1;37minput/miter/width_8_mhd_1     :[0m i/o =   16/    1  lat =    0  and =     48  lev = 15
+outpPath = ./result/mac/mhd1/
+seed = 76609964
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.4
+Execute abc command: w ./result/mac/mhd1/0.blif
+---------- round 1---------- 
+#nodes = 145
+#internal nodes = 137
+#internal nodes using exact PBDs = 54.8
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =   4525  lev = 44
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =   3593  lev = 32
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =   1323  lev = 32
+finish SAT sweeping the skeleton network
+n22_app(14), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =    114  lev = 19
+Execute abc command: w ./result/mac/mhd1/1.blif
+current runtime = 0.564352s
+---------- round 2---------- 
+#nodes = 114
+#internal nodes = 106
+#internal nodes using exact PBDs = 42.4
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  236  lat =    0  and =   3822  lev = 72
+[1;37m(null)                        :[0m i/o =   12/  236  lat =    0  and =   3774  lev = 72
+[1;37m(null)                        :[0m i/o =   12/  236  lat =    0  and =   2240  lev = 45
+finish SAT sweeping the skeleton network
+n22_app(14), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =    113  lev = 19
+Execute abc command: w ./result/mac/mhd1/2.blif
+current runtime = 0.819586s
+---------- round 3---------- 
+#nodes = 113
+#internal nodes = 106
+#internal nodes using exact PBDs = 42.4
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  234  lat =    0  and =   3552  lev = 54
+[1;37m(null)                        :[0m i/o =   12/  234  lat =    0  and =   3517  lev = 54
+[1;37m(null)                        :[0m i/o =   12/  234  lat =    0  and =   2019  lev = 35
+finish SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  234  lat =    0  and =   2019  lev = 35
+[1;37m(null)                        :[0m i/o =   12/  234  lat =    0  and =   2019  lev = 35
+[1;37m(null)                        :[0m i/o =   12/  234  lat =    0  and =   2019  lev = 35
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 3
+[1;37m(null)                        :[0m i/o =   12/  237  lat =    0  and =   2031  lev = 35
+[1;37m(null)                        :[0m i/o =   12/  237  lat =    0  and =   2031  lev = 35
+[1;37m(null)                        :[0m i/o =   12/  237  lat =    0  and =   2019  lev = 35
+sai_dF_n32_app*n30_app(247):n0(0),0 1
+n32_app(24),n30_app(22)
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =    111  lev = 19
+Execute abc command: w ./result/mac/mhd1/3.blif
+current runtime = 1.11209s
+---------- round 4---------- 
+#nodes = 111
+#internal nodes = 104
+#internal nodes using exact PBDs = 41.6
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  230  lat =    0  and =   3639  lev = 70
+[1;37m(null)                        :[0m i/o =   12/  230  lat =    0  and =   3602  lev = 70
+[1;37m(null)                        :[0m i/o =   12/  230  lat =    0  and =   2209  lev = 43
+finish SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  230  lat =    0  and =   2209  lev = 43
+[1;37m(null)                        :[0m i/o =   12/  230  lat =    0  and =   2209  lev = 43
+[1;37m(null)                        :[0m i/o =   12/  230  lat =    0  and =   2209  lev = 43
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 0
+[1;37m(null)                        :[0m i/o =   12/  230  lat =    0  and =   2209  lev = 43
+[1;37m(null)                        :[0m i/o =   12/  230  lat =    0  and =   2209  lev = 43
+[1;37m(null)                        :[0m i/o =   12/  230  lat =    0  and =   2209  lev = 43
+Execute abc command: w ./result/mac/mhd1/final.blif
+current runtime = 1.34225s
+WireLoad = "none"  [1;33mGates =     93[0m ( 23.7 %)   [1;32mCap =  3.1 ff[0m (  0.0 %)   [1;36mArea =       84.06[0m ( 98.9 %)   [1;35mDelay =   575.13 ps[0m  ( 38.7 %)               

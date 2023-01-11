@@ -1,0 +1,75 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.16 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/aig/binsqrd   :[0m i/o =   16/   18  lat =    0  and =   1562  lev = 50
+[1;37minput/miter/width_18_maxse_16 :[0m i/o =   36/    1  lat =    0  and =   2419  lev = 61
+outpPath = ./result/binsqrd/maxse16/
+seed = 13165913
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.04
+Execute abc command: w ./result/binsqrd/maxse16/0.blif
+---------- round 1---------- 
+#nodes = 1562
+#internal nodes = 1545
+#internal nodes using exact PBDs = 61.8
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   16/ 3142  lat =    0  and = 204667  lev =179
+[1;37m(null)                        :[0m i/o =   16/ 3142  lat =    0  and =  68660  lev =157
+[1;37m(null)                        :[0m i/o =   16/ 3142  lat =    0  and =   1699  lev = 49
+finish SAT sweeping the skeleton network
+n35_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/   18  lat =    0  and =   1181  lev = 45
+Execute abc command: w ./result/binsqrd/maxse16/1.blif
+current runtime = 64.1517s
+---------- round 2---------- 
+#nodes = 1181
+#internal nodes = 1164
+#internal nodes using exact PBDs = 46.56
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   16/ 2380  lat =    0  and = 166079  lev =196
+[1;37m(null)                        :[0m i/o =   16/ 2380  lat =    0  and = 165784  lev =196
+[1;37m(null)                        :[0m i/o =   16/ 2380  lat =    0  and =   3868  lev = 93
+finish SAT sweeping the skeleton network
+n35_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/   18  lat =    0  and =   1180  lev = 45
+Execute abc command: w ./result/binsqrd/maxse16/2.blif
+current runtime = 235.445s
+---------- round 3---------- 
+#nodes = 1180
+#internal nodes = 1164
+#internal nodes using exact PBDs = 46.56
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   16/ 2378  lat =    0  and = 163690  lev =196
+[1;37m(null)                        :[0m i/o =   16/ 2378  lat =    0  and = 163396  lev =196
+[1;37m(null)                        :[0m i/o =   16/ 2378  lat =    0  and =   2613  lev = 93
+finish SAT sweeping the skeleton network
+n47_app(29), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/   18  lat =    0  and =   1176  lev = 45
+Execute abc command: w ./result/binsqrd/maxse16/3.blif
+current runtime = 384.888s
+---------- round 4---------- 
+#nodes = 1176
+#internal nodes = 1161
+#internal nodes using exact PBDs = 46.44
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   16/ 2370  lat =    0  and = 160474  lev =190
+[1;37m(null)                        :[0m i/o =   16/ 2370  lat =    0  and = 160178  lev =190
+[1;37m(null)                        :[0m i/o =   16/ 2370  lat =    0  and =   3555  lev = 95
+finish SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   16/ 2370  lat =    0  and =   3555  lev = 95
+[1;37m(null)                        :[0m i/o =   16/ 2370  lat =    0  and =   3555  lev = 95
+[1;37m(null)                        :[0m i/o =   16/ 2370  lat =    0  and =   3547  lev = 95
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 0
+[1;37m(null)                        :[0m i/o =   16/ 2370  lat =    0  and =   3547  lev = 95
+[1;37m(null)                        :[0m i/o =   16/ 2370  lat =    0  and =   3547  lev = 95
+[1;37m(null)                        :[0m i/o =   16/ 2370  lat =    0  and =   3547  lev = 95
+Execute abc command: w ./result/binsqrd/maxse16/final.blif
+current runtime = 586.141s
+WireLoad = "none"  [1;33mGates =    877[0m ( 13.5 %)   [1;32mCap =  3.6 ff[0m (  0.0 %)   [1;36mArea =      833.38[0m ( 99.7 %)   [1;35mDelay =  1431.42 ps[0m  ( 12.2 %)               

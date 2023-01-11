@@ -1,0 +1,71 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.17 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/aig/mac       :[0m i/o =   12/    8  lat =    0  and =    145  lev = 20
+[1;37minput/miter/width_8_maxse_7   :[0m i/o =   16/    1  lat =    0  and =    426  lev = 42
+outpPath = ./result/mac/maxse7/
+seed = 2940368300
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.4
+Execute abc command: w ./result/mac/maxse7/0.blif
+---------- round 1---------- 
+#nodes = 145
+#internal nodes = 137
+#internal nodes using exact PBDs = 54.8
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =  27789  lev = 72
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =  11812  lev = 58
+[1;37m(null)                        :[0m i/o =   12/  298  lat =    0  and =    260  lev = 32
+finish SAT sweeping the skeleton network
+n21_app(13), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =    107  lev = 19
+Execute abc command: w ./result/mac/maxse7/1.blif
+current runtime = 2.04098s
+---------- round 2---------- 
+#nodes = 107
+#internal nodes = 100
+#internal nodes using exact PBDs = 40
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  222  lat =    0  and =  20823  lev = 82
+[1;37m(null)                        :[0m i/o =   12/  222  lat =    0  and =  20796  lev = 82
+[1;37m(null)                        :[0m i/o =   12/  222  lat =    0  and =    679  lev = 46
+finish SAT sweeping the skeleton network
+n21_app(13), const1 (simulation)
+n22_app(14), const1 (simulation)
+n23_app(15), const0 (simulation)
+n25_app(17), const1 (simulation)
+n27_app(19), const0 (simulation)
+n28_app(20), const1 (simulation)
+[1;37m(null)                        :[0m i/o =   12/  228  lat =    0  and =    685  lev = 46
+[1;37m(null)                        :[0m i/o =   12/  228  lat =    0  and =    685  lev = 46
+[1;37m(null)                        :[0m i/o =   12/  228  lat =    0  and =    670  lev = 46
+ver_dF_n21_app*const1(235):n0(0),0 1
+n21_app(13), replace it by constant 1
+current approximate net
+[1;37m(null)                        :[0m i/o =   12/    8  lat =    0  and =    103  lev = 19
+Execute abc command: w ./result/mac/maxse7/2.blif
+current runtime = 3.9298s
+---------- round 3---------- 
+#nodes = 103
+#internal nodes = 96
+#internal nodes using exact PBDs = 38.4
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  214  lat =    0  and =  20552  lev = 93
+[1;37m(null)                        :[0m i/o =   12/  214  lat =    0  and =  20524  lev = 93
+[1;37m(null)                        :[0m i/o =   12/  214  lat =    0  and =   1538  lev = 42
+finish SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   12/  214  lat =    0  and =   1538  lev = 42
+[1;37m(null)                        :[0m i/o =   12/  214  lat =    0  and =   1538  lev = 42
+[1;37m(null)                        :[0m i/o =   12/  214  lat =    0  and =   1534  lev = 42
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 0
+[1;37m(null)                        :[0m i/o =   12/  214  lat =    0  and =   1534  lev = 42
+[1;37m(null)                        :[0m i/o =   12/  214  lat =    0  and =   1534  lev = 42
+[1;37m(null)                        :[0m i/o =   12/  214  lat =    0  and =   1534  lev = 42
+Execute abc command: w ./result/mac/maxse7/final.blif
+current runtime = 6.08638s
+WireLoad = "none"  [1;33mGates =     87[0m ( 25.3 %)   [1;32mCap =  3.0 ff[0m (  0.1 %)   [1;36mArea =       79.00[0m ( 98.9 %)   [1;35mDelay =   589.60 ps[0m  ( 41.4 %)               

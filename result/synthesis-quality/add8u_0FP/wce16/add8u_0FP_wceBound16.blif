@@ -1,0 +1,28 @@
+# Benchmark "(null)" written by ABC on Sun May 22 15:08:56 2022
+.model (null)
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] B[0] B[1] B[2] B[3] B[4] \
+ B[5] B[6] B[7]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8]
+.gate INV_X1    A=A[7] ZN=new_n26_
+.gate INV_X1    A=B[7] ZN=new_n27_
+.gate NAND2_X1  A1=A[4] A2=B[4] ZN=new_n28_
+.gate OAI21_X1  A=new_n28_ B1=A[4] B2=B[4] ZN=new_n29_
+.gate INV_X1    A=new_n29_ ZN=O[4]
+.gate NAND2_X1  A1=A[5] A2=B[5] ZN=new_n31_
+.gate OAI21_X1  A=new_n31_ B1=A[5] B2=B[5] ZN=new_n32_
+.gate XOR2_X1   A=new_n28_ B=new_n32_ Z=O[5]
+.gate NOR2_X1   A1=A[6] A2=B[6] ZN=new_n34_
+.gate AOI21_X1  A=new_n34_ B1=A[6] B2=B[6] ZN=new_n35_
+.gate NAND2_X1  A1=new_n28_ A2=new_n31_ ZN=new_n36_
+.gate OAI21_X1  A=new_n36_ B1=A[5] B2=B[5] ZN=new_n37_
+.gate XNOR2_X1  A=new_n35_ B=new_n37_ ZN=O[6]
+.gate OAI22_X1  A1=new_n26_ A2=new_n27_ B1=A[7] B2=B[7] ZN=new_n39_
+.gate NOR2_X1   A1=new_n34_ A2=new_n37_ ZN=new_n40_
+.gate AOI21_X1  A=new_n40_ B1=A[6] B2=B[6] ZN=new_n41_
+.gate XOR2_X1   A=new_n39_ B=new_n41_ Z=O[7]
+.gate OAI22_X1  A1=new_n26_ A2=new_n27_ B1=new_n39_ B2=new_n41_ ZN=O[8]
+.gate _const0_  z=O[0]
+.gate _const1_  z=O[1]
+.gate _const1_  z=O[2]
+.gate _const1_  z=O[3]
+.end

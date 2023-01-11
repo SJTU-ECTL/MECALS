@@ -1,0 +1,77 @@
+# Benchmark "(null)" written by ABC on Sun May 22 15:06:40 2022
+.model (null)
+.inputs input_A[0] input_A[1] input_A[2] input_A[3] input_A[4] input_A[5] \
+ input_A[6] input_A[7] input_B[0] input_B[1] input_B[2] input_B[3] \
+ input_B[4] input_B[5] input_B[6] input_B[7]
+.outputs product[0] product[1] product[2] product[3] product[4] product[5] \
+ product[6] product[7] product[8] product[9] product[10] product[11] \
+ product[12] product[13] product[14] product[15]
+.gate INV_X1    A=input_A[6] ZN=new_n33_
+.gate INV_X1    A=input_A[7] ZN=new_n34_
+.gate INV_X1    A=input_B[6] ZN=new_n35_
+.gate NAND2_X1  A1=input_A[7] A2=input_B[4] ZN=new_n36_
+.gate OAI22_X1  A1=input_A[5] A2=new_n34_ B1=new_n33_ B2=new_n36_ ZN=new_n37_
+.gate NAND2_X1  A1=input_B[3] A2=new_n37_ ZN=product[10]
+.gate INV_X1    A=product[10] ZN=new_n39_
+.gate NAND2_X1  A1=input_A[6] A2=input_B[5] ZN=new_n40_
+.gate NAND2_X1  A1=input_A[4] A2=input_B[7] ZN=new_n41_
+.gate NAND2_X1  A1=input_A[5] A2=input_B[6] ZN=new_n42_
+.gate NAND2_X1  A1=new_n41_ A2=new_n42_ ZN=new_n43_
+.gate AOI22_X1  A1=input_A[4] A2=input_B[6] B1=input_A[3] B2=input_B[7] ZN=new_n44_
+.gate OAI22_X1  A1=new_n43_ A2=new_n44_ B1=new_n41_ B2=new_n42_ ZN=new_n45_
+.gate INV_X1    A=new_n45_ ZN=new_n46_
+.gate XOR2_X1   A=new_n40_ B=new_n46_ Z=new_n47_
+.gate NAND2_X1  A1=input_A[5] A2=new_n47_ ZN=new_n48_
+.gate OAI21_X1  A=new_n48_ B1=input_A[5] B2=new_n47_ ZN=new_n49_
+.gate NOR2_X1   A1=new_n36_ A2=new_n49_ ZN=new_n50_
+.gate AOI21_X1  A=new_n50_ B1=new_n36_ B2=new_n49_ ZN=new_n51_
+.gate NAND2_X1  A1=new_n39_ A2=new_n51_ ZN=new_n52_
+.gate OAI21_X1  A=new_n52_ B1=new_n39_ B2=new_n51_ ZN=new_n53_
+.gate INV_X1    A=new_n53_ ZN=product[11]
+.gate NAND2_X1  A1=input_A[7] A2=input_B[5] ZN=new_n55_
+.gate NOR2_X1   A1=new_n33_ A2=new_n35_ ZN=new_n56_
+.gate AOI21_X1  A=new_n56_ B1=input_A[5] B2=input_B[7] ZN=new_n57_
+.gate INV_X1    A=new_n57_ ZN=new_n58_
+.gate AOI21_X1  A=new_n57_ B1=new_n41_ B2=new_n42_ ZN=new_n59_
+.gate NAND2_X1  A1=input_A[6] A2=input_B[7] ZN=new_n60_
+.gate OAI21_X1  A=new_n59_ B1=new_n42_ B2=new_n60_ ZN=new_n61_
+.gate OAI21_X1  A=new_n61_ B1=new_n43_ B2=new_n58_ ZN=new_n62_
+.gate NOR2_X1   A1=new_n55_ A2=new_n62_ ZN=new_n63_
+.gate AOI21_X1  A=new_n63_ B1=new_n55_ B2=new_n62_ ZN=new_n64_
+.gate OAI21_X1  A=new_n48_ B1=new_n40_ B2=new_n46_ ZN=new_n65_
+.gate XOR2_X1   A=new_n64_ B=new_n65_ Z=new_n66_
+.gate OAI21_X1  A=new_n52_ B1=new_n36_ B2=new_n49_ ZN=new_n67_
+.gate NAND2_X1  A1=new_n50_ A2=new_n66_ ZN=new_n68_
+.gate NAND2_X1  A1=new_n66_ A2=new_n67_ ZN=new_n69_
+.gate OAI21_X1  A=new_n69_ B1=new_n66_ B2=new_n67_ ZN=new_n70_
+.gate INV_X1    A=new_n70_ ZN=product[12]
+.gate AOI21_X1  A=new_n63_ B1=new_n64_ B2=new_n65_ ZN=new_n72_
+.gate NOR2_X1   A1=new_n34_ A2=new_n35_ ZN=new_n73_
+.gate XNOR2_X1  A=new_n60_ B=new_n73_ ZN=new_n74_
+.gate NAND2_X1  A1=new_n59_ A2=new_n74_ ZN=new_n75_
+.gate INV_X1    A=new_n75_ ZN=new_n76_
+.gate OAI21_X1  A=new_n75_ B1=new_n59_ B2=new_n74_ ZN=new_n77_
+.gate AND2_X1   A1=new_n72_ A2=new_n77_ ZN=new_n78_
+.gate XOR2_X1   A=new_n72_ B=new_n77_ Z=new_n79_
+.gate XNOR2_X1  A=new_n69_ B=new_n79_ ZN=product[13]
+.gate NAND4_X1  A1=new_n39_ A2=new_n51_ A3=new_n66_ A4=new_n79_ ZN=new_n81_
+.gate AOI21_X1  A=new_n76_ B1=input_A[7] B2=input_B[7] ZN=new_n82_
+.gate OAI211_X1 A=input_A[7] B=input_B[7] C1=new_n56_ C2=new_n76_ ZN=new_n83_
+.gate INV_X1    A=new_n83_ ZN=new_n84_
+.gate NOR2_X1   A1=new_n82_ A2=new_n84_ ZN=new_n85_
+.gate OAI22_X1  A1=new_n72_ A2=new_n77_ B1=new_n68_ B2=new_n78_ ZN=new_n86_
+.gate INV_X1    A=new_n86_ ZN=new_n87_
+.gate XNOR2_X1  A=new_n85_ B=new_n86_ ZN=new_n88_
+.gate XOR2_X1   A=new_n81_ B=new_n88_ Z=product[14]
+.gate OAI221_X1 A=new_n83_ B1=new_n82_ B2=new_n87_ C1=new_n81_ C2=new_n88_ ZN=product[15]
+.gate _const0_  z=product[0]
+.gate _const0_  z=product[1]
+.gate _const0_  z=product[2]
+.gate _const0_  z=product[3]
+.gate _const0_  z=product[4]
+.gate _const0_  z=product[5]
+.gate _const1_  z=product[6]
+.gate _const1_  z=product[7]
+.gate _const1_  z=product[8]
+.gate _const0_  z=product[9]
+.end

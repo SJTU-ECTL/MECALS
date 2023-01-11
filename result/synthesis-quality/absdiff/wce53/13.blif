@@ -1,0 +1,66 @@
+# Benchmark "(null)" written by ABC on Sun May 22 13:08:45 2022
+.model (null)
+.inputs a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] b[0] b[1] b[2] b[3] b[4] \
+ b[5] b[6] b[7]
+.outputs o[0] o[1] o[2] o[3] o[4] o[5] o[6] o[7]
+.names a[7] b[7] new_n26_
+01 1
+.names a[6] b[6] new_n27_
+01 1
+.names new_n26_ new_n27_ new_n28_
+00 1
+.names a[7] b[7] new_n29_
+10 1
+.names new_n28_ new_n29_ new_n30_
+00 1
+.names a[5] b[5] new_n31_
+01 1
+.names a[4] new_n31_ new_n32_
+10 1
+.names new_n30_ new_n32_ o[1]
+11 1
+.names a[4] new_n30_ new_n34_
+10 1
+.names new_n31_ new_n34_ o[5]
+00 0
+.names a[6] b[6] new_n36_
+10 1
+.names new_n27_ new_n36_ new_n37_
+00 1
+.names new_n29_ new_n36_ new_n38_
+00 1
+.names new_n26_ new_n31_ new_n39_
+01 1
+.names new_n38_ new_n39_ new_n40_
+01 1
+.names o[1] new_n40_ new_n41_
+00 1
+.names new_n37_ new_n41_ new_n42_
+10 1
+.names new_n37_ new_n41_ new_n43_
+01 1
+.names new_n42_ new_n43_ o[6]
+00 0
+.names new_n27_ new_n31_ new_n45_
+00 1
+.names new_n36_ new_n45_ new_n46_
+00 1
+.names new_n29_ new_n46_ new_n47_
+10 1
+.names a[4] new_n45_ new_n48_
+11 1
+.names new_n26_ new_n36_ new_n49_
+10 1
+.names new_n48_ new_n49_ new_n50_
+01 1
+.names new_n47_ new_n50_ o[7]
+00 0
+.names o[0]
+ 1
+.names o[1] o[2]
+1 1
+.names o[1] o[3]
+1 1
+.names o[1] o[4]
+1 1
+.end

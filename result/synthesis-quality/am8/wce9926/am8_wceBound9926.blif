@@ -1,0 +1,52 @@
+# Benchmark "(null)" written by ABC on Sun May 22 15:06:42 2022
+.model (null)
+.inputs input_A[0] input_A[1] input_A[2] input_A[3] input_A[4] input_A[5] \
+ input_A[6] input_A[7] input_B[0] input_B[1] input_B[2] input_B[3] \
+ input_B[4] input_B[5] input_B[6] input_B[7]
+.outputs product[0] product[1] product[2] product[3] product[4] product[5] \
+ product[6] product[7] product[8] product[9] product[10] product[11] \
+ product[12] product[13] product[14] product[15]
+.gate INV_X1    A=input_A[4] ZN=new_n33_
+.gate INV_X1    A=input_A[6] ZN=new_n34_
+.gate INV_X1    A=input_A[7] ZN=new_n35_
+.gate INV_X1    A=input_B[6] ZN=new_n36_
+.gate INV_X1    A=input_B[7] ZN=new_n37_
+.gate NAND2_X1  A1=input_A[5] A2=input_B[6] ZN=new_n38_
+.gate OAI21_X1  A=new_n38_ B1=new_n33_ B2=new_n37_ ZN=new_n39_
+.gate NOR3_X1   A1=new_n33_ A2=new_n37_ A3=new_n38_ ZN=new_n40_
+.gate AOI22_X1  A1=input_A[5] A2=input_B[7] B1=input_A[6] B2=input_B[6] ZN=new_n41_
+.gate NOR2_X1   A1=new_n34_ A2=new_n37_ ZN=new_n42_
+.gate NOR3_X1   A1=new_n34_ A2=new_n37_ A3=new_n38_ ZN=new_n43_
+.gate NOR2_X1   A1=new_n41_ A2=new_n43_ ZN=new_n44_
+.gate OAI211_X1 A=input_A[7] B=input_B[5] C1=new_n40_ C2=new_n44_ ZN=new_n45_
+.gate NAND2_X1  A1=new_n39_ A2=new_n45_ ZN=product[12]
+.gate OR2_X1    A1=new_n40_ A2=new_n43_ ZN=new_n47_
+.gate NOR2_X1   A1=new_n35_ A2=new_n36_ ZN=new_n48_
+.gate XOR2_X1   A=new_n42_ B=new_n48_ Z=new_n49_
+.gate NAND2_X1  A1=new_n47_ A2=new_n49_ ZN=new_n50_
+.gate OAI21_X1  A=new_n50_ B1=new_n47_ B2=new_n49_ ZN=new_n51_
+.gate INV_X1    A=new_n51_ ZN=new_n52_
+.gate OAI211_X1 A=new_n38_ B=new_n45_ C1=new_n33_ C2=new_n37_ ZN=new_n53_
+.gate NAND2_X1  A1=new_n52_ A2=new_n53_ ZN=new_n54_
+.gate OAI21_X1  A=new_n54_ B1=new_n52_ B2=new_n53_ ZN=new_n55_
+.gate INV_X1    A=new_n55_ ZN=product[13]
+.gate NOR2_X1   A1=new_n35_ A2=new_n37_ ZN=new_n57_
+.gate INV_X1    A=new_n57_ ZN=new_n58_
+.gate OAI21_X1  A=new_n50_ B1=new_n34_ B2=new_n36_ ZN=new_n59_
+.gate INV_X1    A=new_n59_ ZN=new_n60_
+.gate AOI22_X1  A1=new_n57_ A2=new_n59_ B1=new_n50_ B2=new_n58_ ZN=new_n61_
+.gate XNOR2_X1  A=new_n54_ B=new_n61_ ZN=product[14]
+.gate AOI21_X1  A=new_n58_ B1=new_n54_ B2=new_n60_ ZN=product[15]
+.gate _const0_  z=product[0]
+.gate _const0_  z=product[1]
+.gate _const0_  z=product[2]
+.gate _const0_  z=product[3]
+.gate _const0_  z=product[4]
+.gate _const0_  z=product[5]
+.gate _const0_  z=product[6]
+.gate _const0_  z=product[7]
+.gate _const0_  z=product[8]
+.gate _const0_  z=product[9]
+.gate _const1_  z=product[11]
+.gate BUF_X1    A=input_A[3] Z=product[10]
+.end

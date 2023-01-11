@@ -1,0 +1,1868 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.17 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/aig/mult32    :[0m i/o =   64/   64  lat =    0  and =   8340  lev = 53
+[1;37minput/miter/width_64_mhd_32   :[0m i/o =  128/    1  lat =    0  and =    623  lev = 46
+outpPath = ./result/mult32/mhd32/
+seed = 1158276651
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.004
+Execute abc command: w ./result/mult32/mhd32/0.blif
+---------- round 1---------- 
+#nodes = 8340
+#internal nodes = 8276
+#internal nodes using exact PBDs = 33.104
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16744  lat =    0  and =  82575  lev =199
+[1;37m(null)                        :[0m i/o =   64/16744  lat =    0  and =  57792  lev =175
+[1;37m(null)                        :[0m i/o =   64/16744  lat =    0  and =  41485  lev =136
+finish SAT sweeping the skeleton network
+n129_app(65), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8339  lev = 53
+Execute abc command: w ./result/mult32/mhd32/1.blif
+current runtime = 149.72s
+---------- round 2---------- 
+#nodes = 8339
+#internal nodes = 8276
+#internal nodes using exact PBDs = 33.104
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16742  lat =    0  and =  82373  lev =199
+[1;37m(null)                        :[0m i/o =   64/16742  lat =    0  and =  66512  lev =193
+[1;37m(null)                        :[0m i/o =   64/16742  lat =    0  and =  42754  lev =136
+finish SAT sweeping the skeleton network
+n131_app(67), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8336  lev = 53
+Execute abc command: w ./result/mult32/mhd32/2.blif
+current runtime = 303.837s
+---------- round 3---------- 
+#nodes = 8336
+#internal nodes = 8274
+#internal nodes using exact PBDs = 33.096
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16736  lat =    0  and =  82692  lev =199
+[1;37m(null)                        :[0m i/o =   64/16736  lat =    0  and =  74633  lev =199
+[1;37m(null)                        :[0m i/o =   64/16736  lat =    0  and =  43509  lev =138
+finish SAT sweeping the skeleton network
+n141_app(77), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8334  lev = 53
+Execute abc command: w ./result/mult32/mhd32/3.blif
+current runtime = 463.971s
+---------- round 4---------- 
+#nodes = 8334
+#internal nodes = 8273
+#internal nodes using exact PBDs = 33.092
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16732  lat =    0  and =  82391  lev =199
+[1;37m(null)                        :[0m i/o =   64/16732  lat =    0  and =  74322  lev =199
+[1;37m(null)                        :[0m i/o =   64/16732  lat =    0  and =  43035  lev =138
+finish SAT sweeping the skeleton network
+n159_app(95), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8332  lev = 53
+Execute abc command: w ./result/mult32/mhd32/4.blif
+current runtime = 619.226s
+---------- round 5---------- 
+#nodes = 8332
+#internal nodes = 8272
+#internal nodes using exact PBDs = 33.088
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16728  lat =    0  and =  82474  lev =199
+[1;37m(null)                        :[0m i/o =   64/16728  lat =    0  and =  74417  lev =199
+[1;37m(null)                        :[0m i/o =   64/16728  lat =    0  and =  43869  lev =140
+finish SAT sweeping the skeleton network
+n185_app(121), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8330  lev = 53
+Execute abc command: w ./result/mult32/mhd32/5.blif
+current runtime = 779.167s
+---------- round 6---------- 
+#nodes = 8330
+#internal nodes = 8271
+#internal nodes using exact PBDs = 33.084
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16724  lat =    0  and =  82484  lev =199
+[1;37m(null)                        :[0m i/o =   64/16724  lat =    0  and =  74417  lev =199
+[1;37m(null)                        :[0m i/o =   64/16724  lat =    0  and =  44102  lev =138
+finish SAT sweeping the skeleton network
+n217_app(153), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8326  lev = 53
+Execute abc command: w ./result/mult32/mhd32/6.blif
+current runtime = 938.25s
+---------- round 7---------- 
+#nodes = 8326
+#internal nodes = 8268
+#internal nodes using exact PBDs = 33.072
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16716  lat =    0  and =  81823  lev =199
+[1;37m(null)                        :[0m i/o =   64/16716  lat =    0  and =  73767  lev =199
+[1;37m(null)                        :[0m i/o =   64/16716  lat =    0  and =  42656  lev =140
+finish SAT sweeping the skeleton network
+n264_app(200), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8321  lev = 53
+Execute abc command: w ./result/mult32/mhd32/7.blif
+current runtime = 1088.03s
+---------- round 8---------- 
+#nodes = 8321
+#internal nodes = 8264
+#internal nodes using exact PBDs = 33.056
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16706  lat =    0  and =  81063  lev =199
+[1;37m(null)                        :[0m i/o =   64/16706  lat =    0  and =  73025  lev =199
+[1;37m(null)                        :[0m i/o =   64/16706  lat =    0  and =  42808  lev =139
+finish SAT sweeping the skeleton network
+n314_app(250), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8319  lev = 53
+Execute abc command: w ./result/mult32/mhd32/8.blif
+current runtime = 1226.09s
+---------- round 9---------- 
+#nodes = 8319
+#internal nodes = 8263
+#internal nodes using exact PBDs = 33.052
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16702  lat =    0  and =  81417  lev =199
+[1;37m(null)                        :[0m i/o =   64/16702  lat =    0  and =  73368  lev =199
+[1;37m(null)                        :[0m i/o =   64/16702  lat =    0  and =  43726  lev =140
+finish SAT sweeping the skeleton network
+n382_app(318), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8312  lev = 53
+Execute abc command: w ./result/mult32/mhd32/9.blif
+current runtime = 1382.38s
+---------- round 10---------- 
+#nodes = 8312
+#internal nodes = 8257
+#internal nodes using exact PBDs = 33.028
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16688  lat =    0  and =  81355  lev =199
+[1;37m(null)                        :[0m i/o =   64/16688  lat =    0  and =  73317  lev =199
+[1;37m(null)                        :[0m i/o =   64/16688  lat =    0  and =  43697  lev =139
+finish SAT sweeping the skeleton network
+n377_app(313), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8308  lev = 53
+Execute abc command: w ./result/mult32/mhd32/10.blif
+current runtime = 1528.68s
+---------- round 11---------- 
+#nodes = 8308
+#internal nodes = 8254
+#internal nodes using exact PBDs = 33.016
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16680  lat =    0  and =  80861  lev =199
+[1;37m(null)                        :[0m i/o =   64/16680  lat =    0  and =  72812  lev =199
+[1;37m(null)                        :[0m i/o =   64/16680  lat =    0  and =  43367  lev =141
+finish SAT sweeping the skeleton network
+n533_app(469), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8306  lev = 53
+Execute abc command: w ./result/mult32/mhd32/11.blif
+current runtime = 1672.12s
+---------- round 12---------- 
+#nodes = 8306
+#internal nodes = 8253
+#internal nodes using exact PBDs = 33.012
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16676  lat =    0  and =  80840  lev =199
+[1;37m(null)                        :[0m i/o =   64/16676  lat =    0  and =  72802  lev =199
+[1;37m(null)                        :[0m i/o =   64/16676  lat =    0  and =  43524  lev =140
+finish SAT sweeping the skeleton network
+n629_app(565), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8303  lev = 53
+Execute abc command: w ./result/mult32/mhd32/12.blif
+current runtime = 1811.87s
+---------- round 13---------- 
+#nodes = 8303
+#internal nodes = 8251
+#internal nodes using exact PBDs = 33.004
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16670  lat =    0  and =  80224  lev =199
+[1;37m(null)                        :[0m i/o =   64/16670  lat =    0  and =  72176  lev =199
+[1;37m(null)                        :[0m i/o =   64/16670  lat =    0  and =  43474  lev =140
+finish SAT sweeping the skeleton network
+n728_app(664), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8300  lev = 52
+Execute abc command: w ./result/mult32/mhd32/13.blif
+current runtime = 1952.15s
+---------- round 14---------- 
+#nodes = 8300
+#internal nodes = 8249
+#internal nodes using exact PBDs = 32.996
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16664  lat =    0  and =  80067  lev =199
+[1;37m(null)                        :[0m i/o =   64/16664  lat =    0  and =  72035  lev =199
+[1;37m(null)                        :[0m i/o =   64/16664  lat =    0  and =  44007  lev =140
+finish SAT sweeping the skeleton network
+n833_app(769), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8296  lev = 52
+Execute abc command: w ./result/mult32/mhd32/14.blif
+current runtime = 2093.78s
+---------- round 15---------- 
+#nodes = 8296
+#internal nodes = 8246
+#internal nodes using exact PBDs = 32.984
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16656  lat =    0  and =  80198  lev =198
+[1;37m(null)                        :[0m i/o =   64/16656  lat =    0  and =  72156  lev =198
+[1;37m(null)                        :[0m i/o =   64/16656  lat =    0  and =  44485  lev =140
+finish SAT sweeping the skeleton network
+n949_app(885), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8294  lev = 52
+Execute abc command: w ./result/mult32/mhd32/15.blif
+current runtime = 2232.71s
+---------- round 16---------- 
+#nodes = 8294
+#internal nodes = 8245
+#internal nodes using exact PBDs = 32.98
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16652  lat =    0  and =  80084  lev =198
+[1;37m(null)                        :[0m i/o =   64/16652  lat =    0  and =  72054  lev =198
+[1;37m(null)                        :[0m i/o =   64/16652  lat =    0  and =  44429  lev =140
+finish SAT sweeping the skeleton network
+n949_app(885), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8288  lev = 52
+Execute abc command: w ./result/mult32/mhd32/16.blif
+current runtime = 2375.76s
+---------- round 17---------- 
+#nodes = 8288
+#internal nodes = 8239
+#internal nodes using exact PBDs = 32.956
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16640  lat =    0  and =  79639  lev =199
+[1;37m(null)                        :[0m i/o =   64/16640  lat =    0  and =  71610  lev =199
+[1;37m(null)                        :[0m i/o =   64/16640  lat =    0  and =  43726  lev =140
+finish SAT sweeping the skeleton network
+n1067_app(1003), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8287  lev = 52
+Execute abc command: w ./result/mult32/mhd32/17.blif
+current runtime = 2509.72s
+---------- round 18---------- 
+#nodes = 8287
+#internal nodes = 8239
+#internal nodes using exact PBDs = 32.956
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16638  lat =    0  and =  78970  lev =199
+[1;37m(null)                        :[0m i/o =   64/16638  lat =    0  and =  70931  lev =199
+[1;37m(null)                        :[0m i/o =   64/16638  lat =    0  and =  43341  lev =141
+finish SAT sweeping the skeleton network
+n1203_app(1139), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8285  lev = 52
+Execute abc command: w ./result/mult32/mhd32/18.blif
+current runtime = 2644.8s
+---------- round 19---------- 
+#nodes = 8285
+#internal nodes = 8238
+#internal nodes using exact PBDs = 32.952
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16634  lat =    0  and =  78878  lev =199
+[1;37m(null)                        :[0m i/o =   64/16634  lat =    0  and =  70850  lev =199
+[1;37m(null)                        :[0m i/o =   64/16634  lat =    0  and =  43997  lev =155
+finish SAT sweeping the skeleton network
+n1339_app(1275), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8283  lev = 52
+Execute abc command: w ./result/mult32/mhd32/19.blif
+current runtime = 2775.24s
+---------- round 20---------- 
+#nodes = 8283
+#internal nodes = 8236
+#internal nodes using exact PBDs = 32.944
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16630  lat =    0  and =  78232  lev =202
+[1;37m(null)                        :[0m i/o =   64/16630  lat =    0  and =  70193  lev =202
+[1;37m(null)                        :[0m i/o =   64/16630  lat =    0  and =  43385  lev =155
+finish SAT sweeping the skeleton network
+n1340_app(1276), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8282  lev = 52
+Execute abc command: w ./result/mult32/mhd32/20.blif
+current runtime = 2897.78s
+---------- round 21---------- 
+#nodes = 8282
+#internal nodes = 8236
+#internal nodes using exact PBDs = 32.944
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16628  lat =    0  and =  78388  lev =199
+[1;37m(null)                        :[0m i/o =   64/16628  lat =    0  and =  70360  lev =199
+[1;37m(null)                        :[0m i/o =   64/16628  lat =    0  and =  43968  lev =155
+finish SAT sweeping the skeleton network
+n1491_app(1427), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8280  lev = 52
+Execute abc command: w ./result/mult32/mhd32/21.blif
+current runtime = 3024.44s
+---------- round 22---------- 
+#nodes = 8280
+#internal nodes = 8235
+#internal nodes using exact PBDs = 32.94
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16624  lat =    0  and =  78509  lev =199
+[1;37m(null)                        :[0m i/o =   64/16624  lat =    0  and =  70470  lev =199
+[1;37m(null)                        :[0m i/o =   64/16624  lat =    0  and =  44345  lev =155
+finish SAT sweeping the skeleton network
+n1202_app(1138), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8274  lev = 52
+Execute abc command: w ./result/mult32/mhd32/22.blif
+current runtime = 3162.78s
+---------- round 23---------- 
+#nodes = 8274
+#internal nodes = 8229
+#internal nodes using exact PBDs = 32.916
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16612  lat =    0  and =  77480  lev =199
+[1;37m(null)                        :[0m i/o =   64/16612  lat =    0  and =  69457  lev =199
+[1;37m(null)                        :[0m i/o =   64/16612  lat =    0  and =  42962  lev =155
+finish SAT sweeping the skeleton network
+n1474_app(1410), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8271  lev = 52
+Execute abc command: w ./result/mult32/mhd32/23.blif
+current runtime = 3283.43s
+---------- round 24---------- 
+#nodes = 8271
+#internal nodes = 8226
+#internal nodes using exact PBDs = 32.904
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16606  lat =    0  and =  77990  lev =199
+[1;37m(null)                        :[0m i/o =   64/16606  lat =    0  and =  69967  lev =199
+[1;37m(null)                        :[0m i/o =   64/16606  lat =    0  and =  43658  lev =155
+finish SAT sweeping the skeleton network
+n1604_app(1540), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8269  lev = 52
+Execute abc command: w ./result/mult32/mhd32/24.blif
+current runtime = 3402.93s
+---------- round 25---------- 
+#nodes = 8269
+#internal nodes = 8225
+#internal nodes using exact PBDs = 32.9
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16602  lat =    0  and =  77216  lev =199
+[1;37m(null)                        :[0m i/o =   64/16602  lat =    0  and =  69182  lev =199
+[1;37m(null)                        :[0m i/o =   64/16602  lat =    0  and =  42783  lev =155
+finish SAT sweeping the skeleton network
+n1805_app(1741), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8267  lev = 52
+Execute abc command: w ./result/mult32/mhd32/25.blif
+current runtime = 3517.69s
+---------- round 26---------- 
+#nodes = 8267
+#internal nodes = 8224
+#internal nodes using exact PBDs = 32.896
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16598  lat =    0  and =  77314  lev =199
+[1;37m(null)                        :[0m i/o =   64/16598  lat =    0  and =  69291  lev =199
+[1;37m(null)                        :[0m i/o =   64/16598  lat =    0  and =  42964  lev =155
+finish SAT sweeping the skeleton network
+n1972_app(1908), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8265  lev = 52
+Execute abc command: w ./result/mult32/mhd32/26.blif
+current runtime = 3636.36s
+---------- round 27---------- 
+#nodes = 8265
+#internal nodes = 8222
+#internal nodes using exact PBDs = 32.888
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16594  lat =    0  and =  77480  lev =199
+[1;37m(null)                        :[0m i/o =   64/16594  lat =    0  and =  69446  lev =199
+[1;37m(null)                        :[0m i/o =   64/16594  lat =    0  and =  43467  lev =155
+finish SAT sweeping the skeleton network
+n1973_app(1909), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8264  lev = 52
+Execute abc command: w ./result/mult32/mhd32/27.blif
+current runtime = 3760.53s
+---------- round 28---------- 
+#nodes = 8264
+#internal nodes = 8222
+#internal nodes using exact PBDs = 32.888
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16592  lat =    0  and =  77523  lev =199
+[1;37m(null)                        :[0m i/o =   64/16592  lat =    0  and =  69500  lev =199
+[1;37m(null)                        :[0m i/o =   64/16592  lat =    0  and =  43853  lev =158
+finish SAT sweeping the skeleton network
+n2150_app(2086), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8262  lev = 52
+Execute abc command: w ./result/mult32/mhd32/28.blif
+current runtime = 3887.42s
+---------- round 29---------- 
+#nodes = 8262
+#internal nodes = 8221
+#internal nodes using exact PBDs = 32.884
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16588  lat =    0  and =  76579  lev =199
+[1;37m(null)                        :[0m i/o =   64/16588  lat =    0  and =  68545  lev =199
+[1;37m(null)                        :[0m i/o =   64/16588  lat =    0  and =  42762  lev =155
+finish SAT sweeping the skeleton network
+n1804_app(1740), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8259  lev = 52
+Execute abc command: w ./result/mult32/mhd32/29.blif
+current runtime = 4011.43s
+---------- round 30---------- 
+#nodes = 8259
+#internal nodes = 8218
+#internal nodes using exact PBDs = 32.872
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16582  lat =    0  and =  76915  lev =199
+[1;37m(null)                        :[0m i/o =   64/16582  lat =    0  and =  68897  lev =199
+[1;37m(null)                        :[0m i/o =   64/16582  lat =    0  and =  43642  lev =155
+finish SAT sweeping the skeleton network
+n2101_app(2037), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8255  lev = 52
+Execute abc command: w ./result/mult32/mhd32/30.blif
+current runtime = 4135.26s
+---------- round 31---------- 
+#nodes = 8255
+#internal nodes = 8214
+#internal nodes using exact PBDs = 32.856
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16574  lat =    0  and =  76144  lev =199
+[1;37m(null)                        :[0m i/o =   64/16574  lat =    0  and =  68115  lev =199
+[1;37m(null)                        :[0m i/o =   64/16574  lat =    0  and =  43107  lev =155
+finish SAT sweeping the skeleton network
+n2282_app(2218), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8248  lev = 52
+Execute abc command: w ./result/mult32/mhd32/31.blif
+current runtime = 4261.56s
+---------- round 32---------- 
+#nodes = 8248
+#internal nodes = 8208
+#internal nodes using exact PBDs = 32.832
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16560  lat =    0  and =  75942  lev =199
+[1;37m(null)                        :[0m i/o =   64/16560  lat =    0  and =  67924  lev =199
+[1;37m(null)                        :[0m i/o =   64/16560  lat =    0  and =  43348  lev =155
+finish SAT sweeping the skeleton network
+n2524_app(2460), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8246  lev = 52
+Execute abc command: w ./result/mult32/mhd32/32.blif
+current runtime = 4383.55s
+---------- round 33---------- 
+#nodes = 8246
+#internal nodes = 8207
+#internal nodes using exact PBDs = 32.828
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16556  lat =    0  and =  76115  lev =199
+[1;37m(null)                        :[0m i/o =   64/16556  lat =    0  and =  68108  lev =199
+[1;37m(null)                        :[0m i/o =   64/16556  lat =    0  and =  44493  lev =155
+finish SAT sweeping the skeleton network
+n2524_app(2460), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8242  lev = 52
+Execute abc command: w ./result/mult32/mhd32/33.blif
+current runtime = 4480.84s
+---------- round 34---------- 
+#nodes = 8242
+#internal nodes = 8204
+#internal nodes using exact PBDs = 32.816
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16548  lat =    0  and =  76166  lev =199
+[1;37m(null)                        :[0m i/o =   64/16548  lat =    0  and =  68148  lev =199
+[1;37m(null)                        :[0m i/o =   64/16548  lat =    0  and =  45357  lev =155
+finish SAT sweeping the skeleton network
+n2938_app(2874), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8240  lev = 52
+Execute abc command: w ./result/mult32/mhd32/34.blif
+current runtime = 4593.48s
+---------- round 35---------- 
+#nodes = 8240
+#internal nodes = 8203
+#internal nodes using exact PBDs = 32.812
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16544  lat =    0  and =  75302  lev =199
+[1;37m(null)                        :[0m i/o =   64/16544  lat =    0  and =  67295  lev =199
+[1;37m(null)                        :[0m i/o =   64/16544  lat =    0  and =  44910  lev =155
+finish SAT sweeping the skeleton network
+n2523_app(2459), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8237  lev = 52
+Execute abc command: w ./result/mult32/mhd32/35.blif
+current runtime = 4712.51s
+---------- round 36---------- 
+#nodes = 8237
+#internal nodes = 8200
+#internal nodes using exact PBDs = 32.8
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16538  lat =    0  and =  75287  lev =199
+[1;37m(null)                        :[0m i/o =   64/16538  lat =    0  and =  67272  lev =199
+[1;37m(null)                        :[0m i/o =   64/16538  lat =    0  and =  44973  lev =155
+finish SAT sweeping the skeleton network
+n2873_app(2809), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8234  lev = 52
+Execute abc command: w ./result/mult32/mhd32/36.blif
+current runtime = 4824.16s
+---------- round 37---------- 
+#nodes = 8234
+#internal nodes = 8197
+#internal nodes using exact PBDs = 32.788
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16532  lat =    0  and =  74680  lev =199
+[1;37m(null)                        :[0m i/o =   64/16532  lat =    0  and =  66665  lev =199
+[1;37m(null)                        :[0m i/o =   64/16532  lat =    0  and =  44453  lev =155
+finish SAT sweeping the skeleton network
+n3079_app(3015), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8232  lev = 52
+Execute abc command: w ./result/mult32/mhd32/37.blif
+current runtime = 4925.73s
+---------- round 38---------- 
+#nodes = 8232
+#internal nodes = 8196
+#internal nodes using exact PBDs = 32.784
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16528  lat =    0  and =  74036  lev =199
+[1;37m(null)                        :[0m i/o =   64/16528  lat =    0  and =  66029  lev =199
+[1;37m(null)                        :[0m i/o =   64/16528  lat =    0  and =  43853  lev =155
+finish SAT sweeping the skeleton network
+n3152_app(3088), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8230  lev = 52
+Execute abc command: w ./result/mult32/mhd32/38.blif
+current runtime = 5018.29s
+---------- round 39---------- 
+#nodes = 8230
+#internal nodes = 8194
+#internal nodes using exact PBDs = 32.776
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16524  lat =    0  and =  73840  lev =199
+[1;37m(null)                        :[0m i/o =   64/16524  lat =    0  and =  65825  lev =199
+[1;37m(null)                        :[0m i/o =   64/16524  lat =    0  and =  44423  lev =157
+finish SAT sweeping the skeleton network
+n3317_app(3253), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8228  lev = 52
+Execute abc command: w ./result/mult32/mhd32/39.blif
+current runtime = 5137.09s
+---------- round 40---------- 
+#nodes = 8228
+#internal nodes = 8193
+#internal nodes using exact PBDs = 32.772
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16520  lat =    0  and =  74108  lev =199
+[1;37m(null)                        :[0m i/o =   64/16520  lat =    0  and =  66101  lev =199
+[1;37m(null)                        :[0m i/o =   64/16520  lat =    0  and =  44808  lev =157
+finish SAT sweeping the skeleton network
+n3317_app(3253), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8224  lev = 52
+Execute abc command: w ./result/mult32/mhd32/40.blif
+current runtime = 5261.55s
+---------- round 41---------- 
+#nodes = 8224
+#internal nodes = 8190
+#internal nodes using exact PBDs = 32.76
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16512  lat =    0  and =  73832  lev =199
+[1;37m(null)                        :[0m i/o =   64/16512  lat =    0  and =  65817  lev =199
+[1;37m(null)                        :[0m i/o =   64/16512  lat =    0  and =  44652  lev =157
+finish SAT sweeping the skeleton network
+n3784_app(3720), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8222  lev = 52
+Execute abc command: w ./result/mult32/mhd32/41.blif
+current runtime = 5364.53s
+---------- round 42---------- 
+#nodes = 8222
+#internal nodes = 8189
+#internal nodes using exact PBDs = 32.756
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16508  lat =    0  and =  74606  lev =199
+[1;37m(null)                        :[0m i/o =   64/16508  lat =    0  and =  66599  lev =199
+[1;37m(null)                        :[0m i/o =   64/16508  lat =    0  and =  45912  lev =157
+finish SAT sweeping the skeleton network
+n3316_app(3252), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8219  lev = 52
+Execute abc command: w ./result/mult32/mhd32/42.blif
+current runtime = 5490.49s
+---------- round 43---------- 
+#nodes = 8219
+#internal nodes = 8186
+#internal nodes using exact PBDs = 32.744
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16502  lat =    0  and =  73325  lev =199
+[1;37m(null)                        :[0m i/o =   64/16502  lat =    0  and =  65314  lev =199
+[1;37m(null)                        :[0m i/o =   64/16502  lat =    0  and =  44403  lev =157
+finish SAT sweeping the skeleton network
+n3758_app(3694), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8216  lev = 52
+Execute abc command: w ./result/mult32/mhd32/43.blif
+current runtime = 5598.5s
+---------- round 44---------- 
+#nodes = 8216
+#internal nodes = 8183
+#internal nodes using exact PBDs = 32.732
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16496  lat =    0  and =  72464  lev =199
+[1;37m(null)                        :[0m i/o =   64/16496  lat =    0  and =  64457  lev =199
+[1;37m(null)                        :[0m i/o =   64/16496  lat =    0  and =  44251  lev =157
+finish SAT sweeping the skeleton network
+n3996_app(3932), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8214  lev = 52
+Execute abc command: w ./result/mult32/mhd32/44.blif
+current runtime = 5693.49s
+---------- round 45---------- 
+#nodes = 8214
+#internal nodes = 8182
+#internal nodes using exact PBDs = 32.728
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16492  lat =    0  and =  73178  lev =199
+[1;37m(null)                        :[0m i/o =   64/16492  lat =    0  and =  65172  lev =199
+[1;37m(null)                        :[0m i/o =   64/16492  lat =    0  and =  45284  lev =157
+finish SAT sweeping the skeleton network
+n140_app(76), const0 (simulation)
+n157_app(93), const0 (simulation)
+n158_app(94), const0 (simulation)
+n183_app(119), const0 (simulation)
+n184_app(120), const0 (simulation)
+n215_app(151), const1 (simulation)
+n216_app(152), const0 (simulation)
+n254_app(190), const0 (simulation)
+n257_app(193), const0 (simulation)
+n258_app(194), const0 (simulation)
+n259_app(195), const0 (simulation)
+n306_app(242), const0 (simulation)
+n307_app(243), const0 (simulation)
+n308_app(244), const0 (simulation)
+n372_app(308), const0 (simulation)
+n373_app(309), const0 (simulation)
+n375_app(311), const0 (simulation)
+n438_app(374), const0 (simulation)
+n440_app(376), const0 (simulation)
+n441_app(377), const0 (simulation)
+n442_app(378), const0 (simulation)
+n443_app(379), const0 (simulation)
+n444_app(380), const0 (simulation)
+n516_app(452), const0 (simulation)
+n517_app(453), const0 (simulation)
+n526_app(462), const0 (simulation)
+n527_app(463), const0 (simulation)
+n529_app(465), const0 (simulation)
+n530_app(466), const0 (simulation)
+n531_app(467), const0 (simulation)
+n532_app(468), const1 (simulation)
+n625_app(561), const0 (simulation)
+n626_app(562), const0 (simulation)
+n627_app(563), const1 (simulation)
+n716_app(652), const0 (simulation)
+n718_app(654), const0 (simulation)
+n721_app(657), const0 (simulation)
+n725_app(661), const0 (simulation)
+n726_app(662), const0 (simulation)
+n728_app(664), const0 (simulation)
+n823_app(759), const0 (simulation)
+n825_app(761), const0 (simulation)
+n831_app(767), const0 (simulation)
+n936_app(872), const0 (simulation)
+n938_app(874), const0 (simulation)
+n1296_app(1232), const0 (simulation)
+n1297_app(1233), const0 (simulation)
+n1450_app(1386), const0 (simulation)
+n1451_app(1387), const0 (simulation)
+n1595_app(1531), const0 (simulation)
+n1596_app(1532), const0 (simulation)
+n1598_app(1534), const1 (simulation)
+n1599_app(1535), const0 (simulation)
+n1600_app(1536), const0 (simulation)
+n1601_app(1537), const1 (simulation)
+n1602_app(1538), const0 (simulation)
+n1603_app(1539), const0 (simulation)
+n2087_app(2023), const0 (simulation)
+n2088_app(2024), const0 (simulation)
+n2092_app(2028), const1 (simulation)
+n2094_app(2030), const0 (simulation)
+n2099_app(2035), const0 (simulation)
+n2457_app(2393), const0 (simulation)
+n2653_app(2589), const0 (simulation)
+n3070_app(3006), const1 (simulation)
+n3073_app(3009), const0 (simulation)
+n3079_app(3015), const1 (simulation)
+n3293_app(3229), const0 (simulation)
+n3518_app(3454), const0 (simulation)
+n4237_app(4173), const1 (simulation)
+n4238_app(4174), const0 (simulation)
+n4239_app(4175), const1 (simulation)
+n4240_app(4176), const0 (simulation)
+n4241_app(4177), const0 (simulation)
+n4242_app(4178), const0 (simulation)
+n4243_app(4179), const0 (simulation)
+n4252_app(4188), const0 (simulation)
+n4253_app(4189), const0 (simulation)
+n4254_app(4190), const0 (simulation)
+n4255_app(4191), const0 (simulation)
+n4256_app(4192), const0 (simulation)
+n4257_app(4193), const0 (simulation)
+n4258_app(4194), const0 (simulation)
+n4260_app(4196), const0 (simulation)
+n4261_app(4197), const0 (simulation)
+n4265_app(4201), const0 (simulation)
+n4268_app(4204), const0 (simulation)
+n4273_app(4209), const0 (simulation)
+n4274_app(4210), const0 (simulation)
+n4275_app(4211), const0 (simulation)
+n4276_app(4212), const0 (simulation)
+n4277_app(4213), const1 (simulation)
+n4278_app(4214), const1 (simulation)
+n4279_app(4215), const1 (simulation)
+n4291_app(4227), const0 (simulation)
+n4292_app(4228), const0 (simulation)
+n4293_app(4229), const0 (simulation)
+n4295_app(4231), const0 (simulation)
+n4296_app(4232), const1 (simulation)
+n4315_app(4251), const0 (simulation)
+n4318_app(4254), const0 (simulation)
+n4322_app(4258), const0 (simulation)
+n4323_app(4259), const0 (simulation)
+n4324_app(4260), const0 (simulation)
+n4327_app(4263), const0 (simulation)
+n4332_app(4268), const0 (simulation)
+n4337_app(4273), const0 (simulation)
+n4338_app(4274), const0 (simulation)
+n4573_app(4509), const0 (simulation)
+n4574_app(4510), const0 (simulation)
+n4575_app(4511), const0 (simulation)
+n4576_app(4512), const0 (simulation)
+n4809_app(4745), const0 (simulation)
+n4810_app(4746), const0 (simulation)
+n4811_app(4747), const0 (simulation)
+n5033_app(4969), const0 (simulation)
+n5034_app(4970), const0 (simulation)
+n5035_app(4971), const0 (simulation)
+n5263_app(5199), const0 (simulation)
+n5264_app(5200), const0 (simulation)
+n5474_app(5410), const0 (simulation)
+n5475_app(5411), const0 (simulation)
+n5476_app(5412), const0 (simulation)
+n5477_app(5413), const1 (simulation)
+n5645_app(5581), const0 (simulation)
+n5675_app(5611), const0 (simulation)
+n5680_app(5616), const0 (simulation)
+n5681_app(5617), const0 (simulation)
+n5682_app(5618), const0 (simulation)
+n5875_app(5811), const0 (simulation)
+n5876_app(5812), const0 (simulation)
+n5877_app(5813), const0 (simulation)
+n6080_app(6016), const0 (simulation)
+n6081_app(6017), const0 (simulation)
+n6260_app(6196), const0 (simulation)
+n6261_app(6197), const0 (simulation)
+n6262_app(6198), const0 (simulation)
+n6434_app(6370), const0 (simulation)
+n6435_app(6371), const0 (simulation)
+n6436_app(6372), const0 (simulation)
+n6600_app(6536), const0 (simulation)
+n6601_app(6537), const0 (simulation)
+n6602_app(6538), const0 (simulation)
+n6770_app(6706), const0 (simulation)
+n6771_app(6707), const0 (simulation)
+n6772_app(6708), const0 (simulation)
+n6920_app(6856), const0 (simulation)
+n6921_app(6857), const0 (simulation)
+n6922_app(6858), const0 (simulation)
+n7068_app(7004), const0 (simulation)
+n7069_app(7005), const0 (simulation)
+n7070_app(7006), const0 (simulation)
+n7202_app(7138), const0 (simulation)
+n7203_app(7139), const0 (simulation)
+n7204_app(7140), const0 (simulation)
+n7205_app(7141), const0 (simulation)
+n7206_app(7142), const0 (simulation)
+n7207_app(7143), const0 (simulation)
+n7208_app(7144), const0 (simulation)
+n7209_app(7145), const0 (simulation)
+n7210_app(7146), const0 (simulation)
+n7212_app(7148), const0 (simulation)
+n7213_app(7149), const0 (simulation)
+n7343_app(7279), const0 (simulation)
+n7344_app(7280), const0 (simulation)
+n7345_app(7281), const0 (simulation)
+n7464_app(7400), const0 (simulation)
+n7465_app(7401), const0 (simulation)
+n7466_app(7402), const0 (simulation)
+n7583_app(7519), const0 (simulation)
+n7584_app(7520), const0 (simulation)
+n7585_app(7521), const0 (simulation)
+n7686_app(7622), const0 (simulation)
+n7687_app(7623), const0 (simulation)
+n7688_app(7624), const0 (simulation)
+n7778_app(7714), const1 (simulation)
+n7780_app(7716), const0 (simulation)
+n7787_app(7723), const0 (simulation)
+n7788_app(7724), const0 (simulation)
+n7790_app(7726), const0 (simulation)
+n7791_app(7727), const0 (simulation)
+n7792_app(7728), const0 (simulation)
+n7874_app(7810), const0 (simulation)
+n7875_app(7811), const0 (simulation)
+n7876_app(7812), const0 (simulation)
+n7957_app(7893), const0 (simulation)
+n7958_app(7894), const0 (simulation)
+n7959_app(7895), const0 (simulation)
+n8027_app(7963), const0 (simulation)
+n8028_app(7964), const0 (simulation)
+n8029_app(7965), const0 (simulation)
+n8030_app(7966), const0 (simulation)
+n8031_app(7967), const0 (simulation)
+n8032_app(7968), const0 (simulation)
+n8033_app(7969), const0 (simulation)
+n8034_app(7970), const0 (simulation)
+n8035_app(7971), const0 (simulation)
+n8036_app(7972), const0 (simulation)
+n8037_app(7973), const0 (simulation)
+n8038_app(7974), const0 (simulation)
+n8039_app(7975), const0 (simulation)
+n8040_app(7976), const0 (simulation)
+n8075_app(8011), const0 (simulation)
+n8077_app(8013), const1 (simulation)
+n8085_app(8021), const0 (simulation)
+n8087_app(8023), const0 (simulation)
+n8099_app(8035), const0 (simulation)
+n8100_app(8036), const0 (simulation)
+n8101_app(8037), const0 (simulation)
+n8142_app(8078), const0 (simulation)
+n8144_app(8080), const0 (simulation)
+n8156_app(8092), const0 (simulation)
+n8157_app(8093), const0 (simulation)
+n8158_app(8094), const0 (simulation)
+n8194_app(8130), const0 (simulation)
+n8196_app(8132), const0 (simulation)
+n8214_app(8150), const0 (simulation)
+n8215_app(8151), const0 (simulation)
+n8216_app(8152), const0 (simulation)
+n8240_app(8176), const0 (simulation)
+n8241_app(8177), const0 (simulation)
+n8255_app(8191), const0 (simulation)
+n8256_app(8192), const0 (simulation)
+n8257_app(8193), const0 (simulation)
+n8297_app(8233), const0 (simulation)
+n8298_app(8234), const0 (simulation)
+n8299_app(8235), const0 (simulation)
+n8319_app(8255), const0 (simulation)
+n8320_app(8256), const0 (simulation)
+n8321_app(8257), const0 (simulation)
+n8337_app(8273), const0 (simulation)
+n8338_app(8274), const0 (simulation)
+n8339_app(8275), const0 (simulation)
+n8340_app(8276), const0 (simulation)
+n8341_app(8277), const0 (simulation)
+n8342_app(8278), const0 (simulation)
+[1;37m(null)                        :[0m i/o =   64/16728  lat =    0  and =  45510  lev =157
+[1;37m(null)                        :[0m i/o =   64/16728  lat =    0  and =  45510  lev =157
+[1;37m(null)                        :[0m i/o =   64/16728  lat =    0  and =  45444  lev =157
+ver_dF_n443_app*const0(16578):n0(0),0 1
+n443_app(379), replace it by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8212  lev = 52
+Execute abc command: w ./result/mult32/mhd32/45.blif
+current runtime = 5848.94s
+---------- round 46---------- 
+#nodes = 8212
+#internal nodes = 8180
+#internal nodes using exact PBDs = 32.72
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16488  lat =    0  and =  73502  lev =199
+[1;37m(null)                        :[0m i/o =   64/16488  lat =    0  and =  65498  lev =199
+[1;37m(null)                        :[0m i/o =   64/16488  lat =    0  and =  45455  lev =157
+finish SAT sweeping the skeleton network
+n140_app(76), const0 (simulation)
+n157_app(93), const0 (simulation)
+n158_app(94), const0 (simulation)
+n183_app(119), const0 (simulation)
+n184_app(120), const0 (simulation)
+n215_app(151), const1 (simulation)
+n216_app(152), const0 (simulation)
+n254_app(190), const0 (simulation)
+n257_app(193), const0 (simulation)
+n258_app(194), const0 (simulation)
+n259_app(195), const0 (simulation)
+n308_app(244), const0 (simulation)
+n372_app(308), const0 (simulation)
+n373_app(309), const0 (simulation)
+n375_app(311), const0 (simulation)
+n441_app(377), const0 (simulation)
+n442_app(378), const0 (simulation)
+n514_app(450), const0 (simulation)
+n515_app(451), const0 (simulation)
+n524_app(460), const0 (simulation)
+n525_app(461), const0 (simulation)
+n527_app(463), const0 (simulation)
+n528_app(464), const0 (simulation)
+n529_app(465), const0 (simulation)
+n530_app(466), const1 (simulation)
+n531_app(467), const0 (simulation)
+n613_app(549), const0 (simulation)
+n615_app(551), const0 (simulation)
+n623_app(559), const0 (simulation)
+n624_app(560), const0 (simulation)
+n625_app(561), const1 (simulation)
+n714_app(650), const0 (simulation)
+n716_app(652), const0 (simulation)
+n719_app(655), const0 (simulation)
+n723_app(659), const0 (simulation)
+n724_app(660), const0 (simulation)
+n726_app(662), const0 (simulation)
+n734_app(670), const0 (simulation)
+n821_app(757), const0 (simulation)
+n823_app(759), const0 (simulation)
+n829_app(765), const0 (simulation)
+n934_app(870), const0 (simulation)
+n936_app(872), const0 (simulation)
+n1294_app(1230), const0 (simulation)
+n1295_app(1231), const0 (simulation)
+n1448_app(1384), const0 (simulation)
+n1449_app(1385), const0 (simulation)
+n1593_app(1529), const0 (simulation)
+n1594_app(1530), const0 (simulation)
+n1596_app(1532), const1 (simulation)
+n1597_app(1533), const0 (simulation)
+n1598_app(1534), const0 (simulation)
+n1599_app(1535), const1 (simulation)
+n1600_app(1536), const0 (simulation)
+n1601_app(1537), const0 (simulation)
+n2085_app(2021), const0 (simulation)
+n2086_app(2022), const0 (simulation)
+n2088_app(2024), const0 (simulation)
+n2090_app(2026), const1 (simulation)
+n2092_app(2028), const0 (simulation)
+n2097_app(2033), const0 (simulation)
+n2100_app(2036), const0 (simulation)
+n2105_app(2041), const0 (simulation)
+n2455_app(2391), const0 (simulation)
+n3068_app(3004), const1 (simulation)
+n3071_app(3007), const0 (simulation)
+n3077_app(3013), const1 (simulation)
+n3291_app(3227), const0 (simulation)
+n3517_app(3453), const0 (simulation)
+n4235_app(4171), const1 (simulation)
+n4236_app(4172), const0 (simulation)
+n4237_app(4173), const1 (simulation)
+n4238_app(4174), const0 (simulation)
+n4239_app(4175), const0 (simulation)
+n4240_app(4176), const0 (simulation)
+n4241_app(4177), const0 (simulation)
+n4250_app(4186), const0 (simulation)
+n4251_app(4187), const0 (simulation)
+n4252_app(4188), const0 (simulation)
+n4253_app(4189), const0 (simulation)
+n4254_app(4190), const0 (simulation)
+n4255_app(4191), const0 (simulation)
+n4256_app(4192), const0 (simulation)
+n4258_app(4194), const0 (simulation)
+n4259_app(4195), const0 (simulation)
+n4263_app(4199), const0 (simulation)
+n4266_app(4202), const0 (simulation)
+n4271_app(4207), const0 (simulation)
+n4272_app(4208), const0 (simulation)
+n4273_app(4209), const0 (simulation)
+n4274_app(4210), const0 (simulation)
+n4275_app(4211), const1 (simulation)
+n4276_app(4212), const1 (simulation)
+n4277_app(4213), const1 (simulation)
+n4289_app(4225), const0 (simulation)
+n4290_app(4226), const0 (simulation)
+n4291_app(4227), const0 (simulation)
+n4293_app(4229), const0 (simulation)
+n4294_app(4230), const1 (simulation)
+n4314_app(4250), const0 (simulation)
+n4317_app(4253), const0 (simulation)
+n4320_app(4256), const0 (simulation)
+n4321_app(4257), const0 (simulation)
+n4322_app(4258), const0 (simulation)
+n4325_app(4261), const0 (simulation)
+n4330_app(4266), const0 (simulation)
+n4335_app(4271), const0 (simulation)
+n4336_app(4272), const0 (simulation)
+n4572_app(4508), const0 (simulation)
+n4573_app(4509), const0 (simulation)
+n4574_app(4510), const0 (simulation)
+n4807_app(4743), const0 (simulation)
+n4808_app(4744), const0 (simulation)
+n4809_app(4745), const0 (simulation)
+n5031_app(4967), const0 (simulation)
+n5032_app(4968), const0 (simulation)
+n5033_app(4969), const0 (simulation)
+n5225_app(5161), const0 (simulation)
+n5261_app(5197), const0 (simulation)
+n5262_app(5198), const0 (simulation)
+n5472_app(5408), const0 (simulation)
+n5473_app(5409), const0 (simulation)
+n5474_app(5410), const0 (simulation)
+n5678_app(5614), const0 (simulation)
+n5679_app(5615), const0 (simulation)
+n5680_app(5616), const0 (simulation)
+n5873_app(5809), const0 (simulation)
+n5874_app(5810), const0 (simulation)
+n5875_app(5811), const0 (simulation)
+n6078_app(6014), const0 (simulation)
+n6079_app(6015), const0 (simulation)
+n6258_app(6194), const0 (simulation)
+n6259_app(6195), const0 (simulation)
+n6260_app(6196), const0 (simulation)
+n6432_app(6368), const0 (simulation)
+n6433_app(6369), const0 (simulation)
+n6434_app(6370), const0 (simulation)
+n6598_app(6534), const0 (simulation)
+n6599_app(6535), const0 (simulation)
+n6600_app(6536), const0 (simulation)
+n6768_app(6704), const0 (simulation)
+n6769_app(6705), const0 (simulation)
+n6770_app(6706), const0 (simulation)
+n6892_app(6828), const0 (simulation)
+n6918_app(6854), const0 (simulation)
+n6919_app(6855), const0 (simulation)
+n6920_app(6856), const0 (simulation)
+n7066_app(7002), const0 (simulation)
+n7067_app(7003), const0 (simulation)
+n7068_app(7004), const0 (simulation)
+n7200_app(7136), const0 (simulation)
+n7201_app(7137), const0 (simulation)
+n7202_app(7138), const0 (simulation)
+n7203_app(7139), const0 (simulation)
+n7204_app(7140), const0 (simulation)
+n7205_app(7141), const0 (simulation)
+n7206_app(7142), const0 (simulation)
+n7207_app(7143), const0 (simulation)
+n7208_app(7144), const0 (simulation)
+n7210_app(7146), const0 (simulation)
+n7211_app(7147), const0 (simulation)
+n7341_app(7277), const0 (simulation)
+n7342_app(7278), const0 (simulation)
+n7343_app(7279), const0 (simulation)
+n7462_app(7398), const0 (simulation)
+n7463_app(7399), const0 (simulation)
+n7464_app(7400), const0 (simulation)
+n7581_app(7517), const0 (simulation)
+n7582_app(7518), const0 (simulation)
+n7583_app(7519), const0 (simulation)
+n7684_app(7620), const0 (simulation)
+n7685_app(7621), const0 (simulation)
+n7686_app(7622), const0 (simulation)
+n7788_app(7724), const0 (simulation)
+n7789_app(7725), const0 (simulation)
+n7790_app(7726), const0 (simulation)
+n7840_app(7776), const0 (simulation)
+n7872_app(7808), const0 (simulation)
+n7873_app(7809), const0 (simulation)
+n7874_app(7810), const0 (simulation)
+n7875_app(7811), const1 (simulation)
+n7943_app(7879), const1 (simulation)
+n7945_app(7881), const0 (simulation)
+n7946_app(7882), const0 (simulation)
+n7947_app(7883), const0 (simulation)
+n7948_app(7884), const0 (simulation)
+n7955_app(7891), const0 (simulation)
+n7956_app(7892), const0 (simulation)
+n7957_app(7893), const0 (simulation)
+n8025_app(7961), const0 (simulation)
+n8026_app(7962), const0 (simulation)
+n8027_app(7963), const0 (simulation)
+n8028_app(7964), const0 (simulation)
+n8029_app(7965), const0 (simulation)
+n8030_app(7966), const0 (simulation)
+n8031_app(7967), const0 (simulation)
+n8032_app(7968), const0 (simulation)
+n8033_app(7969), const0 (simulation)
+n8034_app(7970), const0 (simulation)
+n8035_app(7971), const0 (simulation)
+n8036_app(7972), const0 (simulation)
+n8037_app(7973), const0 (simulation)
+n8038_app(7974), const0 (simulation)
+n8073_app(8009), const0 (simulation)
+n8075_app(8011), const1 (simulation)
+n8083_app(8019), const0 (simulation)
+n8085_app(8021), const0 (simulation)
+n8097_app(8033), const0 (simulation)
+n8098_app(8034), const0 (simulation)
+n8099_app(8035), const0 (simulation)
+n8140_app(8076), const0 (simulation)
+n8142_app(8078), const0 (simulation)
+n8154_app(8090), const0 (simulation)
+n8155_app(8091), const0 (simulation)
+n8156_app(8092), const0 (simulation)
+n8192_app(8128), const0 (simulation)
+n8194_app(8130), const0 (simulation)
+n8212_app(8148), const0 (simulation)
+n8213_app(8149), const0 (simulation)
+n8214_app(8150), const0 (simulation)
+n8238_app(8174), const0 (simulation)
+n8239_app(8175), const0 (simulation)
+n8253_app(8189), const0 (simulation)
+n8254_app(8190), const0 (simulation)
+n8255_app(8191), const0 (simulation)
+n8295_app(8231), const0 (simulation)
+n8296_app(8232), const0 (simulation)
+n8297_app(8233), const0 (simulation)
+n8317_app(8253), const0 (simulation)
+n8318_app(8254), const0 (simulation)
+n8319_app(8255), const0 (simulation)
+n8335_app(8271), const0 (simulation)
+n8336_app(8272), const0 (simulation)
+n8337_app(8273), const0 (simulation)
+n8338_app(8274), const0 (simulation)
+n8339_app(8275), const0 (simulation)
+n8340_app(8276), const0 (simulation)
+[1;37m(null)                        :[0m i/o =   64/16725  lat =    0  and =  45679  lev =157
+[1;37m(null)                        :[0m i/o =   64/16725  lat =    0  and =  45679  lev =157
+[1;37m(null)                        :[0m i/o =   64/16725  lat =    0  and =  45637  lev =157
+ver_dF_n1596_app*const1(16602):n0(0),0 1
+n1596_app(1532), replace it by constant 1
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8206  lev = 52
+Execute abc command: w ./result/mult32/mhd32/46.blif
+current runtime = 6018.22s
+---------- round 47---------- 
+#nodes = 8206
+#internal nodes = 8173
+#internal nodes using exact PBDs = 32.692
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16476  lat =    0  and =  72684  lev =199
+[1;37m(null)                        :[0m i/o =   64/16476  lat =    0  and =  64692  lev =199
+[1;37m(null)                        :[0m i/o =   64/16476  lat =    0  and =  44235  lev =157
+finish SAT sweeping the skeleton network
+n1596_app(1532), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8205  lev = 52
+Execute abc command: w ./result/mult32/mhd32/47.blif
+current runtime = 6104.98s
+---------- round 48---------- 
+#nodes = 8205
+#internal nodes = 8173
+#internal nodes using exact PBDs = 32.692
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16474  lat =    0  and =  72691  lev =199
+[1;37m(null)                        :[0m i/o =   64/16474  lat =    0  and =  64705  lev =199
+[1;37m(null)                        :[0m i/o =   64/16474  lat =    0  and =  44328  lev =157
+finish SAT sweeping the skeleton network
+n140_app(76), const0 (simulation)
+n157_app(93), const0 (simulation)
+n158_app(94), const0 (simulation)
+n183_app(119), const0 (simulation)
+n184_app(120), const0 (simulation)
+n215_app(151), const1 (simulation)
+n216_app(152), const0 (simulation)
+n254_app(190), const0 (simulation)
+n257_app(193), const0 (simulation)
+n258_app(194), const0 (simulation)
+n259_app(195), const0 (simulation)
+n308_app(244), const0 (simulation)
+n372_app(308), const0 (simulation)
+n373_app(309), const0 (simulation)
+n375_app(311), const0 (simulation)
+n441_app(377), const0 (simulation)
+n442_app(378), const0 (simulation)
+n514_app(450), const0 (simulation)
+n515_app(451), const0 (simulation)
+n524_app(460), const0 (simulation)
+n525_app(461), const0 (simulation)
+n527_app(463), const0 (simulation)
+n528_app(464), const0 (simulation)
+n529_app(465), const0 (simulation)
+n530_app(466), const1 (simulation)
+n623_app(559), const0 (simulation)
+n624_app(560), const0 (simulation)
+n625_app(561), const1 (simulation)
+n714_app(650), const0 (simulation)
+n716_app(652), const0 (simulation)
+n719_app(655), const0 (simulation)
+n723_app(659), const0 (simulation)
+n724_app(660), const0 (simulation)
+n726_app(662), const0 (simulation)
+n821_app(757), const0 (simulation)
+n823_app(759), const0 (simulation)
+n829_app(765), const0 (simulation)
+n934_app(870), const0 (simulation)
+n936_app(872), const0 (simulation)
+n956_app(892), const0 (simulation)
+n957_app(893), const0 (simulation)
+n1134_app(1070), const0 (simulation)
+n1498_app(1434), const0 (simulation)
+n1995_app(1931), const0 (simulation)
+n1996_app(1932), const0 (simulation)
+n1998_app(1934), const0 (simulation)
+n2043_app(1979), const1 (simulation)
+n2045_app(1981), const0 (simulation)
+n2050_app(1986), const0 (simulation)
+n2408_app(2344), const0 (simulation)
+n2604_app(2540), const0 (simulation)
+n3021_app(2957), const1 (simulation)
+n3024_app(2960), const0 (simulation)
+n3030_app(2966), const1 (simulation)
+n3244_app(3180), const0 (simulation)
+n3469_app(3405), const0 (simulation)
+n4209_app(4145), const0 (simulation)
+n4210_app(4146), const0 (simulation)
+n4214_app(4150), const0 (simulation)
+n4217_app(4153), const0 (simulation)
+n4241_app(4177), const0 (simulation)
+n4242_app(4178), const0 (simulation)
+n4243_app(4179), const0 (simulation)
+n4244_app(4180), const0 (simulation)
+n4249_app(4185), const1 (simulation)
+n4250_app(4186), const0 (simulation)
+n4251_app(4187), const0 (simulation)
+n4252_app(4188), const0 (simulation)
+n4255_app(4191), const0 (simulation)
+n4258_app(4194), const0 (simulation)
+n4259_app(4195), const0 (simulation)
+n4260_app(4196), const0 (simulation)
+n4261_app(4197), const0 (simulation)
+n4263_app(4199), const0 (simulation)
+n4264_app(4200), const0 (simulation)
+n4266_app(4202), const0 (simulation)
+n4268_app(4204), const0 (simulation)
+n4269_app(4205), const1 (simulation)
+n4270_app(4206), const1 (simulation)
+n4282_app(4218), const0 (simulation)
+n4283_app(4219), const0 (simulation)
+n4284_app(4220), const0 (simulation)
+n4286_app(4222), const0 (simulation)
+n4287_app(4223), const1 (simulation)
+n4306_app(4242), const0 (simulation)
+n4309_app(4245), const0 (simulation)
+n4313_app(4249), const0 (simulation)
+n4314_app(4250), const0 (simulation)
+n4315_app(4251), const0 (simulation)
+n4318_app(4254), const0 (simulation)
+n4323_app(4259), const0 (simulation)
+n4328_app(4264), const0 (simulation)
+n4329_app(4265), const0 (simulation)
+n4565_app(4501), const0 (simulation)
+n4566_app(4502), const0 (simulation)
+n4567_app(4503), const0 (simulation)
+n4800_app(4736), const0 (simulation)
+n4801_app(4737), const0 (simulation)
+n4802_app(4738), const0 (simulation)
+n5024_app(4960), const0 (simulation)
+n5025_app(4961), const0 (simulation)
+n5026_app(4962), const0 (simulation)
+n5254_app(5190), const0 (simulation)
+n5255_app(5191), const0 (simulation)
+n5465_app(5401), const0 (simulation)
+n5466_app(5402), const0 (simulation)
+n5467_app(5403), const0 (simulation)
+n5671_app(5607), const0 (simulation)
+n5672_app(5608), const0 (simulation)
+n5673_app(5609), const0 (simulation)
+n5866_app(5802), const0 (simulation)
+n5867_app(5803), const0 (simulation)
+n5868_app(5804), const0 (simulation)
+n6071_app(6007), const0 (simulation)
+n6072_app(6008), const0 (simulation)
+n6251_app(6187), const0 (simulation)
+n6252_app(6188), const0 (simulation)
+n6253_app(6189), const0 (simulation)
+n6425_app(6361), const0 (simulation)
+n6426_app(6362), const0 (simulation)
+n6427_app(6363), const0 (simulation)
+n6591_app(6527), const0 (simulation)
+n6592_app(6528), const0 (simulation)
+n6593_app(6529), const0 (simulation)
+n6761_app(6697), const0 (simulation)
+n6762_app(6698), const0 (simulation)
+n6763_app(6699), const0 (simulation)
+n6911_app(6847), const0 (simulation)
+n6912_app(6848), const0 (simulation)
+n6913_app(6849), const0 (simulation)
+n7059_app(6995), const0 (simulation)
+n7060_app(6996), const0 (simulation)
+n7061_app(6997), const0 (simulation)
+n7193_app(7129), const0 (simulation)
+n7194_app(7130), const0 (simulation)
+n7195_app(7131), const0 (simulation)
+n7196_app(7132), const0 (simulation)
+n7197_app(7133), const0 (simulation)
+n7198_app(7134), const0 (simulation)
+n7199_app(7135), const0 (simulation)
+n7200_app(7136), const0 (simulation)
+n7201_app(7137), const0 (simulation)
+n7203_app(7139), const0 (simulation)
+n7204_app(7140), const0 (simulation)
+n7334_app(7270), const0 (simulation)
+n7335_app(7271), const0 (simulation)
+n7336_app(7272), const0 (simulation)
+n7432_app(7368), const0 (simulation)
+n7435_app(7371), const0 (simulation)
+n7454_app(7390), const1 (simulation)
+n7455_app(7391), const0 (simulation)
+n7456_app(7392), const0 (simulation)
+n7457_app(7393), const0 (simulation)
+n7547_app(7483), const0 (simulation)
+n7574_app(7510), const0 (simulation)
+n7575_app(7511), const0 (simulation)
+n7576_app(7512), const0 (simulation)
+n7660_app(7596), const0 (simulation)
+n7677_app(7613), const0 (simulation)
+n7678_app(7614), const0 (simulation)
+n7679_app(7615), const0 (simulation)
+n7781_app(7717), const0 (simulation)
+n7782_app(7718), const0 (simulation)
+n7783_app(7719), const0 (simulation)
+n7865_app(7801), const0 (simulation)
+n7866_app(7802), const0 (simulation)
+n7867_app(7803), const0 (simulation)
+n7948_app(7884), const0 (simulation)
+n7949_app(7885), const0 (simulation)
+n7950_app(7886), const0 (simulation)
+n8018_app(7954), const0 (simulation)
+n8019_app(7955), const0 (simulation)
+n8020_app(7956), const0 (simulation)
+n8021_app(7957), const0 (simulation)
+n8022_app(7958), const0 (simulation)
+n8023_app(7959), const0 (simulation)
+n8024_app(7960), const0 (simulation)
+n8025_app(7961), const0 (simulation)
+n8026_app(7962), const0 (simulation)
+n8027_app(7963), const0 (simulation)
+n8028_app(7964), const0 (simulation)
+n8029_app(7965), const0 (simulation)
+n8030_app(7966), const0 (simulation)
+n8031_app(7967), const0 (simulation)
+n8066_app(8002), const0 (simulation)
+n8068_app(8004), const1 (simulation)
+n8076_app(8012), const0 (simulation)
+n8078_app(8014), const0 (simulation)
+n8090_app(8026), const0 (simulation)
+n8091_app(8027), const0 (simulation)
+n8092_app(8028), const0 (simulation)
+n8133_app(8069), const0 (simulation)
+n8135_app(8071), const0 (simulation)
+n8147_app(8083), const0 (simulation)
+n8148_app(8084), const0 (simulation)
+n8149_app(8085), const0 (simulation)
+n8185_app(8121), const0 (simulation)
+n8187_app(8123), const0 (simulation)
+n8205_app(8141), const0 (simulation)
+n8206_app(8142), const0 (simulation)
+n8207_app(8143), const0 (simulation)
+n8231_app(8167), const0 (simulation)
+n8232_app(8168), const0 (simulation)
+n8246_app(8182), const0 (simulation)
+n8247_app(8183), const0 (simulation)
+n8248_app(8184), const0 (simulation)
+n8288_app(8224), const0 (simulation)
+n8289_app(8225), const0 (simulation)
+n8290_app(8226), const0 (simulation)
+n8310_app(8246), const0 (simulation)
+n8311_app(8247), const0 (simulation)
+n8312_app(8248), const0 (simulation)
+n8328_app(8264), const0 (simulation)
+n8329_app(8265), const0 (simulation)
+n8330_app(8266), const0 (simulation)
+n8331_app(8267), const0 (simulation)
+n8332_app(8268), const0 (simulation)
+n8333_app(8269), const0 (simulation)
+[1;37m(null)                        :[0m i/o =   64/16692  lat =    0  and =  44534  lev =157
+[1;37m(null)                        :[0m i/o =   64/16692  lat =    0  and =  44534  lev =157
+[1;37m(null)                        :[0m i/o =   64/16692  lat =    0  and =  44496  lev =157
+ver_dF_n4243_app*const0(16601):n0(0),0 1
+n4243_app(4179), replace it by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8203  lev = 52
+Execute abc command: w ./result/mult32/mhd32/48.blif
+current runtime = 6234.49s
+---------- round 49---------- 
+#nodes = 8203
+#internal nodes = 8171
+#internal nodes using exact PBDs = 32.684
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16470  lat =    0  and =  72357  lev =199
+[1;37m(null)                        :[0m i/o =   64/16470  lat =    0  and =  64377  lev =199
+[1;37m(null)                        :[0m i/o =   64/16470  lat =    0  and =  44222  lev =157
+finish SAT sweeping the skeleton network
+n140_app(76), const0 (simulation)
+n157_app(93), const0 (simulation)
+n158_app(94), const0 (simulation)
+n183_app(119), const0 (simulation)
+n184_app(120), const0 (simulation)
+n212_app(148), const0 (simulation)
+n215_app(151), const1 (simulation)
+n216_app(152), const0 (simulation)
+n254_app(190), const0 (simulation)
+n257_app(193), const0 (simulation)
+n258_app(194), const0 (simulation)
+n259_app(195), const0 (simulation)
+n308_app(244), const0 (simulation)
+n372_app(308), const0 (simulation)
+n373_app(309), const0 (simulation)
+n375_app(311), const0 (simulation)
+n432_app(368), const0 (simulation)
+n441_app(377), const0 (simulation)
+n442_app(378), const0 (simulation)
+n514_app(450), const0 (simulation)
+n515_app(451), const0 (simulation)
+n524_app(460), const0 (simulation)
+n525_app(461), const0 (simulation)
+n527_app(463), const0 (simulation)
+n528_app(464), const0 (simulation)
+n529_app(465), const0 (simulation)
+n530_app(466), const1 (simulation)
+n543_app(479), const0 (simulation)
+n548_app(484), const0 (simulation)
+n623_app(559), const0 (simulation)
+n624_app(560), const0 (simulation)
+n625_app(561), const1 (simulation)
+n714_app(650), const0 (simulation)
+n716_app(652), const0 (simulation)
+n719_app(655), const0 (simulation)
+n723_app(659), const0 (simulation)
+n724_app(660), const0 (simulation)
+n726_app(662), const0 (simulation)
+n821_app(757), const0 (simulation)
+n823_app(759), const0 (simulation)
+n829_app(765), const0 (simulation)
+n833_app(769), const0 (simulation)
+n931_app(867), const0 (simulation)
+n933_app(869), const0 (simulation)
+n934_app(870), const0 (simulation)
+n935_app(871), const0 (simulation)
+n936_app(872), const0 (simulation)
+n1505_app(1441), const0 (simulation)
+n1995_app(1931), const0 (simulation)
+n1996_app(1932), const0 (simulation)
+n1998_app(1934), const0 (simulation)
+n2043_app(1979), const1 (simulation)
+n2045_app(1981), const0 (simulation)
+n2050_app(1986), const0 (simulation)
+n2408_app(2344), const0 (simulation)
+n3021_app(2957), const1 (simulation)
+n3024_app(2960), const0 (simulation)
+n3030_app(2966), const1 (simulation)
+n3244_app(3180), const0 (simulation)
+n3470_app(3406), const0 (simulation)
+n4209_app(4145), const0 (simulation)
+n4210_app(4146), const0 (simulation)
+n4214_app(4150), const0 (simulation)
+n4217_app(4153), const0 (simulation)
+n4242_app(4178), const1 (simulation)
+n4243_app(4179), const1 (simulation)
+n4251_app(4187), const1 (simulation)
+n4252_app(4188), const0 (simulation)
+n4253_app(4189), const0 (simulation)
+n4254_app(4190), const0 (simulation)
+n4256_app(4192), const0 (simulation)
+n4257_app(4193), const0 (simulation)
+n4258_app(4194), const0 (simulation)
+n4261_app(4197), const0 (simulation)
+n4262_app(4198), const0 (simulation)
+n4264_app(4200), const0 (simulation)
+n4266_app(4202), const0 (simulation)
+n4267_app(4203), const1 (simulation)
+n4268_app(4204), const1 (simulation)
+n4280_app(4216), const0 (simulation)
+n4281_app(4217), const0 (simulation)
+n4282_app(4218), const0 (simulation)
+n4284_app(4220), const0 (simulation)
+n4285_app(4221), const1 (simulation)
+n4305_app(4241), const0 (simulation)
+n4308_app(4244), const0 (simulation)
+n4311_app(4247), const0 (simulation)
+n4312_app(4248), const0 (simulation)
+n4313_app(4249), const0 (simulation)
+n4316_app(4252), const0 (simulation)
+n4321_app(4257), const0 (simulation)
+n4326_app(4262), const0 (simulation)
+n4327_app(4263), const0 (simulation)
+n4563_app(4499), const0 (simulation)
+n4564_app(4500), const0 (simulation)
+n4565_app(4501), const0 (simulation)
+n4798_app(4734), const0 (simulation)
+n4799_app(4735), const0 (simulation)
+n4800_app(4736), const0 (simulation)
+n5022_app(4958), const0 (simulation)
+n5023_app(4959), const0 (simulation)
+n5024_app(4960), const0 (simulation)
+n5252_app(5188), const0 (simulation)
+n5253_app(5189), const0 (simulation)
+n5463_app(5399), const0 (simulation)
+n5464_app(5400), const0 (simulation)
+n5465_app(5401), const0 (simulation)
+n5669_app(5605), const0 (simulation)
+n5670_app(5606), const0 (simulation)
+n5671_app(5607), const0 (simulation)
+n5864_app(5800), const0 (simulation)
+n5865_app(5801), const0 (simulation)
+n5866_app(5802), const0 (simulation)
+n6069_app(6005), const0 (simulation)
+n6070_app(6006), const0 (simulation)
+n6249_app(6185), const0 (simulation)
+n6250_app(6186), const0 (simulation)
+n6251_app(6187), const0 (simulation)
+n6423_app(6359), const0 (simulation)
+n6424_app(6360), const0 (simulation)
+n6425_app(6361), const0 (simulation)
+n6589_app(6525), const0 (simulation)
+n6590_app(6526), const0 (simulation)
+n6591_app(6527), const0 (simulation)
+n6759_app(6695), const0 (simulation)
+n6760_app(6696), const0 (simulation)
+n6761_app(6697), const0 (simulation)
+n6909_app(6845), const0 (simulation)
+n6910_app(6846), const0 (simulation)
+n6911_app(6847), const0 (simulation)
+n7057_app(6993), const0 (simulation)
+n7058_app(6994), const0 (simulation)
+n7059_app(6995), const0 (simulation)
+n7191_app(7127), const0 (simulation)
+n7192_app(7128), const0 (simulation)
+n7193_app(7129), const0 (simulation)
+n7194_app(7130), const0 (simulation)
+n7195_app(7131), const0 (simulation)
+n7196_app(7132), const0 (simulation)
+n7197_app(7133), const0 (simulation)
+n7198_app(7134), const0 (simulation)
+n7199_app(7135), const0 (simulation)
+n7201_app(7137), const0 (simulation)
+n7202_app(7138), const0 (simulation)
+n7332_app(7268), const0 (simulation)
+n7333_app(7269), const0 (simulation)
+n7334_app(7270), const0 (simulation)
+n7453_app(7389), const0 (simulation)
+n7454_app(7390), const0 (simulation)
+n7455_app(7391), const0 (simulation)
+n7572_app(7508), const0 (simulation)
+n7573_app(7509), const0 (simulation)
+n7574_app(7510), const0 (simulation)
+n7675_app(7611), const0 (simulation)
+n7676_app(7612), const0 (simulation)
+n7677_app(7613), const0 (simulation)
+n7779_app(7715), const0 (simulation)
+n7780_app(7716), const0 (simulation)
+n7781_app(7717), const0 (simulation)
+n7863_app(7799), const0 (simulation)
+n7864_app(7800), const0 (simulation)
+n7865_app(7801), const0 (simulation)
+n7946_app(7882), const0 (simulation)
+n7947_app(7883), const0 (simulation)
+n7948_app(7884), const0 (simulation)
+n8001_app(7937), const0 (simulation)
+n8005_app(7941), const0 (simulation)
+n8015_app(7951), const0 (simulation)
+n8016_app(7952), const0 (simulation)
+n8017_app(7953), const0 (simulation)
+n8018_app(7954), const0 (simulation)
+n8019_app(7955), const0 (simulation)
+n8020_app(7956), const0 (simulation)
+n8021_app(7957), const0 (simulation)
+n8022_app(7958), const0 (simulation)
+n8023_app(7959), const0 (simulation)
+n8024_app(7960), const0 (simulation)
+n8025_app(7961), const0 (simulation)
+n8026_app(7962), const0 (simulation)
+n8027_app(7963), const0 (simulation)
+n8028_app(7964), const0 (simulation)
+n8029_app(7965), const0 (simulation)
+n8032_app(7968), const0 (simulation)
+n8058_app(7994), const0 (simulation)
+n8059_app(7995), const1 (simulation)
+n8060_app(7996), const0 (simulation)
+n8061_app(7997), const1 (simulation)
+n8062_app(7998), const0 (simulation)
+n8063_app(7999), const0 (simulation)
+n8064_app(8000), const0 (simulation)
+n8065_app(8001), const0 (simulation)
+n8066_app(8002), const1 (simulation)
+n8071_app(8007), const0 (simulation)
+n8073_app(8009), const0 (simulation)
+n8074_app(8010), const0 (simulation)
+n8075_app(8011), const0 (simulation)
+n8076_app(8012), const0 (simulation)
+n8085_app(8021), const1 (simulation)
+n8088_app(8024), const0 (simulation)
+n8089_app(8025), const0 (simulation)
+n8090_app(8026), const0 (simulation)
+n8131_app(8067), const0 (simulation)
+n8133_app(8069), const0 (simulation)
+n8145_app(8081), const0 (simulation)
+n8146_app(8082), const0 (simulation)
+n8147_app(8083), const0 (simulation)
+n8183_app(8119), const0 (simulation)
+n8185_app(8121), const0 (simulation)
+n8203_app(8139), const0 (simulation)
+n8204_app(8140), const0 (simulation)
+n8205_app(8141), const0 (simulation)
+n8229_app(8165), const0 (simulation)
+n8230_app(8166), const0 (simulation)
+n8244_app(8180), const0 (simulation)
+n8245_app(8181), const0 (simulation)
+n8246_app(8182), const0 (simulation)
+n8286_app(8222), const0 (simulation)
+n8287_app(8223), const0 (simulation)
+n8288_app(8224), const0 (simulation)
+n8308_app(8244), const0 (simulation)
+n8309_app(8245), const0 (simulation)
+n8310_app(8246), const0 (simulation)
+n8326_app(8262), const0 (simulation)
+n8327_app(8263), const0 (simulation)
+n8328_app(8264), const0 (simulation)
+n8329_app(8265), const0 (simulation)
+n8330_app(8266), const0 (simulation)
+n8331_app(8267), const0 (simulation)
+[1;37m(null)                        :[0m i/o =   64/16698  lat =    0  and =  44439  lev =157
+[1;37m(null)                        :[0m i/o =   64/16698  lat =    0  and =  44439  lev =157
+[1;37m(null)                        :[0m i/o =   64/16698  lat =    0  and =  44376  lev =157
+ver_dF_n4252_app*const0(16602):n0(0),0 1
+n4252_app(4188), replace it by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   64/   64  lat =    0  and =   8193  lev = 52
+Execute abc command: w ./result/mult32/mhd32/49.blif
+current runtime = 6393.12s
+---------- round 50---------- 
+#nodes = 8193
+#internal nodes = 8161
+#internal nodes using exact PBDs = 32.644
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   64/16450  lat =    0  and =  72804  lev =199
+[1;37m(null)                        :[0m i/o =   64/16450  lat =    0  and =  64826  lev =199
+[1;37m(null)                        :[0m i/o =   64/16450  lat =    0  and =  44706  lev =157
+finish SAT sweeping the skeleton network
+n140_app(76), const0 (simulation)
+n157_app(93), const0 (simulation)
+n158_app(94), const0 (simulation)
+n183_app(119), const0 (simulation)
+n184_app(120), const0 (simulation)
+n215_app(151), const1 (simulation)
+n216_app(152), const0 (simulation)
+n254_app(190), const0 (simulation)
+n257_app(193), const0 (simulation)
+n258_app(194), const0 (simulation)
+n259_app(195), const0 (simulation)
+n306_app(242), const1 (simulation)
+n307_app(243), const0 (simulation)
+n308_app(244), const0 (simulation)
+n309_app(245), const0 (simulation)
+n364_app(300), const1 (simulation)
+n365_app(301), const0 (simulation)
+n367_app(303), const0 (simulation)
+n369_app(305), const0 (simulation)
+n372_app(308), const0 (simulation)
+n373_app(309), const0 (simulation)
+n375_app(311), const0 (simulation)
+n441_app(377), const0 (simulation)
+n442_app(378), const0 (simulation)
+n448_app(384), const0 (simulation)
+n514_app(450), const0 (simulation)
+n515_app(451), const0 (simulation)
+n524_app(460), const0 (simulation)
+n525_app(461), const0 (simulation)
+n527_app(463), const0 (simulation)
+n528_app(464), const0 (simulation)
+n529_app(465), const0 (simulation)
+n530_app(466), const1 (simulation)
+n623_app(559), const0 (simulation)
+n624_app(560), const0 (simulation)
+n625_app(561), const1 (simulation)
+n714_app(650), const0 (simulation)
+n716_app(652), const0 (simulation)
+n719_app(655), const0 (simulation)
+n723_app(659), const0 (simulation)
+n724_app(660), const0 (simulation)
+n726_app(662), const0 (simulation)
+n821_app(757), const0 (simulation)
+n823_app(759), const0 (simulation)
+n829_app(765), const0 (simulation)
+n934_app(870), const0 (simulation)
+n936_app(872), const0 (simulation)
+n1995_app(1931), const0 (simulation)
+n1996_app(1932), const0 (simulation)
+n1998_app(1934), const0 (simulation)
+n2043_app(1979), const1 (simulation)
+n2045_app(1981), const0 (simulation)
+n2050_app(1986), const0 (simulation)
+n2408_app(2344), const0 (simulation)
+n2409_app(2345), const0 (simulation)
+n2598_app(2534), const0 (simulation)
+n2600_app(2536), const1 (simulation)
+n2601_app(2537), const0 (simulation)
+n2602_app(2538), const1 (simulation)
+n2603_app(2539), const0 (simulation)
+n2634_app(2570), const0 (simulation)
+n3021_app(2957), const1 (simulation)
+n3024_app(2960), const0 (simulation)
+n3030_app(2966), const1 (simulation)
+n3244_app(3180), const0 (simulation)
+n3470_app(3406), const0 (simulation)
+n4209_app(4145), const0 (simulation)
+n4210_app(4146), const0 (simulation)
+n4214_app(4150), const0 (simulation)
+n4217_app(4153), const0 (simulation)
+n4244_app(4180), const0 (simulation)
+n4247_app(4183), const0 (simulation)
+n4253_app(4189), const0 (simulation)
+n4254_app(4190), const0 (simulation)
+n4255_app(4191), const0 (simulation)
+n4257_app(4193), const0 (simulation)
+n4258_app(4194), const1 (simulation)
+n4270_app(4206), const0 (simulation)
+n4271_app(4207), const0 (simulation)
+n4272_app(4208), const0 (simulation)
+n4274_app(4210), const0 (simulation)
+n4275_app(4211), const1 (simulation)
+n4295_app(4231), const0 (simulation)
+n4298_app(4234), const0 (simulation)
+n4301_app(4237), const0 (simulation)
+n4302_app(4238), const0 (simulation)
+n4303_app(4239), const0 (simulation)
+n4306_app(4242), const0 (simulation)
+n4311_app(4247), const0 (simulation)
+n4316_app(4252), const0 (simulation)
+n4317_app(4253), const0 (simulation)
+n4553_app(4489), const0 (simulation)
+n4554_app(4490), const0 (simulation)
+n4555_app(4491), const0 (simulation)
+n4788_app(4724), const0 (simulation)
+n4789_app(4725), const0 (simulation)
+n4790_app(4726), const0 (simulation)
+n5012_app(4948), const0 (simulation)
+n5013_app(4949), const0 (simulation)
+n5014_app(4950), const0 (simulation)
+n5242_app(5178), const0 (simulation)
+n5243_app(5179), const0 (simulation)
+n5453_app(5389), const0 (simulation)
+n5454_app(5390), const0 (simulation)
+n5455_app(5391), const0 (simulation)
+n5659_app(5595), const0 (simulation)
+n5660_app(5596), const0 (simulation)
+n5661_app(5597), const0 (simulation)
+n5854_app(5790), const0 (simulation)
+n5855_app(5791), const0 (simulation)
+n5856_app(5792), const0 (simulation)
+n6059_app(5995), const0 (simulation)
+n6060_app(5996), const0 (simulation)
+n6239_app(6175), const0 (simulation)
+n6240_app(6176), const0 (simulation)
+n6241_app(6177), const0 (simulation)
+n6413_app(6349), const0 (simulation)
+n6414_app(6350), const0 (simulation)
+n6415_app(6351), const0 (simulation)
+n6579_app(6515), const0 (simulation)
+n6580_app(6516), const0 (simulation)
+n6581_app(6517), const0 (simulation)
+n6749_app(6685), const0 (simulation)
+n6750_app(6686), const0 (simulation)
+n6751_app(6687), const0 (simulation)
+n6899_app(6835), const0 (simulation)
+n6900_app(6836), const0 (simulation)
+n6901_app(6837), const0 (simulation)
+n7047_app(6983), const0 (simulation)
+n7048_app(6984), const0 (simulation)
+n7049_app(6985), const0 (simulation)
+n7181_app(7117), const0 (simulation)
+n7182_app(7118), const0 (simulation)
+n7183_app(7119), const0 (simulation)
+n7184_app(7120), const0 (simulation)
+n7185_app(7121), const0 (simulation)
+n7186_app(7122), const0 (simulation)
+n7187_app(7123), const0 (simulation)
+n7188_app(7124), const0 (simulation)
+n7189_app(7125), const0 (simulation)
+n7191_app(7127), const0 (simulation)
+n7192_app(7128), const0 (simulation)
+n7322_app(7258), const0 (simulation)
+n7323_app(7259), const0 (simulation)
+n7324_app(7260), const0 (simulation)
+n7442_app(7378), const1 (simulation)
+n7443_app(7379), const0 (simulation)
+n7444_app(7380), const0 (simulation)
+n7445_app(7381), const0 (simulation)
+n7535_app(7471), const0 (simulation)
+n7562_app(7498), const0 (simulation)
+n7563_app(7499), const0 (simulation)
+n7564_app(7500), const0 (simulation)
+n7648_app(7584), const0 (simulation)
+n7665_app(7601), const0 (simulation)
+n7666_app(7602), const0 (simulation)
+n7667_app(7603), const0 (simulation)
+n7769_app(7705), const0 (simulation)
+n7770_app(7706), const0 (simulation)
+n7771_app(7707), const0 (simulation)
+n7853_app(7789), const0 (simulation)
+n7854_app(7790), const0 (simulation)
+n7855_app(7791), const0 (simulation)
+n7936_app(7872), const0 (simulation)
+n7937_app(7873), const0 (simulation)
+n7938_app(7874), const0 (simulation)
+n8006_app(7942), const0 (simulation)
+n8007_app(7943), const0 (simulation)
+n8008_app(7944), const0 (simulation)
+n8009_app(7945), const0 (simulation)
+n8010_app(7946), const0 (simulation)
+n8011_app(7947), const0 (simulation)
+n8012_app(7948), const0 (simulation)
+n8013_app(7949), const0 (simulation)
+n8014_app(7950), const0 (simulation)
+n8015_app(7951), const0 (simulation)
+n8016_app(7952), const0 (simulation)
+n8017_app(7953), const0 (simulation)
+n8018_app(7954), const0 (simulation)
+n8019_app(7955), const0 (simulation)
+n8054_app(7990), const0 (simulation)
+n8056_app(7992), const1 (simulation)
+n8064_app(8000), const0 (simulation)
+n8066_app(8002), const0 (simulation)
+n8078_app(8014), const0 (simulation)
+n8079_app(8015), const0 (simulation)
+n8080_app(8016), const0 (simulation)
+n8121_app(8057), const0 (simulation)
+n8123_app(8059), const0 (simulation)
+n8135_app(8071), const0 (simulation)
+n8136_app(8072), const0 (simulation)
+n8137_app(8073), const0 (simulation)
+n8173_app(8109), const0 (simulation)
+n8175_app(8111), const0 (simulation)
+n8193_app(8129), const0 (simulation)
+n8194_app(8130), const0 (simulation)
+n8195_app(8131), const0 (simulation)
+n8219_app(8155), const0 (simulation)
+n8220_app(8156), const0 (simulation)
+n8234_app(8170), const0 (simulation)
+n8235_app(8171), const0 (simulation)
+n8236_app(8172), const0 (simulation)
+n8276_app(8212), const0 (simulation)
+n8277_app(8213), const0 (simulation)
+n8278_app(8214), const0 (simulation)
+n8298_app(8234), const0 (simulation)
+n8299_app(8235), const0 (simulation)
+n8300_app(8236), const0 (simulation)
+n8316_app(8252), const0 (simulation)
+n8317_app(8253), const0 (simulation)
+n8318_app(8254), const0 (simulation)
+n8319_app(8255), const0 (simulation)
+n8320_app(8256), const0 (simulation)
+n8321_app(8257), const0 (simulation)
+[1;37m(null)                        :[0m i/o =   64/16664  lat =    0  and =  44911  lev =157
+[1;37m(null)                        :[0m i/o =   64/16664  lat =    0  and =  44911  lev =157
+[1;37m(null)                        :[0m i/o =   64/16664  lat =    0  and =  44861  lev =157
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 18032
+[1;37m(null)                        :[0m i/o =   64/34696  lat =    0  and = 116966  lev =157
+[1;37m(null)                        :[0m i/o =   64/34696  lat =    0  and = 116966  lev =157
+[1;37m(null)                        :[0m i/o =   64/34696  lat =    0  and =  93670  lev =157
+Execute abc command: w ./result/mult32/mhd32/final.blif
+current runtime = 6831.22s
+WireLoad = "none"  [1;33mGates =   5586[0m (  6.0 %)   [1;32mCap =  3.9 ff[0m (  0.0 %)   [1;36mArea =     5621.64[0m ( 99.7 %)   [1;35mDelay =  1807.10 ps[0m  (  0.9 %)               

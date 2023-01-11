@@ -1,0 +1,145 @@
+# Benchmark "(null)" written by ABC on Sat Sep 17 08:20:50 2022
+.model (null)
+.inputs input_A[0] input_A[1] input_A[2] input_A[3] input_A[4] input_A[5] \
+ input_A[6] input_A[7] input_A[8] input_A[9] input_A[10] input_A[11] \
+ input_A[12] input_A[13] input_A[14] input_A[15] input_A[16] input_A[17] \
+ input_A[18] input_A[19] input_A[20] input_A[21] input_A[22] input_A[23] \
+ input_A[24] input_A[25] input_A[26] input_A[27] input_A[28] input_A[29] \
+ input_A[30] input_A[31] input_B[0] input_B[1] input_B[2] input_B[3] \
+ input_B[4] input_B[5] input_B[6] input_B[7] input_B[8] input_B[9] \
+ input_B[10] input_B[11] input_B[12] input_B[13] input_B[14] input_B[15] \
+ input_B[16] input_B[17] input_B[18] input_B[19] input_B[20] input_B[21] \
+ input_B[22] input_B[23] input_B[24] input_B[25] input_B[26] input_B[27] \
+ input_B[28] input_B[29] input_B[30] input_B[31]
+.outputs output_sum[0] output_sum[1] output_sum[2] output_sum[3] \
+ output_sum[4] output_sum[5] output_sum[6] output_sum[7] output_sum[8] \
+ output_sum[9] output_sum[10] output_sum[11] output_sum[12] output_sum[13] \
+ output_sum[14] output_sum[15] output_sum[16] output_sum[17] output_sum[18] \
+ output_sum[19] output_sum[20] output_sum[21] output_sum[22] output_sum[23] \
+ output_sum[24] output_sum[25] output_sum[26] output_sum[27] output_sum[28] \
+ output_sum[29] output_sum[30] output_sum[31] output_sum[32]
+.names input_A[26] input_B[26] output_sum[26]
+11 0
+.names input_A[27] input_B[27] new_n100_
+11 1
+.names input_A[27] input_B[27] new_n101_
+00 1
+.names new_n100_ new_n101_ new_n102_
+00 1
+.names output_sum[26] new_n102_ new_n103_
+01 1
+.names output_sum[26] new_n102_ new_n104_
+10 1
+.names new_n103_ new_n104_ output_sum[27]
+00 1
+.names new_n100_ new_n103_ new_n106_
+00 1
+.names input_A[28] input_B[28] new_n107_
+11 1
+.names input_A[28] input_B[28] new_n108_
+00 1
+.names new_n107_ new_n108_ new_n109_
+00 1
+.names new_n106_ new_n109_ new_n110_
+01 1
+.names new_n106_ new_n109_ new_n111_
+10 1
+.names new_n110_ new_n111_ output_sum[28]
+00 1
+.names new_n107_ new_n110_ new_n113_
+00 1
+.names input_A[29] input_B[29] new_n114_
+11 1
+.names input_A[29] input_B[29] new_n115_
+00 1
+.names new_n114_ new_n115_ new_n116_
+00 1
+.names new_n113_ new_n116_ new_n117_
+01 1
+.names new_n113_ new_n116_ new_n118_
+10 1
+.names new_n117_ new_n118_ output_sum[29]
+00 1
+.names new_n114_ new_n117_ new_n120_
+00 1
+.names input_A[30] input_B[30] new_n121_
+11 1
+.names input_A[30] input_B[30] new_n122_
+00 1
+.names new_n121_ new_n122_ new_n123_
+00 1
+.names new_n120_ new_n123_ new_n124_
+01 1
+.names new_n120_ new_n123_ new_n125_
+10 1
+.names new_n124_ new_n125_ output_sum[30]
+00 1
+.names new_n121_ new_n124_ new_n127_
+00 1
+.names input_A[31] input_B[31] new_n128_
+11 1
+.names input_A[31] input_B[31] new_n129_
+00 1
+.names new_n128_ new_n129_ new_n130_
+00 1
+.names new_n127_ new_n130_ new_n131_
+01 1
+.names new_n127_ new_n130_ new_n132_
+10 1
+.names new_n131_ new_n132_ output_sum[31]
+00 1
+.names new_n128_ new_n131_ output_sum[32]
+00 0
+.names output_sum[0]
+ 0
+.names output_sum[1]
+ 1
+.names output_sum[2]
+ 1
+.names output_sum[3]
+ 1
+.names output_sum[4]
+ 1
+.names output_sum[5]
+ 1
+.names output_sum[6]
+ 1
+.names output_sum[7]
+ 1
+.names output_sum[8]
+ 1
+.names output_sum[9]
+ 1
+.names output_sum[10]
+ 1
+.names output_sum[11]
+ 1
+.names output_sum[12]
+ 1
+.names output_sum[13]
+ 1
+.names output_sum[14]
+ 1
+.names output_sum[15]
+ 1
+.names output_sum[16]
+ 1
+.names output_sum[17]
+ 1
+.names output_sum[18]
+ 1
+.names output_sum[19]
+ 1
+.names output_sum[20]
+ 1
+.names output_sum[21]
+ 1
+.names output_sum[22]
+ 1
+.names output_sum[23]
+ 1
+.names output_sum[24]
+ 1
+.names output_sum[25]
+ 1
+.end

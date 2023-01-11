@@ -1,0 +1,33 @@
+# Benchmark "(null)" written by ABC on Sun May 22 15:06:34 2022
+.model (null)
+.inputs input_A[0] input_A[1] input_A[2] input_A[3] input_A[4] input_A[5] \
+ input_A[6] input_A[7] input_B[0] input_B[1] input_B[2] input_B[3] \
+ input_B[4] input_B[5] input_B[6] input_B[7]
+.outputs product[0] product[1] product[2] product[3] product[4] product[5] \
+ product[6] product[7] product[8] product[9] product[10] product[11] \
+ product[12] product[13] product[14] product[15]
+.gate NAND2_X1  A1=input_A[6] A2=input_B[6] ZN=product[11]
+.gate AND2_X1   A1=input_A[5] A2=input_B[7] ZN=new_n34_
+.gate AND2_X1   A1=input_A[7] A2=input_B[6] ZN=new_n35_
+.gate AND2_X1   A1=input_A[6] A2=input_B[7] ZN=new_n36_
+.gate XOR2_X1   A=new_n35_ B=new_n36_ Z=new_n37_
+.gate NAND2_X1  A1=new_n34_ A2=new_n37_ ZN=new_n38_
+.gate OAI21_X1  A=new_n38_ B1=new_n34_ B2=new_n37_ ZN=new_n39_
+.gate XOR2_X1   A=product[11] B=new_n39_ Z=product[13]
+.gate NAND2_X1  A1=input_A[7] A2=input_B[7] ZN=new_n41_
+.gate NAND2_X1  A1=product[11] A2=new_n38_ ZN=new_n42_
+.gate OAI222_X1 A1=product[11] A2=new_n39_ B1=new_n41_ B2=new_n42_ C1=input_A[7] C2=new_n38_ ZN=product[14]
+.gate AOI21_X1  A=new_n41_ B1=product[11] B2=new_n38_ ZN=product[15]
+.gate _const0_  z=product[0]
+.gate _const0_  z=product[1]
+.gate _const0_  z=product[2]
+.gate _const0_  z=product[3]
+.gate _const0_  z=product[4]
+.gate _const0_  z=product[5]
+.gate _const0_  z=product[6]
+.gate _const0_  z=product[7]
+.gate _const0_  z=product[8]
+.gate _const0_  z=product[9]
+.gate _const1_  z=product[10]
+.gate _const1_  z=product[12]
+.end

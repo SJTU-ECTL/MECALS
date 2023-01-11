@@ -1,0 +1,31 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.19 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/aig/add128    :[0m i/o =  256/  129  lat =    0  and =   1297  lev = 28
+[1;37minput/miter/width_129_maxse_18446744065119617025:[0m i/o =  258/    1  lat =    0  and = 119424  lev =105
+outpPath = ./result/add128/maxse18446744065119617025/
+seed = 911244778
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.04
+Execute abc command: w ./result/add128/maxse18446744065119617025/0.blif
+---------- round 1---------- 
+#nodes = 1297
+#internal nodes = 1168
+#internal nodes using exact PBDs = 46.72
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =  256/ 2723  lat =    0  and =20969071  lev =157
+[1;37m(null)                        :[0m i/o =  256/ 2723  lat =    0  and =1613810  lev =135
+[1;37m(null)                        :[0m i/o =  256/ 2723  lat =    0  and =   1982  lev = 29
+finish SAT sweeping the skeleton network
+n387_app(258), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  129  lat =    0  and =   1295  lev = 28
+Execute abc command: w ./result/add128/maxse18446744065119617025/1.blif
+current runtime = 305.181s
+---------- round 2---------- 
+#nodes = 1295
+#internal nodes = 1167
+#internal nodes using exact PBDs = 46.68
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =  256/ 2719  lat =    0  and =20846741  lev =157
+[1;37m(null)                        :[0m i/o =  256/ 2719  lat =    0  and =20608941  lev =157

@@ -1,0 +1,24 @@
+# Benchmark "(null)" written by ABC on Sun May 22 15:02:22 2022
+.model (null)
+.inputs a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] b[0] b[1] b[2] b[3] b[4] \
+ b[5] b[6] b[7]
+.outputs o[0] o[1] o[2] o[3] o[4] o[5] o[6] o[7]
+.gate INV_X1    A=a[5] ZN=new_n25_
+.gate INV_X1    A=a[6] ZN=new_n26_
+.gate INV_X1    A=a[7] ZN=new_n27_
+.gate INV_X1    A=b[5] ZN=new_n28_
+.gate OAI22_X1  A1=new_n25_ A2=b[5] B1=a[5] B2=new_n28_ ZN=o[5]
+.gate AND2_X1   A1=new_n26_ A2=b[6] ZN=new_n30_
+.gate NOR3_X1   A1=new_n25_ A2=b[5] A3=new_n30_ ZN=new_n31_
+.gate NOR2_X1   A1=new_n26_ A2=b[6] ZN=new_n32_
+.gate NAND2_X1  A1=new_n27_ A2=b[7] ZN=new_n33_
+.gate NOR3_X1   A1=a[5] A2=new_n28_ A3=new_n32_ ZN=new_n34_
+.gate OR2_X1    A1=b[7] A2=new_n30_ ZN=new_n35_
+.gate OAI33_X1  A1=new_n32_ A2=new_n33_ A3=new_n31_ B1=new_n34_ B2=new_n35_ B3=new_n27_ ZN=o[7]
+.gate _const1_  z=o[0]
+.gate _const0_  z=o[1]
+.gate _const0_  z=o[2]
+.gate _const1_  z=o[3]
+.gate _const1_  z=o[4]
+.gate _const0_  z=o[6]
+.end

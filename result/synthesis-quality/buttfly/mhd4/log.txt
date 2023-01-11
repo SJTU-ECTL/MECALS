@@ -1,0 +1,106 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.16 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/aig/buttfly   :[0m i/o =   32/   34  lat =    0  and =    265  lev = 48
+[1;37minput/miter/width_34_mhd_4    :[0m i/o =   68/    1  lat =    0  and =    303  lev = 33
+outpPath = ./result/buttfly/mhd4/
+seed = 3473790459
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.4
+Execute abc command: w ./result/buttfly/mhd4/0.blif
+---------- round 1---------- 
+#nodes = 265
+#internal nodes = 232
+#internal nodes using exact PBDs = 92.8
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/  564  lat =    0  and =  19768  lev = 76
+[1;37m(null)                        :[0m i/o =   32/  564  lat =    0  and =   6920  lev = 70
+[1;37m(null)                        :[0m i/o =   32/  564  lat =    0  and =   1384  lev = 71
+finish SAT sweeping the skeleton network
+n67_app(33), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    224  lev = 31
+Execute abc command: w ./result/buttfly/mhd4/1.blif
+current runtime = 0.818431s
+---------- round 2---------- 
+#nodes = 224
+#internal nodes = 192
+#internal nodes using exact PBDs = 76.8
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/  482  lat =    0  and =  18974  lev = 76
+[1;37m(null)                        :[0m i/o =   32/  482  lat =    0  and =  18723  lev = 76
+[1;37m(null)                        :[0m i/o =   32/  482  lat =    0  and =   6060  lev = 55
+finish SAT sweeping the skeleton network
+n71_app(37), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    217  lev = 31
+Execute abc command: w ./result/buttfly/mhd4/2.blif
+current runtime = 1.58761s
+---------- round 3---------- 
+#nodes = 217
+#internal nodes = 187
+#internal nodes using exact PBDs = 74.8
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/  468  lat =    0  and =  18490  lev = 76
+[1;37m(null)                        :[0m i/o =   32/  468  lat =    0  and =  18459  lev = 76
+[1;37m(null)                        :[0m i/o =   32/  468  lat =    0  and =   6419  lev = 56
+finish SAT sweeping the skeleton network
+n76_app(42), const0 (simulation)
+[1;37m(null)                        :[0m i/o =   32/  469  lat =    0  and =   6420  lev = 56
+[1;37m(null)                        :[0m i/o =   32/  469  lat =    0  and =   6420  lev = 56
+[1;37m(null)                        :[0m i/o =   32/  469  lat =    0  and =   6419  lev = 56
+ver_dF_n76_app*const0(501):n0(0),0 1
+n76_app(42), replace it by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    215  lev = 31
+Execute abc command: w ./result/buttfly/mhd4/3.blif
+current runtime = 2.24246s
+---------- round 4---------- 
+#nodes = 215
+#internal nodes = 185
+#internal nodes using exact PBDs = 74
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/  464  lat =    0  and =  17990  lev = 76
+[1;37m(null)                        :[0m i/o =   32/  464  lat =    0  and =  17945  lev = 76
+[1;37m(null)                        :[0m i/o =   32/  464  lat =    0  and =   6766  lev = 56
+finish SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/  464  lat =    0  and =   6766  lev = 56
+[1;37m(null)                        :[0m i/o =   32/  464  lat =    0  and =   6766  lev = 56
+[1;37m(null)                        :[0m i/o =   32/  464  lat =    0  and =   6766  lev = 56
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 1
+[1;37m(null)                        :[0m i/o =   32/  465  lat =    0  and =   6770  lev = 56
+[1;37m(null)                        :[0m i/o =   32/  465  lat =    0  and =   6770  lev = 56
+[1;37m(null)                        :[0m i/o =   32/  465  lat =    0  and =   6766  lev = 56
+sai_dF_n76_app*n187_app(497):n0(0),0 1
+n76_app(42),n187_app(153)
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    214  lev = 31
+Execute abc command: w ./result/buttfly/mhd4/4.blif
+current runtime = 3.13847s
+---------- round 5---------- 
+#nodes = 214
+#internal nodes = 185
+#internal nodes using exact PBDs = 74
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/  462  lat =    0  and =  17825  lev = 76
+[1;37m(null)                        :[0m i/o =   32/  462  lat =    0  and =  17793  lev = 76
+[1;37m(null)                        :[0m i/o =   32/  462  lat =    0  and =   6528  lev = 57
+finish SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/  462  lat =    0  and =   6528  lev = 57
+[1;37m(null)                        :[0m i/o =   32/  462  lat =    0  and =   6528  lev = 57
+[1;37m(null)                        :[0m i/o =   32/  462  lat =    0  and =   6528  lev = 57
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 1
+[1;37m(null)                        :[0m i/o =   32/  463  lat =    0  and =   6532  lev = 57
+[1;37m(null)                        :[0m i/o =   32/  463  lat =    0  and =   6532  lev = 57
+[1;37m(null)                        :[0m i/o =   32/  463  lat =    0  and =   6530  lev = 57
+Execute abc command: w ./result/buttfly/mhd4/final.blif
+current runtime = 3.87504s
+WireLoad = "none"  [1;33mGates =    162[0m ( 29.6 %)   [1;32mCap =  3.0 ff[0m (  0.1 %)   [1;36mArea =      154.01[0m ( 98.8 %)   [1;35mDelay =   922.19 ps[0m  ( 21.0 %)               

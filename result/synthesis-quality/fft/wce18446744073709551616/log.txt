@@ -1,0 +1,1540 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.23 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/muscat/aig/fft:[0m i/o =  256/  256  lat =    0  and =   8250  lev = 83
+[1;37minput/miter/width_256_wce_18446744073709551616:[0m i/o =  512/    1  lat =    0  and =   4894  lev = 37
+outpPath = ./result/fft/wce18446744073709551616/
+seed = 1253533436
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.001
+Execute abc command: w ./result/fft/wce18446744073709551616/0.blif
+---------- round 1---------- 
+#nodes = 8250
+#internal nodes = 8002
+#internal nodes using exact PBDs = 8.002
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16756  lat =    0  and = 559910  lev =334
+[1;37m(null)                        :[0m i/o =  256/16756  lat =    0  and =  21256  lev =117
+finish SAT sweeping
+n581_app(325), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8248  lev = 83
+Execute abc command: w ./result/fft/wce18446744073709551616/1.blif
+current runtime = 31.3865s
+---------- round 2---------- 
+#nodes = 8248
+#internal nodes = 8001
+#internal nodes using exact PBDs = 8.001
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16752  lat =    0  and = 557747  lev =332
+[1;37m(null)                        :[0m i/o =  256/16752  lat =    0  and =  17271  lev =115
+finish SAT sweeping
+n627_app(371), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8246  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/2.blif
+current runtime = 93.7384s
+---------- round 3---------- 
+#nodes = 8246
+#internal nodes = 8000
+#internal nodes using exact PBDs = 8
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16748  lat =    0  and = 550633  lev =332
+[1;37m(null)                        :[0m i/o =  256/16748  lat =    0  and =  17281  lev =115
+finish SAT sweeping
+n675_app(419), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8244  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/3.blif
+current runtime = 148.869s
+---------- round 4---------- 
+#nodes = 8244
+#internal nodes = 7999
+#internal nodes using exact PBDs = 7.999
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16744  lat =    0  and = 547498  lev =334
+[1;37m(null)                        :[0m i/o =  256/16744  lat =    0  and =  17237  lev =113
+finish SAT sweeping
+n736_app(480), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8242  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/4.blif
+current runtime = 191.905s
+---------- round 5---------- 
+#nodes = 8242
+#internal nodes = 7998
+#internal nodes using exact PBDs = 7.998
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16740  lat =    0  and = 544271  lev =332
+[1;37m(null)                        :[0m i/o =  256/16740  lat =    0  and =  17256  lev =113
+finish SAT sweeping
+n775_app(519), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8240  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/5.blif
+current runtime = 248.08s
+---------- round 6---------- 
+#nodes = 8240
+#internal nodes = 7997
+#internal nodes using exact PBDs = 7.997
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16736  lat =    0  and = 541273  lev =334
+[1;37m(null)                        :[0m i/o =  256/16736  lat =    0  and =  17245  lev =113
+finish SAT sweeping
+n835_app(579), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8238  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/6.blif
+current runtime = 293.292s
+---------- round 7---------- 
+#nodes = 8238
+#internal nodes = 7996
+#internal nodes using exact PBDs = 7.996
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16732  lat =    0  and = 538624  lev =332
+[1;37m(null)                        :[0m i/o =  256/16732  lat =    0  and =  17233  lev =113
+finish SAT sweeping
+n879_app(623), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8236  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/7.blif
+current runtime = 350.757s
+---------- round 8---------- 
+#nodes = 8236
+#internal nodes = 7995
+#internal nodes using exact PBDs = 7.995
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16728  lat =    0  and = 536003  lev =334
+[1;37m(null)                        :[0m i/o =  256/16728  lat =    0  and =  19251  lev =115
+finish SAT sweeping
+n933_app(677), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8234  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/8.blif
+current runtime = 389.3s
+---------- round 9---------- 
+#nodes = 8234
+#internal nodes = 7994
+#internal nodes using exact PBDs = 7.994
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16724  lat =    0  and = 533380  lev =332
+[1;37m(null)                        :[0m i/o =  256/16724  lat =    0  and =  17245  lev =115
+finish SAT sweeping
+n983_app(727), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8232  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/9.blif
+current runtime = 444.373s
+---------- round 10---------- 
+#nodes = 8232
+#internal nodes = 7993
+#internal nodes using exact PBDs = 7.993
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16720  lat =    0  and = 529850  lev =334
+[1;37m(null)                        :[0m i/o =  256/16720  lat =    0  and =  17204  lev =113
+finish SAT sweeping
+n1031_app(775), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8230  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/10.blif
+current runtime = 489.53s
+---------- round 11---------- 
+#nodes = 8230
+#internal nodes = 7992
+#internal nodes using exact PBDs = 7.992
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16716  lat =    0  and = 527141  lev =332
+[1;37m(null)                        :[0m i/o =  256/16716  lat =    0  and =  17218  lev =113
+finish SAT sweeping
+n1090_app(834), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8228  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/11.blif
+current runtime = 546.565s
+---------- round 12---------- 
+#nodes = 8228
+#internal nodes = 7991
+#internal nodes using exact PBDs = 7.991
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16712  lat =    0  and = 524203  lev =334
+[1;37m(null)                        :[0m i/o =  256/16712  lat =    0  and =  19245  lev =115
+finish SAT sweeping
+n1125_app(869), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8226  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/12.blif
+current runtime = 590.593s
+---------- round 13---------- 
+#nodes = 8226
+#internal nodes = 7990
+#internal nodes using exact PBDs = 7.99
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16708  lat =    0  and = 521506  lev =332
+[1;37m(null)                        :[0m i/o =  256/16708  lat =    0  and =  17239  lev =115
+finish SAT sweeping
+n1192_app(936), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8224  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/13.blif
+current runtime = 651.424s
+---------- round 14---------- 
+#nodes = 8224
+#internal nodes = 7989
+#internal nodes using exact PBDs = 7.989
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16704  lat =    0  and = 519047  lev =334
+[1;37m(null)                        :[0m i/o =  256/16704  lat =    0  and =  17195  lev =113
+finish SAT sweeping
+n1233_app(977), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8222  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/14.blif
+current runtime = 695.416s
+---------- round 15---------- 
+#nodes = 8222
+#internal nodes = 7988
+#internal nodes using exact PBDs = 7.988
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16700  lat =    0  and = 516033  lev =332
+[1;37m(null)                        :[0m i/o =  256/16700  lat =    0  and =  17193  lev =113
+finish SAT sweeping
+n575_app(319), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8219  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/15.blif
+current runtime = 766.765s
+---------- round 16---------- 
+#nodes = 8219
+#internal nodes = 7985
+#internal nodes using exact PBDs = 7.985
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16694  lat =    0  and = 515806  lev =332
+[1;37m(null)                        :[0m i/o =  256/16694  lat =    0  and =  17250  lev =115
+finish SAT sweeping
+n621_app(365), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8216  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/16.blif
+current runtime = 827.67s
+---------- round 17---------- 
+#nodes = 8216
+#internal nodes = 7982
+#internal nodes using exact PBDs = 7.982
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16688  lat =    0  and = 516249  lev =334
+[1;37m(null)                        :[0m i/o =  256/16688  lat =    0  and =  17244  lev =113
+finish SAT sweeping
+n669_app(413), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8213  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/17.blif
+current runtime = 876.897s
+---------- round 18---------- 
+#nodes = 8213
+#internal nodes = 7979
+#internal nodes using exact PBDs = 7.979
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16682  lat =    0  and = 516566  lev =332
+[1;37m(null)                        :[0m i/o =  256/16682  lat =    0  and =  17234  lev =113
+finish SAT sweeping
+n700_app(444), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8210  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/18.blif
+current runtime = 940.36s
+---------- round 19---------- 
+#nodes = 8210
+#internal nodes = 7976
+#internal nodes using exact PBDs = 7.976
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16676  lat =    0  and = 516275  lev =334
+[1;37m(null)                        :[0m i/o =  256/16676  lat =    0  and =  19248  lev =115
+finish SAT sweeping
+n751_app(495), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8207  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/19.blif
+current runtime = 987.253s
+---------- round 20---------- 
+#nodes = 8207
+#internal nodes = 7973
+#internal nodes using exact PBDs = 7.973
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16670  lat =    0  and = 516046  lev =332
+[1;37m(null)                        :[0m i/o =  256/16670  lat =    0  and =  17238  lev =115
+finish SAT sweeping
+n784_app(528), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8204  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/20.blif
+current runtime = 1055.87s
+---------- round 21---------- 
+#nodes = 8204
+#internal nodes = 7970
+#internal nodes using exact PBDs = 7.97
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16664  lat =    0  and = 515829  lev =334
+[1;37m(null)                        :[0m i/o =  256/16664  lat =    0  and =  17208  lev =113
+finish SAT sweeping
+n831_app(575), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8201  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/21.blif
+current runtime = 1105.03s
+---------- round 22---------- 
+#nodes = 8201
+#internal nodes = 7967
+#internal nodes using exact PBDs = 7.967
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16658  lat =    0  and = 516409  lev =332
+[1;37m(null)                        :[0m i/o =  256/16658  lat =    0  and =  17229  lev =113
+finish SAT sweeping
+n868_app(612), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8198  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/22.blif
+current runtime = 1165.04s
+---------- round 23---------- 
+#nodes = 8198
+#internal nodes = 7964
+#internal nodes using exact PBDs = 7.964
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16652  lat =    0  and = 516303  lev =334
+[1;37m(null)                        :[0m i/o =  256/16652  lat =    0  and =  17196  lev =113
+finish SAT sweeping
+n911_app(655), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8195  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/23.blif
+current runtime = 1210.76s
+---------- round 24---------- 
+#nodes = 8195
+#internal nodes = 7961
+#internal nodes using exact PBDs = 7.961
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16646  lat =    0  and = 516616  lev =332
+[1;37m(null)                        :[0m i/o =  256/16646  lat =    0  and =  17233  lev =115
+finish SAT sweeping
+n953_app(697), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8192  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/24.blif
+current runtime = 1271.76s
+---------- round 25---------- 
+#nodes = 8192
+#internal nodes = 7958
+#internal nodes using exact PBDs = 7.958
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16640  lat =    0  and = 516323  lev =334
+[1;37m(null)                        :[0m i/o =  256/16640  lat =    0  and =  17181  lev =113
+finish SAT sweeping
+n987_app(731), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8189  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/25.blif
+current runtime = 1318.17s
+---------- round 26---------- 
+#nodes = 8189
+#internal nodes = 7955
+#internal nodes using exact PBDs = 7.955
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16634  lat =    0  and = 515988  lev =332
+[1;37m(null)                        :[0m i/o =  256/16634  lat =    0  and =  17230  lev =115
+finish SAT sweeping
+n1041_app(785), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8186  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/26.blif
+current runtime = 1381.89s
+---------- round 27---------- 
+#nodes = 8186
+#internal nodes = 7952
+#internal nodes using exact PBDs = 7.952
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16628  lat =    0  and = 515878  lev =334
+[1;37m(null)                        :[0m i/o =  256/16628  lat =    0  and =  17189  lev =113
+finish SAT sweeping
+n1069_app(813), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8183  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/27.blif
+current runtime = 1432.18s
+---------- round 28---------- 
+#nodes = 8183
+#internal nodes = 7949
+#internal nodes using exact PBDs = 7.949
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16622  lat =    0  and = 515996  lev =332
+[1;37m(null)                        :[0m i/o =  256/16622  lat =    0  and =  19281  lev =117
+finish SAT sweeping
+n1117_app(861), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8180  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/28.blif
+current runtime = 1495.77s
+---------- round 29---------- 
+#nodes = 8180
+#internal nodes = 7946
+#internal nodes using exact PBDs = 7.946
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16616  lat =    0  and = 516341  lev =334
+[1;37m(null)                        :[0m i/o =  256/16616  lat =    0  and =  17169  lev =113
+finish SAT sweeping
+n1106_app(850), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8176  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/29.blif
+current runtime = 1544.21s
+---------- round 30---------- 
+#nodes = 8176
+#internal nodes = 7943
+#internal nodes using exact PBDs = 7.943
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16608  lat =    0  and = 513695  lev =332
+[1;37m(null)                        :[0m i/o =  256/16608  lat =    0  and =  17213  lev =113
+finish SAT sweeping
+n1218_app(962), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8174  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/30.blif
+current runtime = 1598.99s
+---------- round 31---------- 
+#nodes = 8174
+#internal nodes = 7942
+#internal nodes using exact PBDs = 7.942
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16604  lat =    0  and = 510272  lev =334
+[1;37m(null)                        :[0m i/o =  256/16604  lat =    0  and =  17176  lev =113
+finish SAT sweeping
+n1270_app(1014), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8172  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/31.blif
+current runtime = 1644.68s
+---------- round 32---------- 
+#nodes = 8172
+#internal nodes = 7941
+#internal nodes using exact PBDs = 7.941
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16600  lat =    0  and = 507829  lev =332
+[1;37m(null)                        :[0m i/o =  256/16600  lat =    0  and =  17215  lev =115
+finish SAT sweeping
+n1319_app(1063), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8170  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/32.blif
+current runtime = 1709.04s
+---------- round 33---------- 
+#nodes = 8170
+#internal nodes = 7940
+#internal nodes using exact PBDs = 7.94
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16596  lat =    0  and = 505320  lev =334
+[1;37m(null)                        :[0m i/o =  256/16596  lat =    0  and =  19202  lev =115
+finish SAT sweeping
+n1374_app(1118), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8168  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/33.blif
+current runtime = 1758.27s
+---------- round 34---------- 
+#nodes = 8168
+#internal nodes = 7939
+#internal nodes using exact PBDs = 7.939
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16592  lat =    0  and = 502800  lev =332
+[1;37m(null)                        :[0m i/o =  256/16592  lat =    0  and =  17199  lev =113
+finish SAT sweeping
+n1418_app(1162), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8166  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/34.blif
+current runtime = 1818.08s
+---------- round 35---------- 
+#nodes = 8166
+#internal nodes = 7938
+#internal nodes using exact PBDs = 7.938
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16588  lat =    0  and = 499394  lev =334
+[1;37m(null)                        :[0m i/o =  256/16588  lat =    0  and =  17153  lev =113
+finish SAT sweeping
+n1475_app(1219), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8164  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/35.blif
+current runtime = 1867.53s
+---------- round 36---------- 
+#nodes = 8164
+#internal nodes = 7937
+#internal nodes using exact PBDs = 7.937
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16584  lat =    0  and = 496687  lev =332
+[1;37m(null)                        :[0m i/o =  256/16584  lat =    0  and =  17216  lev =115
+finish SAT sweeping
+n1521_app(1265), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8162  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/36.blif
+current runtime = 1930.7s
+---------- round 37---------- 
+#nodes = 8162
+#internal nodes = 7936
+#internal nodes using exact PBDs = 7.936
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16580  lat =    0  and = 493973  lev =334
+[1;37m(null)                        :[0m i/o =  256/16580  lat =    0  and =  17131  lev =113
+finish SAT sweeping
+n1573_app(1317), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8160  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/37.blif
+current runtime = 1983.83s
+---------- round 38---------- 
+#nodes = 8160
+#internal nodes = 7935
+#internal nodes using exact PBDs = 7.935
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16576  lat =    0  and = 491388  lev =332
+[1;37m(null)                        :[0m i/o =  256/16576  lat =    0  and =  17184  lev =113
+finish SAT sweeping
+n1627_app(1371), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8158  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/38.blif
+current runtime = 2046.8s
+---------- round 39---------- 
+#nodes = 8158
+#internal nodes = 7934
+#internal nodes using exact PBDs = 7.934
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16572  lat =    0  and = 488584  lev =334
+[1;37m(null)                        :[0m i/o =  256/16572  lat =    0  and =  17142  lev =113
+finish SAT sweeping
+n1668_app(1412), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8156  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/39.blif
+current runtime = 2095.38s
+---------- round 40---------- 
+#nodes = 8156
+#internal nodes = 7933
+#internal nodes using exact PBDs = 7.933
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16568  lat =    0  and = 485922  lev =332
+[1;37m(null)                        :[0m i/o =  256/16568  lat =    0  and =  17184  lev =115
+finish SAT sweeping
+n1735_app(1479), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8154  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/40.blif
+current runtime = 2160.91s
+---------- round 41---------- 
+#nodes = 8154
+#internal nodes = 7932
+#internal nodes using exact PBDs = 7.932
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16564  lat =    0  and = 483234  lev =334
+[1;37m(null)                        :[0m i/o =  256/16564  lat =    0  and =  19168  lev =115
+finish SAT sweeping
+n1762_app(1506), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8152  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/41.blif
+current runtime = 2214.52s
+---------- round 42---------- 
+#nodes = 8152
+#internal nodes = 7931
+#internal nodes using exact PBDs = 7.931
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16560  lat =    0  and = 481242  lev =332
+[1;37m(null)                        :[0m i/o =  256/16560  lat =    0  and =  17155  lev =113
+finish SAT sweeping
+n1837_app(1581), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8150  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/42.blif
+current runtime = 2274.55s
+---------- round 43---------- 
+#nodes = 8150
+#internal nodes = 7930
+#internal nodes using exact PBDs = 7.93
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16556  lat =    0  and = 478390  lev =334
+[1;37m(null)                        :[0m i/o =  256/16556  lat =    0  and =  17128  lev =113
+finish SAT sweeping
+n1870_app(1614), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8148  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/43.blif
+current runtime = 2321.87s
+---------- round 44---------- 
+#nodes = 8148
+#internal nodes = 7929
+#internal nodes using exact PBDs = 7.929
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16552  lat =    0  and = 475406  lev =332
+[1;37m(null)                        :[0m i/o =  256/16552  lat =    0  and =  17153  lev =115
+finish SAT sweeping
+n1217_app(961), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8145  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/44.blif
+current runtime = 2385.19s
+---------- round 45---------- 
+#nodes = 8145
+#internal nodes = 7926
+#internal nodes using exact PBDs = 7.926
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16546  lat =    0  and = 475483  lev =332
+[1;37m(null)                        :[0m i/o =  256/16546  lat =    0  and =  17182  lev =113
+finish SAT sweeping
+n1263_app(1007), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8142  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/45.blif
+current runtime = 2448.47s
+---------- round 46---------- 
+#nodes = 8142
+#internal nodes = 7923
+#internal nodes using exact PBDs = 7.923
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16540  lat =    0  and = 475198  lev =334
+[1;37m(null)                        :[0m i/o =  256/16540  lat =    0  and =  17129  lev =113
+finish SAT sweeping
+n1307_app(1051), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8139  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/46.blif
+current runtime = 2496.56s
+---------- round 47---------- 
+#nodes = 8139
+#internal nodes = 7920
+#internal nodes using exact PBDs = 7.92
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16534  lat =    0  and = 475305  lev =332
+[1;37m(null)                        :[0m i/o =  256/16534  lat =    0  and =  17208  lev =115
+finish SAT sweeping
+n1344_app(1088), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8136  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/47.blif
+current runtime = 2561s
+---------- round 48---------- 
+#nodes = 8136
+#internal nodes = 7917
+#internal nodes using exact PBDs = 7.917
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16528  lat =    0  and = 475228  lev =334
+[1;37m(null)                        :[0m i/o =  256/16528  lat =    0  and =  17138  lev =113
+finish SAT sweeping
+n1390_app(1134), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8133  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/48.blif
+current runtime = 2616.38s
+---------- round 49---------- 
+#nodes = 8133
+#internal nodes = 7914
+#internal nodes using exact PBDs = 7.914
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16522  lat =    0  and = 475424  lev =332
+[1;37m(null)                        :[0m i/o =  256/16522  lat =    0  and =  17192  lev =115
+finish SAT sweeping
+n1426_app(1170), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8130  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/49.blif
+current runtime = 2681.11s
+---------- round 50---------- 
+#nodes = 8130
+#internal nodes = 7911
+#internal nodes using exact PBDs = 7.911
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16516  lat =    0  and = 475233  lev =334
+[1;37m(null)                        :[0m i/o =  256/16516  lat =    0  and =  17127  lev =113
+finish SAT sweeping
+n1471_app(1215), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8127  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/50.blif
+current runtime = 2731.22s
+---------- round 51---------- 
+#nodes = 8127
+#internal nodes = 7908
+#internal nodes using exact PBDs = 7.908
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16510  lat =    0  and = 475890  lev =332
+[1;37m(null)                        :[0m i/o =  256/16510  lat =    0  and =  17179  lev =115
+finish SAT sweeping
+n1510_app(1254), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8124  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/51.blif
+current runtime = 2793.13s
+---------- round 52---------- 
+#nodes = 8124
+#internal nodes = 7905
+#internal nodes using exact PBDs = 7.905
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16504  lat =    0  and = 475798  lev =334
+[1;37m(null)                        :[0m i/o =  256/16504  lat =    0  and =  17130  lev =113
+finish SAT sweeping
+n1549_app(1293), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8121  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/52.blif
+current runtime = 2841.62s
+---------- round 53---------- 
+#nodes = 8121
+#internal nodes = 7902
+#internal nodes using exact PBDs = 7.902
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16498  lat =    0  and = 476095  lev =332
+[1;37m(null)                        :[0m i/o =  256/16498  lat =    0  and =  17169  lev =113
+finish SAT sweeping
+n1597_app(1341), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8118  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/53.blif
+current runtime = 2910.19s
+---------- round 54---------- 
+#nodes = 8118
+#internal nodes = 7899
+#internal nodes using exact PBDs = 7.899
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16492  lat =    0  and = 475267  lev =334
+[1;37m(null)                        :[0m i/o =  256/16492  lat =    0  and =  17120  lev =113
+finish SAT sweeping
+n1625_app(1369), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8115  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/54.blif
+current runtime = 2961.45s
+---------- round 55---------- 
+#nodes = 8115
+#internal nodes = 7896
+#internal nodes using exact PBDs = 7.896
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16486  lat =    0  and = 475571  lev =332
+[1;37m(null)                        :[0m i/o =  256/16486  lat =    0  and =  19315  lev =117
+finish SAT sweeping
+n1685_app(1429), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8112  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/55.blif
+current runtime = 3035.18s
+---------- round 56---------- 
+#nodes = 8112
+#internal nodes = 7893
+#internal nodes using exact PBDs = 7.893
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16480  lat =    0  and = 475277  lev =334
+[1;37m(null)                        :[0m i/o =  256/16480  lat =    0  and =  17118  lev =113
+finish SAT sweeping
+n1707_app(1451), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8109  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/56.blif
+current runtime = 3090.38s
+---------- round 57---------- 
+#nodes = 8109
+#internal nodes = 7890
+#internal nodes using exact PBDs = 7.89
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16474  lat =    0  and = 475577  lev =332
+[1;37m(null)                        :[0m i/o =  256/16474  lat =    0  and =  17133  lev =113
+finish SAT sweeping
+n1761_app(1505), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8106  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/57.blif
+current runtime = 3158.29s
+---------- round 58---------- 
+#nodes = 8106
+#internal nodes = 7887
+#internal nodes using exact PBDs = 7.887
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16468  lat =    0  and = 475834  lev =334
+[1;37m(null)                        :[0m i/o =  256/16468  lat =    0  and =  19151  lev =115
+finish SAT sweeping
+n1744_app(1488), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8102  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/58.blif
+current runtime = 3208.13s
+---------- round 59---------- 
+#nodes = 8102
+#internal nodes = 7884
+#internal nodes using exact PBDs = 7.884
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16460  lat =    0  and = 472776  lev =332
+[1;37m(null)                        :[0m i/o =  256/16460  lat =    0  and =  17176  lev =115
+finish SAT sweeping
+n2515_app(2259), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8100  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/59.blif
+current runtime = 3272.35s
+---------- round 60---------- 
+#nodes = 8100
+#internal nodes = 7883
+#internal nodes using exact PBDs = 7.883
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16456  lat =    0  and = 470069  lev =334
+[1;37m(null)                        :[0m i/o =  256/16456  lat =    0  and =  17101  lev =113
+finish SAT sweeping
+n2645_app(2389), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8098  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/60.blif
+current runtime = 3325.45s
+---------- round 61---------- 
+#nodes = 8098
+#internal nodes = 7882
+#internal nodes using exact PBDs = 7.882
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16452  lat =    0  and = 468111  lev =332
+[1;37m(null)                        :[0m i/o =  256/16452  lat =    0  and =  17122  lev =113
+finish SAT sweeping
+n2791_app(2535), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8096  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/61.blif
+current runtime = 3387.46s
+---------- round 62---------- 
+#nodes = 8096
+#internal nodes = 7881
+#internal nodes using exact PBDs = 7.881
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16448  lat =    0  and = 465403  lev =334
+[1;37m(null)                        :[0m i/o =  256/16448  lat =    0  and =  17086  lev =113
+finish SAT sweeping
+n2926_app(2670), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8094  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/62.blif
+current runtime = 3431.9s
+---------- round 63---------- 
+#nodes = 8094
+#internal nodes = 7880
+#internal nodes using exact PBDs = 7.88
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16444  lat =    0  and = 463017  lev =332
+[1;37m(null)                        :[0m i/o =  256/16444  lat =    0  and =  19237  lev =115
+finish SAT sweeping
+n3075_app(2819), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8092  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/63.blif
+current runtime = 3495.51s
+---------- round 64---------- 
+#nodes = 8092
+#internal nodes = 7879
+#internal nodes using exact PBDs = 7.879
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16440  lat =    0  and = 459777  lev =334
+[1;37m(null)                        :[0m i/o =  256/16440  lat =    0  and =  17081  lev =113
+finish SAT sweeping
+n3210_app(2954), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8090  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/64.blif
+current runtime = 3550.03s
+---------- round 65---------- 
+#nodes = 8090
+#internal nodes = 7878
+#internal nodes using exact PBDs = 7.878
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16436  lat =    0  and = 457855  lev =332
+[1;37m(null)                        :[0m i/o =  256/16436  lat =    0  and =  17113  lev =115
+finish SAT sweeping
+n3363_app(3107), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8088  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/65.blif
+current runtime = 3610.79s
+---------- round 66---------- 
+#nodes = 8088
+#internal nodes = 7877
+#internal nodes using exact PBDs = 7.877
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16432  lat =    0  and = 455096  lev =334
+[1;37m(null)                        :[0m i/o =  256/16432  lat =    0  and =  17070  lev =113
+finish SAT sweeping
+n3452_app(3196), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8086  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/66.blif
+current runtime = 3658.45s
+---------- round 67---------- 
+#nodes = 8086
+#internal nodes = 7876
+#internal nodes using exact PBDs = 7.876
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16428  lat =    0  and = 452201  lev =332
+[1;37m(null)                        :[0m i/o =  256/16428  lat =    0  and =  17126  lev =115
+finish SAT sweeping
+n3543_app(3287), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8084  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/67.blif
+current runtime = 3724.86s
+---------- round 68---------- 
+#nodes = 8084
+#internal nodes = 7875
+#internal nodes using exact PBDs = 7.875
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16424  lat =    0  and = 449462  lev =334
+[1;37m(null)                        :[0m i/o =  256/16424  lat =    0  and =  17069  lev =113
+finish SAT sweeping
+n3637_app(3381), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8082  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/68.blif
+current runtime = 3779.92s
+---------- round 69---------- 
+#nodes = 8082
+#internal nodes = 7874
+#internal nodes using exact PBDs = 7.874
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16420  lat =    0  and = 447780  lev =332
+[1;37m(null)                        :[0m i/o =  256/16420  lat =    0  and =  17063  lev =113
+finish SAT sweeping
+n3710_app(3454), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8080  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/69.blif
+current runtime = 3847.07s
+---------- round 70---------- 
+#nodes = 8080
+#internal nodes = 7873
+#internal nodes using exact PBDs = 7.873
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16416  lat =    0  and = 444423  lev =334
+[1;37m(null)                        :[0m i/o =  256/16416  lat =    0  and =  17029  lev =113
+finish SAT sweeping
+n3795_app(3539), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8078  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/70.blif
+current runtime = 3896.94s
+---------- round 71---------- 
+#nodes = 8078
+#internal nodes = 7872
+#internal nodes using exact PBDs = 7.872
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16412  lat =    0  and = 442752  lev =332
+[1;37m(null)                        :[0m i/o =  256/16412  lat =    0  and =  17064  lev =115
+finish SAT sweeping
+n3859_app(3603), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8076  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/71.blif
+current runtime = 3963.51s
+---------- round 72---------- 
+#nodes = 8076
+#internal nodes = 7871
+#internal nodes using exact PBDs = 7.871
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16408  lat =    0  and = 439429  lev =334
+[1;37m(null)                        :[0m i/o =  256/16408  lat =    0  and =  17038  lev =113
+finish SAT sweeping
+n3923_app(3667), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8074  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/72.blif
+current runtime = 4019.47s
+---------- round 73---------- 
+#nodes = 8074
+#internal nodes = 7870
+#internal nodes using exact PBDs = 7.87
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16404  lat =    0  and = 437141  lev =332
+[1;37m(null)                        :[0m i/o =  256/16404  lat =    0  and =  17010  lev =115
+finish SAT sweeping
+n2513_app(2257), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8071  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/73.blif
+current runtime = 4082.46s
+---------- round 74---------- 
+#nodes = 8071
+#internal nodes = 7867
+#internal nodes using exact PBDs = 7.867
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16398  lat =    0  and = 436888  lev =334
+[1;37m(null)                        :[0m i/o =  256/16398  lat =    0  and =  17012  lev =113
+finish SAT sweeping
+n2639_app(2383), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8068  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/74.blif
+current runtime = 4134.21s
+---------- round 75---------- 
+#nodes = 8068
+#internal nodes = 7864
+#internal nodes using exact PBDs = 7.864
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16392  lat =    0  and = 437454  lev =332
+[1;37m(null)                        :[0m i/o =  256/16392  lat =    0  and =  16989  lev =113
+finish SAT sweeping
+n2773_app(2517), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8065  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/75.blif
+current runtime = 4200.36s
+---------- round 76---------- 
+#nodes = 8065
+#internal nodes = 7861
+#internal nodes using exact PBDs = 7.861
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16386  lat =    0  and = 436834  lev =334
+[1;37m(null)                        :[0m i/o =  256/16386  lat =    0  and =  16972  lev =113
+finish SAT sweeping
+n2902_app(2646), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8062  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/76.blif
+current runtime = 4255.01s
+---------- round 77---------- 
+#nodes = 8062
+#internal nodes = 7858
+#internal nodes using exact PBDs = 7.858
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16380  lat =    0  and = 437353  lev =332
+[1;37m(null)                        :[0m i/o =  256/16380  lat =    0  and =  16984  lev =115
+finish SAT sweeping
+n3040_app(2784), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8059  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/77.blif
+current runtime = 4318.06s
+---------- round 78---------- 
+#nodes = 8059
+#internal nodes = 7855
+#internal nodes using exact PBDs = 7.855
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16374  lat =    0  and = 436527  lev =334
+[1;37m(null)                        :[0m i/o =  256/16374  lat =    0  and =  16933  lev =113
+finish SAT sweeping
+n3165_app(2909), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8056  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/78.blif
+current runtime = 4371.53s
+---------- round 79---------- 
+#nodes = 8056
+#internal nodes = 7852
+#internal nodes using exact PBDs = 7.852
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16368  lat =    0  and = 436500  lev =332
+[1;37m(null)                        :[0m i/o =  256/16368  lat =    0  and =  16958  lev =115
+finish SAT sweeping
+n3311_app(3055), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8053  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/79.blif
+current runtime = 4440.72s
+---------- round 80---------- 
+#nodes = 8053
+#internal nodes = 7849
+#internal nodes using exact PBDs = 7.849
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16362  lat =    0  and = 436934  lev =332
+[1;37m(null)                        :[0m i/o =  256/16362  lat =    0  and =  16911  lev =115
+finish SAT sweeping
+n3397_app(3141), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8050  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/80.blif
+current runtime = 4510.65s
+---------- round 81---------- 
+#nodes = 8050
+#internal nodes = 7846
+#internal nodes using exact PBDs = 7.846
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16356  lat =    0  and = 436332  lev =330
+[1;37m(null)                        :[0m i/o =  256/16356  lat =    0  and =  16940  lev =115
+finish SAT sweeping
+n3471_app(3215), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8047  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/81.blif
+current runtime = 4579.62s
+---------- round 82---------- 
+#nodes = 8047
+#internal nodes = 7843
+#internal nodes using exact PBDs = 7.843
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16350  lat =    0  and = 436061  lev =332
+[1;37m(null)                        :[0m i/o =  256/16350  lat =    0  and =  16887  lev =113
+finish SAT sweeping
+n3552_app(3296), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8044  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/82.blif
+current runtime = 4636.19s
+---------- round 83---------- 
+#nodes = 8044
+#internal nodes = 7840
+#internal nodes using exact PBDs = 7.84
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16344  lat =    0  and = 435640  lev =336
+[1;37m(null)                        :[0m i/o =  256/16344  lat =    0  and =  18823  lev =117
+finish SAT sweeping
+n3619_app(3363), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8041  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/83.blif
+current runtime = 4701.69s
+---------- round 84---------- 
+#nodes = 8041
+#internal nodes = 7837
+#internal nodes using exact PBDs = 7.837
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16338  lat =    0  and = 435357  lev =332
+[1;37m(null)                        :[0m i/o =  256/16338  lat =    0  and =  16809  lev =115
+finish SAT sweeping
+n3693_app(3437), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8038  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/84.blif
+current runtime = 4753.49s
+---------- round 85---------- 
+#nodes = 8038
+#internal nodes = 7834
+#internal nodes using exact PBDs = 7.834
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16332  lat =    0  and = 435290  lev =337
+[1;37m(null)                        :[0m i/o =  256/16332  lat =    0  and =  16837  lev =115
+finish SAT sweeping
+n3749_app(3493), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8035  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/85.blif
+current runtime = 4814.5s
+---------- round 86---------- 
+#nodes = 8035
+#internal nodes = 7831
+#internal nodes using exact PBDs = 7.831
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16326  lat =    0  and = 434951  lev =339
+[1;37m(null)                        :[0m i/o =  256/16326  lat =    0  and =  16737  lev =113
+finish SAT sweeping
+n3802_app(3546), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8032  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/86.blif
+current runtime = 4870.7s
+---------- round 87---------- 
+#nodes = 8032
+#internal nodes = 7828
+#internal nodes using exact PBDs = 7.828
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16320  lat =    0  and = 435146  lev =337
+[1;37m(null)                        :[0m i/o =  256/16320  lat =    0  and =  16843  lev =113
+finish SAT sweeping
+n3798_app(3542), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8028  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/87.blif
+current runtime = 4941.6s
+---------- round 88---------- 
+#nodes = 8028
+#internal nodes = 7825
+#internal nodes using exact PBDs = 7.825
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16312  lat =    0  and = 432184  lev =332
+[1;37m(null)                        :[0m i/o =  256/16312  lat =    0  and =  16767  lev =115
+finish SAT sweeping
+n4205_app(3949), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8026  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/88.blif
+current runtime = 4990.82s
+---------- round 89---------- 
+#nodes = 8026
+#internal nodes = 7824
+#internal nodes using exact PBDs = 7.824
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16308  lat =    0  and = 429894  lev =337
+[1;37m(null)                        :[0m i/o =  256/16308  lat =    0  and =  16753  lev =113
+finish SAT sweeping
+n4305_app(4049), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8024  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/89.blif
+current runtime = 5059.56s
+---------- round 90---------- 
+#nodes = 8024
+#internal nodes = 7823
+#internal nodes using exact PBDs = 7.823
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16304  lat =    0  and = 427314  lev =332
+[1;37m(null)                        :[0m i/o =  256/16304  lat =    0  and =  16706  lev =113
+finish SAT sweeping
+n4394_app(4138), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8022  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/90.blif
+current runtime = 5121.24s
+---------- round 91---------- 
+#nodes = 8022
+#internal nodes = 7822
+#internal nodes using exact PBDs = 7.822
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16300  lat =    0  and = 424924  lev =327
+[1;37m(null)                        :[0m i/o =  256/16300  lat =    0  and =  16719  lev =113
+finish SAT sweeping
+n4499_app(4243), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8020  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/91.blif
+current runtime = 5192.41s
+---------- round 92---------- 
+#nodes = 8020
+#internal nodes = 7821
+#internal nodes using exact PBDs = 7.821
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16296  lat =    0  and = 422436  lev =332
+[1;37m(null)                        :[0m i/o =  256/16296  lat =    0  and =  16706  lev =115
+finish SAT sweeping
+n4583_app(4327), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8018  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/92.blif
+current runtime = 5250.14s
+---------- round 93---------- 
+#nodes = 8018
+#internal nodes = 7820
+#internal nodes using exact PBDs = 7.82
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16292  lat =    0  and = 420194  lev =338
+[1;37m(null)                        :[0m i/o =  256/16292  lat =    0  and =  16713  lev =113
+finish SAT sweeping
+n4685_app(4429), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8016  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/93.blif
+current runtime = 5322.72s
+---------- round 94---------- 
+#nodes = 8016
+#internal nodes = 7819
+#internal nodes using exact PBDs = 7.819
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16288  lat =    0  and = 417626  lev =333
+[1;37m(null)                        :[0m i/o =  256/16288  lat =    0  and =  16686  lev =113
+finish SAT sweeping
+n4773_app(4517), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8014  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/94.blif
+current runtime = 5382.65s
+---------- round 95---------- 
+#nodes = 8014
+#internal nodes = 7818
+#internal nodes using exact PBDs = 7.818
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16284  lat =    0  and = 416256  lev =338
+[1;37m(null)                        :[0m i/o =  256/16284  lat =    0  and =  18665  lev =117
+finish SAT sweeping
+n4862_app(4606), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8012  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/95.blif
+current runtime = 5463.34s
+---------- round 96---------- 
+#nodes = 8012
+#internal nodes = 7817
+#internal nodes using exact PBDs = 7.817
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16280  lat =    0  and = 413618  lev =335
+[1;37m(null)                        :[0m i/o =  256/16280  lat =    0  and =  16683  lev =115
+finish SAT sweeping
+n4946_app(4690), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8010  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/96.blif
+current runtime = 5517.96s
+---------- round 97---------- 
+#nodes = 8010
+#internal nodes = 7816
+#internal nodes using exact PBDs = 7.816
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16276  lat =    0  and = 410621  lev =338
+[1;37m(null)                        :[0m i/o =  256/16276  lat =    0  and =  16679  lev =113
+finish SAT sweeping
+n5020_app(4764), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8008  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/97.blif
+current runtime = 5595.92s
+---------- round 98---------- 
+#nodes = 8008
+#internal nodes = 7815
+#internal nodes using exact PBDs = 7.815
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16272  lat =    0  and = 408193  lev =334
+[1;37m(null)                        :[0m i/o =  256/16272  lat =    0  and =  16671  lev =115
+finish SAT sweeping
+n5098_app(4842), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8006  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/98.blif
+current runtime = 5656.85s
+---------- round 99---------- 
+#nodes = 8006
+#internal nodes = 7814
+#internal nodes using exact PBDs = 7.814
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16268  lat =    0  and = 407263  lev =336
+[1;37m(null)                        :[0m i/o =  256/16268  lat =    0  and =  16673  lev =115
+finish SAT sweeping
+n5158_app(4902), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8004  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/99.blif
+current runtime = 5721.28s
+---------- round 100---------- 
+#nodes = 8004
+#internal nodes = 7813
+#internal nodes using exact PBDs = 7.813
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16264  lat =    0  and = 404168  lev =336
+[1;37m(null)                        :[0m i/o =  256/16264  lat =    0  and =  16649  lev =115
+finish SAT sweeping
+n5223_app(4967), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8002  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/100.blif
+current runtime = 5779.57s
+---------- round 101---------- 
+#nodes = 8002
+#internal nodes = 7812
+#internal nodes using exact PBDs = 7.812
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16260  lat =    0  and = 402004  lev =336
+[1;37m(null)                        :[0m i/o =  256/16260  lat =    0  and =  16699  lev =115
+finish SAT sweeping
+n5273_app(5017), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   8000  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/101.blif
+current runtime = 5849.73s
+---------- round 102---------- 
+#nodes = 8000
+#internal nodes = 7811
+#internal nodes using exact PBDs = 7.811
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16256  lat =    0  and = 399331  lev =333
+[1;37m(null)                        :[0m i/o =  256/16256  lat =    0  and =  16603  lev =113
+finish SAT sweeping
+n4203_app(3947), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7997  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/102.blif
+current runtime = 5921.96s
+---------- round 103---------- 
+#nodes = 7997
+#internal nodes = 7808
+#internal nodes using exact PBDs = 7.808
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16250  lat =    0  and = 399252  lev =333
+[1;37m(null)                        :[0m i/o =  256/16250  lat =    0  and =  16642  lev =115
+finish SAT sweeping
+n4290_app(4034), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7994  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/103.blif
+current runtime = 5978.11s
+---------- round 104---------- 
+#nodes = 7994
+#internal nodes = 7805
+#internal nodes using exact PBDs = 7.805
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16244  lat =    0  and = 398641  lev =333
+[1;37m(null)                        :[0m i/o =  256/16244  lat =    0  and =  16607  lev =115
+finish SAT sweeping
+n4378_app(4122), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7991  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/104.blif
+current runtime = 6038s
+---------- round 105---------- 
+#nodes = 7991
+#internal nodes = 7802
+#internal nodes using exact PBDs = 7.802
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16238  lat =    0  and = 399491  lev =336
+[1;37m(null)                        :[0m i/o =  256/16238  lat =    0  and =  16608  lev =115
+finish SAT sweeping
+n4473_app(4217), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7988  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/105.blif
+current runtime = 6111.22s
+---------- round 106---------- 
+#nodes = 7988
+#internal nodes = 7799
+#internal nodes using exact PBDs = 7.799
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16232  lat =    0  and = 398680  lev =338
+[1;37m(null)                        :[0m i/o =  256/16232  lat =    0  and =  16670  lev =115
+finish SAT sweeping
+n4559_app(4303), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7985  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/106.blif
+current runtime = 6182.3s
+---------- round 107---------- 
+#nodes = 7985
+#internal nodes = 7796
+#internal nodes using exact PBDs = 7.796
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16226  lat =    0  and = 399454  lev =338
+[1;37m(null)                        :[0m i/o =  256/16226  lat =    0  and =  20251  lev =115
+finish SAT sweeping
+n4642_app(4386), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7982  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/107.blif
+current runtime = 6271.98s
+---------- round 108---------- 
+#nodes = 7982
+#internal nodes = 7793
+#internal nodes using exact PBDs = 7.793
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16220  lat =    0  and = 398562  lev =338
+[1;37m(null)                        :[0m i/o =  256/16220  lat =    0  and =  16635  lev =115
+finish SAT sweeping
+n4724_app(4468), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7979  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/108.blif
+current runtime = 6342.45s
+---------- round 109---------- 
+#nodes = 7979
+#internal nodes = 7790
+#internal nodes using exact PBDs = 7.79
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16214  lat =    0  and = 398528  lev =338
+[1;37m(null)                        :[0m i/o =  256/16214  lat =    0  and =  16528  lev =113
+finish SAT sweeping
+n4799_app(4543), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7976  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/109.blif
+current runtime = 6416.6s
+---------- round 110---------- 
+#nodes = 7976
+#internal nodes = 7787
+#internal nodes using exact PBDs = 7.787
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16208  lat =    0  and = 398826  lev =333
+[1;37m(null)                        :[0m i/o =  256/16208  lat =    0  and =  18365  lev =117
+finish SAT sweeping
+n4872_app(4616), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7973  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/110.blif
+current runtime = 6476.49s
+---------- round 111---------- 
+#nodes = 7973
+#internal nodes = 7784
+#internal nodes using exact PBDs = 7.784
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16202  lat =    0  and = 398249  lev =338
+[1;37m(null)                        :[0m i/o =  256/16202  lat =    0  and =  16570  lev =115
+finish SAT sweeping
+n4938_app(4682), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7970  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/111.blif
+current runtime = 6542.42s
+---------- round 112---------- 
+#nodes = 7970
+#internal nodes = 7781
+#internal nodes using exact PBDs = 7.781
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16196  lat =    0  and = 397998  lev =333
+[1;37m(null)                        :[0m i/o =  256/16196  lat =    0  and =  16466  lev =113
+finish SAT sweeping
+n5006_app(4750), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7967  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/112.blif
+current runtime = 6606.36s
+---------- round 113---------- 
+#nodes = 7967
+#internal nodes = 7778
+#internal nodes using exact PBDs = 7.778
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16190  lat =    0  and = 397971  lev =332
+[1;37m(null)                        :[0m i/o =  256/16190  lat =    0  and =  16424  lev =115
+finish SAT sweeping
+n5062_app(4806), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7964  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/113.blif
+current runtime = 6656.11s
+---------- round 114---------- 
+#nodes = 7964
+#internal nodes = 7775
+#internal nodes using exact PBDs = 7.775
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16184  lat =    0  and = 397904  lev =332
+[1;37m(null)                        :[0m i/o =  256/16184  lat =    0  and =  16445  lev =115
+finish SAT sweeping
+n5111_app(4855), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7961  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/114.blif
+current runtime = 6712.82s
+---------- round 115---------- 
+#nodes = 7961
+#internal nodes = 7772
+#internal nodes using exact PBDs = 7.772
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16178  lat =    0  and = 399125  lev =334
+[1;37m(null)                        :[0m i/o =  256/16178  lat =    0  and =  16428  lev =113
+finish SAT sweeping
+n5154_app(4898), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7958  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/115.blif
+current runtime = 6781.04s
+---------- round 116---------- 
+#nodes = 7958
+#internal nodes = 7769
+#internal nodes using exact PBDs = 7.769
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16172  lat =    0  and = 398301  lev =326
+[1;37m(null)                        :[0m i/o =  256/16172  lat =    0  and =  16422  lev =113
+finish SAT sweeping
+n5146_app(4890), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =  256/  256  lat =    0  and =   7954  lev = 82
+Execute abc command: w ./result/fft/wce18446744073709551616/116.blif
+current runtime = 6845.72s
+---------- round 117---------- 
+#nodes = 7954
+#internal nodes = 7766
+#internal nodes using exact PBDs = 7.766
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =  256/16164  lat =    0  and = 396016  lev =334
+[1;37m(null)                        :[0m i/o =  256/16164  lat =    0  and =  16366  lev =113
+finish SAT sweeping
+n5425_app(5169), const0 (simulation)
+n5443_app(5187), const0 (simulation)
+[1;37m(null)                        :[0m i/o =  256/16166  lat =    0  and =  16367  lev =113
+[1;37m(null)                        :[0m i/o =  256/16166  lat =    0  and =  16340  lev =113
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 10
+[1;37m(null)                        :[0m i/o =  256/16176  lat =    0  and =  16374  lev =113
+[1;37m(null)                        :[0m i/o =  256/16176  lat =    0  and =  16338  lev =113
+Execute abc command: w ./result/fft/wce18446744073709551616/final.blif
+current runtime = 7071.4s
+WireLoad = "none"  [1;33mGates =   5726[0m ( 19.2 %)   [1;32mCap =  3.6 ff[0m (  0.0 %)   [1;36mArea =     5585.47[0m ( 98.8 %)   [1;35mDelay =  2536.92 ps[0m  (  9.4 %)               

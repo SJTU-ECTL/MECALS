@@ -1,0 +1,44 @@
+# Benchmark "(null)" written by ABC on Sun Sep 25 08:07:31 2022
+.model (null)
+.inputs A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] B[0] B[1] B[2] B[3] B[4] \
+ B[5] B[6] B[7]
+.outputs O[0] O[1] O[2] O[3] O[4] O[5] O[6] O[7] O[8]
+.gate INV_X1    A=A[0] ZN=new_n26_
+.gate INV_X1    A=A[4] ZN=new_n27_
+.gate INV_X1    A=A[7] ZN=new_n28_
+.gate INV_X1    A=B[4] ZN=new_n29_
+.gate INV_X1    A=B[7] ZN=new_n30_
+.gate NOR2_X1   A1=A[1] A2=B[1] ZN=new_n31_
+.gate NAND2_X1  A1=A[1] A2=B[1] ZN=new_n32_
+.gate NAND3_X1  A1=A[1] A2=B[1] A3=A[0] ZN=new_n33_
+.gate AOI21_X1  A=new_n31_ B1=new_n26_ B2=new_n32_ ZN=new_n34_
+.gate AOI22_X1  A1=new_n26_ A2=new_n31_ B1=new_n33_ B2=new_n34_ ZN=O[1]
+.gate NOR2_X1   A1=A[2] A2=B[2] ZN=new_n36_
+.gate AND2_X1   A1=A[2] A2=B[2] ZN=new_n37_
+.gate NOR2_X1   A1=new_n36_ A2=new_n37_ ZN=new_n38_
+.gate NOR2_X1   A1=new_n34_ A2=new_n37_ ZN=new_n39_
+.gate NOR2_X1   A1=new_n36_ A2=new_n39_ ZN=new_n40_
+.gate XOR2_X1   A=new_n34_ B=new_n38_ Z=O[2]
+.gate AND2_X1   A1=A[3] A2=B[3] ZN=new_n42_
+.gate XOR2_X1   A=A[3] B=B[3] Z=new_n43_
+.gate OAI22_X1  A1=A[3] A2=B[3] B1=new_n40_ B2=new_n42_ ZN=new_n44_
+.gate XOR2_X1   A=new_n40_ B=new_n43_ Z=O[3]
+.gate OAI22_X1  A1=new_n27_ A2=new_n29_ B1=A[4] B2=B[4] ZN=new_n46_
+.gate XOR2_X1   A=new_n44_ B=new_n46_ Z=O[4]
+.gate OAI22_X1  A1=new_n27_ A2=new_n29_ B1=new_n44_ B2=new_n46_ ZN=new_n48_
+.gate NAND2_X1  A1=A[5] A2=B[5] ZN=new_n49_
+.gate OR2_X1    A1=A[5] A2=B[5] ZN=new_n50_
+.gate NAND2_X1  A1=new_n49_ A2=new_n50_ ZN=new_n51_
+.gate XNOR2_X1  A=new_n48_ B=new_n51_ ZN=O[5]
+.gate NOR2_X1   A1=A[6] A2=B[6] ZN=new_n53_
+.gate INV_X1    A=new_n53_ ZN=new_n54_
+.gate AOI21_X1  A=new_n53_ B1=A[6] B2=B[6] ZN=new_n55_
+.gate NAND2_X1  A1=new_n48_ A2=new_n50_ ZN=new_n56_
+.gate NAND2_X1  A1=new_n49_ A2=new_n56_ ZN=new_n57_
+.gate XOR2_X1   A=new_n55_ B=new_n57_ Z=O[6]
+.gate OAI22_X1  A1=new_n28_ A2=new_n30_ B1=A[7] B2=B[7] ZN=new_n59_
+.gate AOI22_X1  A1=A[6] A2=B[6] B1=new_n54_ B2=new_n57_ ZN=new_n60_
+.gate XOR2_X1   A=new_n59_ B=new_n60_ Z=O[7]
+.gate OAI22_X1  A1=new_n28_ A2=new_n30_ B1=new_n59_ B2=new_n60_ ZN=O[8]
+.gate _const0_  z=O[0]
+.end

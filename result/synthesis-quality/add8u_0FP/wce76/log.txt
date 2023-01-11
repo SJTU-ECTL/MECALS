@@ -1,0 +1,203 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.20 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/muscat/aig/add8u_0FP:[0m i/o =   16/    9  lat =    0  and =     64  lev = 15
+[1;37minput/miter/width_9_wce_76    :[0m i/o =   18/    1  lat =    0  and =    118  lev = 16
+outpPath = ./result/add8u_0FP/wce76/
+seed = 2800303926
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.4
+Execute abc command: w ./result/add8u_0FP/wce76/0.blif
+---------- round 1---------- 
+#nodes = 64
+#internal nodes = 55
+#internal nodes using exact PBDs = 22
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/  137  lat =    0  and =   2718  lev = 32
+[1;37m(null)                        :[0m i/o =   16/  137  lat =    0  and =     64  lev = 15
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     56  lev = 15
+Execute abc command: w ./result/add8u_0FP/wce76/1.blif
+current runtime = 0.167681s
+---------- round 2---------- 
+#nodes = 56
+#internal nodes = 47
+#internal nodes using exact PBDs = 18.8
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/  121  lat =    0  and =   2947  lev = 37
+[1;37m(null)                        :[0m i/o =   16/  121  lat =    0  and =     70  lev = 20
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     55  lev = 15
+Execute abc command: w ./result/add8u_0FP/wce76/2.blif
+current runtime = 0.31818s
+---------- round 3---------- 
+#nodes = 55
+#internal nodes = 47
+#internal nodes using exact PBDs = 18.8
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/  119  lat =    0  and =   2860  lev = 37
+[1;37m(null)                        :[0m i/o =   16/  119  lat =    0  and =     71  lev = 20
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     49  lev = 13
+Execute abc command: w ./result/add8u_0FP/wce76/3.blif
+current runtime = 0.480369s
+---------- round 4---------- 
+#nodes = 49
+#internal nodes = 41
+#internal nodes using exact PBDs = 16.4
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/  107  lat =    0  and =   2500  lev = 37
+[1;37m(null)                        :[0m i/o =   16/  107  lat =    0  and =    123  lev = 23
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     42  lev = 11
+Execute abc command: w ./result/add8u_0FP/wce76/4.blif
+current runtime = 0.65503s
+---------- round 5---------- 
+#nodes = 42
+#internal nodes = 34
+#internal nodes using exact PBDs = 13.6
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   93  lat =    0  and =   2050  lev = 37
+[1;37m(null)                        :[0m i/o =   16/   93  lat =    0  and =    118  lev = 23
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     41  lev = 11
+Execute abc command: w ./result/add8u_0FP/wce76/5.blif
+current runtime = 0.748024s
+---------- round 6---------- 
+#nodes = 41
+#internal nodes = 34
+#internal nodes using exact PBDs = 13.6
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   91  lat =    0  and =   1967  lev = 37
+[1;37m(null)                        :[0m i/o =   16/   91  lat =    0  and =    131  lev = 28
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     34  lev = 10
+Execute abc command: w ./result/add8u_0FP/wce76/6.blif
+current runtime = 0.849243s
+---------- round 7---------- 
+#nodes = 34
+#internal nodes = 27
+#internal nodes using exact PBDs = 10.8
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   77  lat =    0  and =   1588  lev = 40
+[1;37m(null)                        :[0m i/o =   16/   77  lat =    0  and =     35  lev = 10
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     33  lev = 10
+Execute abc command: w ./result/add8u_0FP/wce76/7.blif
+current runtime = 0.919856s
+---------- round 8---------- 
+#nodes = 33
+#internal nodes = 27
+#internal nodes using exact PBDs = 10.8
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   75  lat =    0  and =   1489  lev = 40
+[1;37m(null)                        :[0m i/o =   16/   75  lat =    0  and =     34  lev = 10
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     27  lev =  7
+Execute abc command: w ./result/add8u_0FP/wce76/8.blif
+current runtime = 0.983977s
+---------- round 9---------- 
+#nodes = 27
+#internal nodes = 21
+#internal nodes using exact PBDs = 8.4
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   63  lat =    0  and =   1173  lev = 37
+[1;37m(null)                        :[0m i/o =   16/   63  lat =    0  and =    275  lev = 28
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     26  lev =  7
+Execute abc command: w ./result/add8u_0FP/wce76/9.blif
+current runtime = 1.01783s
+---------- round 10---------- 
+#nodes = 26
+#internal nodes = 21
+#internal nodes using exact PBDs = 8.4
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   61  lat =    0  and =   1094  lev = 37
+[1;37m(null)                        :[0m i/o =   16/   61  lat =    0  and =    270  lev = 28
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     19  lev =  5
+Execute abc command: w ./result/add8u_0FP/wce76/10.blif
+current runtime = 1.05648s
+---------- round 11---------- 
+#nodes = 19
+#internal nodes = 14
+#internal nodes using exact PBDs = 5.6
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   47  lat =    0  and =    792  lev = 35
+[1;37m(null)                        :[0m i/o =   16/   47  lat =    0  and =    193  lev = 28
+finish SAT sweeping
+n26_app(17), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     18  lev =  5
+Execute abc command: w ./result/add8u_0FP/wce76/11.blif
+current runtime = 1.07766s
+---------- round 12---------- 
+#nodes = 18
+#internal nodes = 14
+#internal nodes using exact PBDs = 5.6
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   45  lat =    0  and =    718  lev = 35
+[1;37m(null)                        :[0m i/o =   16/   45  lat =    0  and =    194  lev = 28
+finish SAT sweeping
+n27_app(18), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     16  lev =  5
+Execute abc command: w ./result/add8u_0FP/wce76/12.blif
+current runtime = 1.09839s
+---------- round 13---------- 
+#nodes = 16
+#internal nodes = 13
+#internal nodes using exact PBDs = 5.2
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   41  lat =    0  and =    653  lev = 35
+[1;37m(null)                        :[0m i/o =   16/   41  lat =    0  and =    298  lev = 31
+finish SAT sweeping
+n26_app(17), const0 (simulation)
+[1;37m(null)                        :[0m i/o =   16/   42  lat =    0  and =    299  lev = 31
+[1;37m(null)                        :[0m i/o =   16/   42  lat =    0  and =    298  lev = 31
+ver_dF_n26_app*const0(58):n0(0),0 1
+n26_app(17), replace it by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   16/    9  lat =    0  and =     10  lev =  4
+Execute abc command: w ./result/add8u_0FP/wce76/13.blif
+current runtime = 1.12606s
+---------- round 14---------- 
+#nodes = 10
+#internal nodes = 7
+#internal nodes using exact PBDs = 2.8
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   29  lat =    0  and =    462  lev = 35
+[1;37m(null)                        :[0m i/o =   16/   29  lat =    0  and =    237  lev = 29
+finish SAT sweeping
+[1;37m(null)                        :[0m i/o =   16/   29  lat =    0  and =    237  lev = 29
+[1;37m(null)                        :[0m i/o =   16/   29  lat =    0  and =    237  lev = 29
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 0
+[1;37m(null)                        :[0m i/o =   16/   29  lat =    0  and =    237  lev = 29
+[1;37m(null)                        :[0m i/o =   16/   29  lat =    0  and =    237  lev = 29
+Execute abc command: w ./result/add8u_0FP/wce76/final.blif
+current runtime = 1.1369s
+WireLoad = "none"  [1;33mGates =     14[0m ( 21.4 %)   [1;32mCap =  1.2 ff[0m (  0.0 %)   [1;36mArea =        7.71[0m ( 57.1 %)   [1;35mDelay =    94.09 ps[0m  ( 28.6 %)               

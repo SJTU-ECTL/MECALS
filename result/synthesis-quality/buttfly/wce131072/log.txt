@@ -1,0 +1,225 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.26 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/muscat/aig/buttfly:[0m i/o =   32/   34  lat =    0  and =    265  lev = 48
+[1;37minput/miter/width_34_wce_131072:[0m i/o =   68/    1  lat =    0  and =    592  lev = 24
+outpPath = ./result/buttfly/wce131072/
+seed = 2180561438
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.4
+Execute abc command: w ./result/buttfly/wce131072/0.blif
+---------- round 1---------- 
+#nodes = 265
+#internal nodes = 232
+#internal nodes using exact PBDs = 92.8
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  564  lat =    0  and =  41215  lev = 72
+[1;37m(null)                        :[0m i/o =   32/  564  lat =    0  and =    431  lev = 54
+finish SAT sweeping
+n70_app(36), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    219  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/1.blif
+current runtime = 3.31482s
+---------- round 2---------- 
+#nodes = 219
+#internal nodes = 187
+#internal nodes using exact PBDs = 74.8
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  472  lat =    0  and =  35511  lev = 72
+[1;37m(null)                        :[0m i/o =   32/  472  lat =    0  and =    447  lev = 56
+finish SAT sweeping
+n73_app(39), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    212  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/2.blif
+current runtime = 9.19011s
+---------- round 3---------- 
+#nodes = 212
+#internal nodes = 181
+#internal nodes using exact PBDs = 72.4
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  458  lat =    0  and =  34404  lev = 74
+[1;37m(null)                        :[0m i/o =   32/  458  lat =    0  and =    455  lev = 56
+finish SAT sweeping
+n76_app(42), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    205  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/3.blif
+current runtime = 13.6826s
+---------- round 4---------- 
+#nodes = 205
+#internal nodes = 175
+#internal nodes using exact PBDs = 70
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  444  lat =    0  and =  32130  lev = 75
+[1;37m(null)                        :[0m i/o =   32/  444  lat =    0  and =    451  lev = 56
+finish SAT sweeping
+n79_app(45), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    198  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/4.blif
+current runtime = 17.439s
+---------- round 5---------- 
+#nodes = 198
+#internal nodes = 169
+#internal nodes using exact PBDs = 67.6
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  430  lat =    0  and =  31062  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  430  lat =    0  and =    453  lev = 56
+finish SAT sweeping
+n85_app(51), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    191  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/5.blif
+current runtime = 21.3047s
+---------- round 6---------- 
+#nodes = 191
+#internal nodes = 163
+#internal nodes using exact PBDs = 65.2
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  416  lat =    0  and =  30478  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  416  lat =    0  and =    448  lev = 56
+finish SAT sweeping
+n88_app(54), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    184  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/6.blif
+current runtime = 25.4818s
+---------- round 7---------- 
+#nodes = 184
+#internal nodes = 157
+#internal nodes using exact PBDs = 62.8
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  402  lat =    0  and =  28462  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  402  lat =    0  and =    429  lev = 56
+finish SAT sweeping
+n91_app(57), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    177  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/7.blif
+current runtime = 28.9193s
+---------- round 8---------- 
+#nodes = 177
+#internal nodes = 151
+#internal nodes using exact PBDs = 60.4
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  388  lat =    0  and =  27753  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  388  lat =    0  and =    439  lev = 56
+finish SAT sweeping
+n94_app(60), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    170  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/8.blif
+current runtime = 32.8603s
+---------- round 9---------- 
+#nodes = 170
+#internal nodes = 145
+#internal nodes using exact PBDs = 58
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  374  lat =    0  and =  26193  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  374  lat =    0  and =    426  lev = 56
+finish SAT sweeping
+n97_app(63), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    163  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/9.blif
+current runtime = 36.216s
+---------- round 10---------- 
+#nodes = 163
+#internal nodes = 139
+#internal nodes using exact PBDs = 55.6
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  360  lat =    0  and =  24540  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  360  lat =    0  and =    436  lev = 56
+finish SAT sweeping
+n100_app(66), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    156  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/10.blif
+current runtime = 39.1619s
+---------- round 11---------- 
+#nodes = 156
+#internal nodes = 133
+#internal nodes using exact PBDs = 53.2
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  346  lat =    0  and =  23601  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  346  lat =    0  and =    430  lev = 56
+finish SAT sweeping
+n103_app(69), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    149  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/11.blif
+current runtime = 42.06s
+---------- round 12---------- 
+#nodes = 149
+#internal nodes = 127
+#internal nodes using exact PBDs = 50.8
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  332  lat =    0  and =  22268  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  332  lat =    0  and =    409  lev = 56
+finish SAT sweeping
+n106_app(72), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    142  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/12.blif
+current runtime = 44.6263s
+---------- round 13---------- 
+#nodes = 142
+#internal nodes = 121
+#internal nodes using exact PBDs = 48.4
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  318  lat =    0  and =  21214  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  318  lat =    0  and =    417  lev = 56
+finish SAT sweeping
+n109_app(75), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    135  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/13.blif
+current runtime = 47.4749s
+---------- round 14---------- 
+#nodes = 135
+#internal nodes = 115
+#internal nodes using exact PBDs = 46
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  304  lat =    0  and =  19378  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  304  lat =    0  and =    414  lev = 56
+finish SAT sweeping
+n112_app(78), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    128  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/14.blif
+current runtime = 49.7881s
+---------- round 15---------- 
+#nodes = 128
+#internal nodes = 109
+#internal nodes using exact PBDs = 43.6
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  290  lat =    0  and =  18260  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  290  lat =    0  and =    408  lev = 56
+finish SAT sweeping
+n112_app(78), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   34  lat =    0  and =    123  lev = 31
+Execute abc command: w ./result/buttfly/wce131072/15.blif
+current runtime = 52.1193s
+---------- round 16---------- 
+#nodes = 123
+#internal nodes = 106
+#internal nodes using exact PBDs = 42.4
+start SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  280  lat =    0  and =  17915  lev = 77
+[1;37m(null)                        :[0m i/o =   32/  280  lat =    0  and =    403  lev = 56
+finish SAT sweeping
+[1;37m(null)                        :[0m i/o =   32/  280  lat =    0  and =    403  lev = 56
+[1;37m(null)                        :[0m i/o =   32/  280  lat =    0  and =    403  lev = 56
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 0
+[1;37m(null)                        :[0m i/o =   32/  280  lat =    0  and =    403  lev = 56
+[1;37m(null)                        :[0m i/o =   32/  280  lat =    0  and =    403  lev = 56
+Execute abc command: w ./result/buttfly/wce131072/final.blif
+current runtime = 54.5628s
+WireLoad = "none"  [1;33mGates =    103[0m ( 25.2 %)   [1;32mCap =  2.5 ff[0m (  0.1 %)   [1;36mArea =       95.23[0m ( 99.0 %)   [1;35mDelay =   657.47 ps[0m  ( 28.2 %)               

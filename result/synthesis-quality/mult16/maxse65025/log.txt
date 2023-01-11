@@ -1,0 +1,320 @@
+Library "NangateOpenCellLibrary" from "input/standard-cell/nangate_45nm_typ.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.18 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+[1;37minput/benchmark/aig/mult16    :[0m i/o =   32/   32  lat =    0  and =   1981  lev = 72
+[1;37minput/miter/width_32_maxse_65025:[0m i/o =   64/    1  lat =    0  and =   7682  lev = 75
+outpPath = ./result/mult16/maxse65025/
+seed = 69537832
+nFrame = 8192
+fSASIMI = 1
+exactPBDPerc = 0.04
+Execute abc command: w ./result/mult16/maxse65025/0.blif
+---------- round 1---------- 
+#nodes = 1981
+#internal nodes = 1949
+#internal nodes using exact PBDs = 77.96
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3994  lat =    0  and = 850531  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3994  lat =    0  and = 255278  lev =208
+[1;37m(null)                        :[0m i/o =   32/ 3994  lat =    0  and =   4086  lev =105
+finish SAT sweeping the skeleton network
+n65_app(33), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1980  lev = 72
+Execute abc command: w ./result/mult16/maxse65025/1.blif
+current runtime = 172.24s
+---------- round 2---------- 
+#nodes = 1980
+#internal nodes = 1949
+#internal nodes using exact PBDs = 77.96
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3992  lat =    0  and = 843028  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3992  lat =    0  and = 840836  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3992  lat =    0  and =   4284  lev =123
+finish SAT sweeping the skeleton network
+n65_app(33), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1972  lev = 72
+Execute abc command: w ./result/mult16/maxse65025/2.blif
+current runtime = 528.315s
+---------- round 3---------- 
+#nodes = 1972
+#internal nodes = 1941
+#internal nodes using exact PBDs = 77.64
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3976  lat =    0  and = 842530  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3976  lat =    0  and = 840707  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3976  lat =    0  and =   6599  lev =131
+finish SAT sweeping the skeleton network
+n65_app(33), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1971  lev = 72
+Execute abc command: w ./result/mult16/maxse65025/3.blif
+current runtime = 1552.84s
+---------- round 4---------- 
+#nodes = 1971
+#internal nodes = 1941
+#internal nodes using exact PBDs = 77.64
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3974  lat =    0  and = 835038  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3974  lat =    0  and = 833216  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3974  lat =    0  and =   6594  lev =130
+finish SAT sweeping the skeleton network
+n68_app(36), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1969  lev = 72
+Execute abc command: w ./result/mult16/maxse65025/4.blif
+current runtime = 2545.88s
+---------- round 5---------- 
+#nodes = 1969
+#internal nodes = 1939
+#internal nodes using exact PBDs = 77.56
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3970  lat =    0  and = 835385  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3970  lat =    0  and = 833563  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3970  lat =    0  and =   7238  lev =130
+finish SAT sweeping the skeleton network
+n65_app(33), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1946  lev = 70
+Execute abc command: w ./result/mult16/maxse65025/5.blif
+current runtime = 3472.04s
+---------- round 6---------- 
+#nodes = 1946
+#internal nodes = 1916
+#internal nodes using exact PBDs = 76.64
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3924  lat =    0  and = 826831  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3924  lat =    0  and = 825010  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3924  lat =    0  and =   9085  lev =132
+finish SAT sweeping the skeleton network
+n65_app(33), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1941  lev = 70
+Execute abc command: w ./result/mult16/maxse65025/6.blif
+current runtime = 4226.9s
+---------- round 7---------- 
+#nodes = 1941
+#internal nodes = 1911
+#internal nodes using exact PBDs = 76.44
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3914  lat =    0  and = 827262  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3914  lat =    0  and = 825445  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3914  lat =    0  and =   7746  lev =133
+finish SAT sweeping the skeleton network
+n65_app(33), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1940  lev = 70
+Execute abc command: w ./result/mult16/maxse65025/7.blif
+current runtime = 5123.29s
+---------- round 8---------- 
+#nodes = 1940
+#internal nodes = 1911
+#internal nodes using exact PBDs = 76.44
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3912  lat =    0  and = 819767  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3912  lat =    0  and = 817951  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3912  lat =    0  and =   7923  lev =132
+finish SAT sweeping the skeleton network
+n65_app(33), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1917  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/8.blif
+current runtime = 5989.25s
+---------- round 9---------- 
+#nodes = 1917
+#internal nodes = 1888
+#internal nodes using exact PBDs = 75.52
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3866  lat =    0  and = 811721  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3866  lat =    0  and = 809905  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3866  lat =    0  and =   8406  lev =130
+finish SAT sweeping the skeleton network
+n69_app(37), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1913  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/9.blif
+current runtime = 6988.7s
+---------- round 10---------- 
+#nodes = 1913
+#internal nodes = 1885
+#internal nodes using exact PBDs = 75.4
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3858  lat =    0  and = 803671  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3858  lat =    0  and = 801886  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3858  lat =    0  and =  14245  lev =133
+finish SAT sweeping the skeleton network
+n69_app(37), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1907  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/10.blif
+current runtime = 7875.49s
+---------- round 11---------- 
+#nodes = 1907
+#internal nodes = 1879
+#internal nodes using exact PBDs = 75.16
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3846  lat =    0  and = 802992  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3846  lat =    0  and = 801209  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3846  lat =    0  and =   9229  lev =134
+finish SAT sweeping the skeleton network
+n87_app(55), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1905  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/11.blif
+current runtime = 8707.94s
+---------- round 12---------- 
+#nodes = 1905
+#internal nodes = 1878
+#internal nodes using exact PBDs = 75.12
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3842  lat =    0  and = 795403  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3842  lat =    0  and = 793620  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3842  lat =    0  and =   9604  lev =134
+finish SAT sweeping the skeleton network
+n66_app(34), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1903  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/12.blif
+current runtime = 9498.31s
+---------- round 13---------- 
+#nodes = 1903
+#internal nodes = 1876
+#internal nodes using exact PBDs = 75.04
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3838  lat =    0  and = 796279  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3838  lat =    0  and = 794498  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3838  lat =    0  and =  11478  lev =134
+finish SAT sweeping the skeleton network
+n81_app(49), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1901  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/13.blif
+current runtime = 10331.3s
+---------- round 14---------- 
+#nodes = 1901
+#internal nodes = 1874
+#internal nodes using exact PBDs = 74.96
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3834  lat =    0  and = 788496  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3834  lat =    0  and = 786716  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3834  lat =    0  and =  15199  lev =150
+finish SAT sweeping the skeleton network
+n82_app(50), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1898  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/14.blif
+current runtime = 11245.8s
+---------- round 15---------- 
+#nodes = 1898
+#internal nodes = 1871
+#internal nodes using exact PBDs = 74.84
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3828  lat =    0  and = 787634  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3828  lat =    0  and = 785855  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3828  lat =    0  and =  12042  lev =134
+finish SAT sweeping the skeleton network
+n65_app(33), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1893  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/15.blif
+current runtime = 12068s
+---------- round 16---------- 
+#nodes = 1893
+#internal nodes = 1866
+#internal nodes using exact PBDs = 74.64
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3818  lat =    0  and = 788650  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3818  lat =    0  and = 786873  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3818  lat =    0  and =  13103  lev =152
+finish SAT sweeping the skeleton network
+n95_app(63), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1891  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/16.blif
+current runtime = 12977.1s
+---------- round 17---------- 
+#nodes = 1891
+#internal nodes = 1864
+#internal nodes using exact PBDs = 74.56
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3814  lat =    0  and = 789063  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3814  lat =    0  and = 787316  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3814  lat =    0  and =  16532  lev =152
+finish SAT sweeping the skeleton network
+n82_app(50), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1889  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/17.blif
+current runtime = 14020.7s
+---------- round 18---------- 
+#nodes = 1889
+#internal nodes = 1862
+#internal nodes using exact PBDs = 74.48
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3810  lat =    0  and = 788704  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3810  lat =    0  and = 786958  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3810  lat =    0  and =  20368  lev =152
+finish SAT sweeping the skeleton network
+n92_app(60), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1885  lev = 69
+Execute abc command: w ./result/mult16/maxse65025/18.blif
+current runtime = 15058.2s
+---------- round 19---------- 
+#nodes = 1885
+#internal nodes = 1859
+#internal nodes using exact PBDs = 74.36
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3802  lat =    0  and = 780653  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3802  lat =    0  and = 778907  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3802  lat =    0  and =  23345  lev =152
+finish SAT sweeping the skeleton network
+n72_app(40), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1856  lev = 68
+Execute abc command: w ./result/mult16/maxse65025/19.blif
+current runtime = 15928.6s
+---------- round 20---------- 
+#nodes = 1856
+#internal nodes = 1830
+#internal nodes using exact PBDs = 73.2
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3744  lat =    0  and = 772857  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3744  lat =    0  and = 771222  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3744  lat =    0  and =  27638  lev =152
+finish SAT sweeping the skeleton network
+n74_app(42), dFN \equiv 0, replace its driver by constant 0
+current approximate net
+[1;37m(null)                        :[0m i/o =   32/   32  lat =    0  and =   1850  lev = 68
+Execute abc command: w ./result/mult16/maxse65025/20.blif
+current runtime = 16770.7s
+---------- round 21---------- 
+#nodes = 1850
+#internal nodes = 1824
+#internal nodes using exact PBDs = 72.96
+start SAT sweeping the skeleton network
+[1;37m(null)                        :[0m i/o =   32/ 3732  lat =    0  and = 765222  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3732  lat =    0  and = 763591  lev =219
+[1;37m(null)                        :[0m i/o =   32/ 3732  lat =    0  and =  25005  lev =147
+finish SAT sweeping the skeleton network
+n120_app(88), const0 (simulation)
+n121_app(89), const1 (simulation)
+n122_app(90), const0 (simulation)
+n159_app(127), const0 (simulation)
+n160_app(128), const1 (simulation)
+n161_app(129), const0 (simulation)
+n163_app(131), const1 (simulation)
+[1;37m(null)                        :[0m i/o =   32/ 3739  lat =    0  and =  25012  lev =147
+[1;37m(null)                        :[0m i/o =   32/ 3739  lat =    0  and =  25012  lev =147
+[1;37m(null)                        :[0m i/o =   32/ 3739  lat =    0  and =  24976  lev =147
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+nLacs = 111
+[1;37m(null)                        :[0m i/o =   32/ 3850  lat =    0  and =  25414  lev =147
+[1;37m(null)                        :[0m i/o =   32/ 3850  lat =    0  and =  25414  lev =147
+[1;37m(null)                        :[0m i/o =   32/ 3850  lat =    0  and =  25328  lev =147
+Execute abc command: w ./result/mult16/maxse65025/final.blif
+current runtime = 17626.5s
+WireLoad = "none"  [1;33mGates =   1438[0m ( 12.2 %)   [1;32mCap =  3.6 ff[0m (  0.0 %)   [1;36mArea =     1325.48[0m ( 99.6 %)   [1;35mDelay =  1869.46 ps[0m  (  4.7 %)               

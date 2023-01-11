@@ -1,0 +1,81 @@
+# Benchmark "(null)" written by ABC on Sun May 22 11:25:48 2022
+.model (null)
+.inputs input_A[0] input_A[1] input_A[2] input_A[3] input_A[4] input_A[5] \
+ input_A[6] input_A[7] input_B[0] input_B[1] input_B[2] input_B[3] \
+ input_B[4] input_B[5] input_B[6] input_B[7]
+.outputs product[0] product[1] product[2] product[3] product[4] product[5] \
+ product[6] product[7] product[8] product[9] product[10] product[11] \
+ product[12] product[13] product[14] product[15]
+.names input_A[7] input_B[5] product[11]
+11 1
+.names input_A[6] input_B[7] new_n35_
+11 1
+.names input_A[7] input_B[6] new_n36_
+11 1
+.names new_n35_ new_n36_ new_n37_
+01 1
+.names new_n35_ new_n36_ new_n38_
+10 1
+.names new_n37_ new_n38_ new_n39_
+00 1
+.names input_A[4] input_A[6] new_n40_
+00 1
+.names input_A[5] new_n40_ new_n41_
+10 1
+.names input_A[3] input_A[4] new_n42_
+11 1
+.names input_A[6] new_n42_ new_n43_
+11 1
+.names new_n41_ new_n43_ new_n44_
+00 1
+.names input_B[6] input_B[7] new_n45_
+11 1
+.names new_n44_ new_n45_ new_n46_
+01 1
+.names new_n39_ new_n46_ new_n47_
+01 1
+.names new_n39_ new_n46_ new_n48_
+10 1
+.names new_n47_ new_n48_ product[13]
+00 0
+.names input_A[6] input_B[6] new_n50_
+11 1
+.names input_A[7] input_B[7] new_n51_
+11 1
+.names new_n50_ new_n51_ new_n52_
+01 1
+.names new_n48_ new_n52_ new_n53_
+10 1
+.names new_n48_ new_n52_ new_n54_
+01 1
+.names new_n53_ new_n54_ product[14]
+00 1
+.names new_n48_ new_n50_ new_n56_
+10 1
+.names new_n51_ new_n56_ product[15]
+10 1
+.names product[0]
+ 0
+.names product[1]
+ 0
+.names product[2]
+ 0
+.names product[3]
+ 0
+.names product[4]
+ 0
+.names product[5]
+ 0
+.names product[6]
+ 0
+.names product[7]
+ 0
+.names product[8]
+ 0
+.names product[9]
+ 0
+.names product[10]
+ 0
+.names product[11] product[12]
+1 1
+.end
