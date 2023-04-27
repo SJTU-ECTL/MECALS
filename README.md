@@ -10,7 +10,7 @@ This tool synthesizes approximate circuits under the maximum error constraint, s
 
 [C. Meng, J. Sun, Y. Mai, W. Qian, “MECALS: a maximum error checking technique for approximate logic
 synthesis,” in ACM/IEEE Design, Automation & Test in Europe Conference & Exhibition (DATE), Antwerp,
-Belgium, 2023.](https://github.com/SJTU-ECTL/MECALS/blob/master/misc/Meng - MECALS - A Maximum Error Checking Technique for Approximate Logic Synthesis.pdf)
+Belgium, 2023.](https://github.com/SJTU-ECTL/MECALS/blob/master/misc/Meng%20-%20MECALS%20-%20A%20Maximum%20Error%20Checking%20Technique%20for%20Approximate%20Logic%20Synthesis.pdf)
 
 ## Dependencies
 
